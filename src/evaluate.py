@@ -93,3 +93,8 @@ def evaluate(base_model_name: str, wandb_model_name: str, data_version: str, mod
     # Finish the W&B run
     run.finish()
     logging.info("W&B run finished.")
+
+
+if __name__ == "__main__":
+    base_model_name = 'Qwen/Qwen2.5-1.5B-Instruct'
+    wandb_model_name = 'wandb-registry-model/initial-sft'

@@ -41,12 +41,12 @@ def dev_load_vmlu(**kwargs) -> None:
                 data.append(json.loads(line))
             except Exception as e:
                 logging.error(f"Error reading line: {line}: {e}")
-    logging.info(f"Loaded {len(data)} records from {file_path}")
+    logging.info(f"Loaded {len(data)} records from {file_path}. Not saving")
 
     # Save to jsonl
-    output_file_name = '../temp/vmlu.jsonl'
-    output_path = os.path.join(current_dir, output_file_name)
-    convert_and_save_mcq(data, output_path)
+    # output_file_name = '../temp/vmlu.jsonl'
+    # output_path = os.path.join(current_dir, output_file_name)
+    # convert_and_save_mcq(data, output_path)
     
 
 def dev_load_mmlu(**kwargs) -> None:
@@ -60,12 +60,12 @@ def dev_load_mmlu(**kwargs) -> None:
     for i, item in enumerate(data):
         data[i]['id'] = f"mmlu-{i}"
 
-    logging.info(f"Loaded {len(data)} records from {file_path}")
+    logging.info(f"Loaded {len(data)} records from {file_path}. Not saving")
 
     # Save to jsonl
-    output_file_name = '../temp/mmlu_vi.jsonl'
-    output_path = os.path.join(current_dir, output_file_name)
-    convert_and_save_mcq(data, output_path)
+    # output_file_name = '../temp/mmlu_vi.jsonl'
+    # output_path = os.path.join(current_dir, output_file_name)
+    # convert_and_save_mcq(data, output_path)
 
 
 def dev_load_m3exam(**kwargs) -> None:

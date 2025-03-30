@@ -39,6 +39,8 @@ def download_model_regristry(model_name: str, version: str = None, download_dir:
     artifact = wandb.use_artifact(f"{model_name}:{version}" if version else f"{model_name}:latest")
     
     download_dir = os.path.join('../', download_dir)
+    os.makedirs(download_dir, exist_ok=True)
+    
     artifact_dir = artifact.download(root=download_dir)
     logger.info(f"Model downloaded to {artifact_dir}")    
     # Finish the W&B run
