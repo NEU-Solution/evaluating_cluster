@@ -70,6 +70,8 @@ Bạn hãy suy nghĩ từng bước một cách cẩn thận và chọn ra câu 
     result = dict()
     result['id'] = response['id']
     result['score'] = score
+    result['question'] = mcq
+    result['response'] = answer
 
     append_jsonl_to_file(result, output_path)
 
@@ -100,7 +102,8 @@ def scoring_mcq(llm: LLM, questions: list[dict], output_path: str, max_workers: 
                     failed_result = {
                         'id': question.get('id', 'unknown'),
                         'score': 0,
-                        'error': str(e)
+                        'question': question.get('mcq_question', 'unknown'),
+                        'response': None
                     }
                     results.append(failed_result)
 
