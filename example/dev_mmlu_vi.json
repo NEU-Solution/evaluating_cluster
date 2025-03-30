@@ -1,0 +1,3707 @@
+[
+    {
+        "question": "Tìm đặc tính của vành 2Z.",
+        "choices": [
+            "3",
+            "30",
+            "0",
+            "12"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "abstract_algebra"
+        }
+    },
+    {
+        "question": "Tuyên bố 1| Mọi hàm từ một tập hữu hạn lên chính nó phải là một đối một. Tuyên bố 2 | Mọi nhóm con của nhóm abelian đều là nhóm abelian.",
+        "choices": [
+            "Đúng sai",
+            "Đúng rồi",
+            "Sai, sai",
+            "Sai đúng"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "abstract_algebra"
+        }
+    },
+    {
+        "question": "Tuyên bố 1 | Nếu aH là một phần tử của một nhóm thừa số thì |aH| chia |a|. Tuyên bố 2 | Nếu H và K là nhóm con của G thì HK là nhóm con của G.",
+        "choices": [
+            "Đúng rồi",
+            "Sai đúng",
+            "Sai, sai",
+            "Đúng sai"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "abstract_algebra"
+        }
+    },
+    {
+        "question": "Tìm tất cả c trong Z_3 sao cho Z_3[x]/(x^2 + c) là một trường.",
+        "choices": [
+            "1",
+            "3",
+            "2",
+            "0"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "abstract_algebra"
+        }
+    },
+    {
+        "question": "Tuyên bố 1 | Mỗi phần tử của một nhóm tạo ra một nhóm con tuần hoàn của nhóm. Tuyên bố 2 | Nhóm đối xứng S_10 có 10 phần tử.",
+        "choices": [
+            "Đúng rồi",
+            "Sai, sai",
+            "Sai đúng",
+            "Đúng sai"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "abstract_algebra"
+        }
+    },
+    {
+        "question": "Nhánh nào của dây thần kinh sinh ba chứa các quá trình vận động cơ thể?",
+        "choices": [
+            "Dây thần kinh siêu ổ mắt",
+            "Không có điều nào ở trên",
+            "Dây thần kinh dưới ổ mắt",
+            "Dây thần kinh tâm thần"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "anatomy"
+        }
+    },
+    {
+        "question": "Có tắc nghẽn loại II cấp 2 của Angle",
+        "choices": [
+            "răng cửa bên hàm trên nhô quá mức.",
+            "răng cửa giữa hàm trên nhô quá mức.",
+            "độ cắn quá mức của các răng cửa bên hàm trên.",
+            "độ nhô âm của các răng cửa giữa hàm trên."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "anatomy"
+        }
+    },
+    {
+        "question": "Cơ quan nào sau đây là khoang cơ thể chứa tuyến yên?",
+        "choices": [
+            "bụng",
+            "sọ não",
+            "màng phổi",
+            "cột sống"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "anatomy"
+        }
+    },
+    {
+        "question": "màng phổi",
+        "choices": [
+            "kéo dài đến cổ.",
+            "cách nhau một khoảng 2 mm.",
+            "không có sự phân bố cảm giác.",
+            "được cấu tạo bởi biểu mô hô hấp."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "anatomy"
+        }
+    },
+    {
+        "question": "Nguồn gốc phôi học của xương hyoid là gì?",
+        "choices": [
+            "Vòm họng thứ hai",
+            "Vòm họng thứ hai và thứ ba",
+            "Vòm họng đầu tiên",
+            "Vòm họng thứ nhất và thứ hai"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "anatomy"
+        }
+    },
+    {
+        "question": "Tại sao sao Hỏa có màu đỏ?",
+        "choices": [
+            "Bởi vì dòng nước chảy trên bề mặt sao Hỏa đã làm thay đổi khoáng chất trên bề mặt từ vài tỷ năm trước.",
+            "Bởi vì bầu khí quyển tán xạ nhiều ánh sáng hơn ở bước sóng xanh hơn, truyền chủ yếu là ánh sáng đỏ.",
+            "Bởi vì bề mặt được bao phủ bởi các khoáng chất bị oxy hóa mạnh (\"rỉ sét\").",
+            "Bởi sao Hỏa được bao phủ bởi dòng dung nham cổ xưa có màu đỏ."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "astronomy"
+        }
+    },
+    {
+        "question": "Bạn đang đẩy một chiếc xe tải dọc theo một con đường. Liệu việc tăng tốc chiếc xe tải này trên sao Hỏa có dễ dàng hơn không? Tại sao? (Giả sử không có ma sát)",
+        "choices": [
+            "Sẽ dễ dàng hơn vì xe tải nhẹ hơn trên sao Hỏa.",
+            "Sẽ khó hơn vì xe tải nhẹ hơn trên sao Hỏa.",
+            "Sẽ khó hơn vì xe tải nặng hơn trên sao Hỏa.",
+            "Nó sẽ giống nhau cho dù bạn ở đâu."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "astronomy"
+        }
+    },
+    {
+        "question": "Hầu hết các sao chổi chu kỳ ngắn đến từ đâu và làm sao chúng ta biết được?",
+        "choices": [
+            "Vành đai tiểu hành tinh; sao chổi chu kỳ ngắn có chu kỳ quỹ đạo tương tự như các tiểu hành tinh như Vesta và được tìm thấy trong mặt phẳng của hệ mặt trời giống như vành đai tiểu hành tinh.",
+            "Đám mây Oort; sao chổi chu kỳ ngắn có xu hướng ở trong mặt phẳng của hệ mặt trời giống như đám mây Oort.",
+            "Vành đai Kuiper; sao chổi chu kỳ ngắn có xu hướng nằm trong mặt phẳng của hệ mặt trời giống như vành đai Kuiper.",
+            "Vành đai Kuiper; sao chổi chu kỳ ngắn có xu hướng đến từ các hướng ngẫu nhiên cho thấy sự phân bố hình cầu của sao chổi gọi là vành đai Kuiper."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "astronomy"
+        }
+    },
+    {
+        "question": "Tại sao không có hành tinh nào nằm ở vành đai tiểu hành tinh?",
+        "choices": [
+            "Một hành tinh từng hình thành ở đây nhưng nó đã bị vỡ vụn bởi một vụ va chạm thảm khốc.",
+            "Không có đủ vật chất trong phần này của tinh vân mặt trời để hình thành một hành tinh.",
+            "Có quá nhiều vật chất đá để hình thành một hành tinh đất đá nhưng không đủ vật chất khí để hình thành một hành tinh sao Mộc.",
+            "Sự cộng hưởng với Sao Mộc đã ngăn cản vật chất tập hợp lại với nhau để tạo thành một hành tinh."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "astronomy"
+        }
+    },
+    {
+        "question": "Giả sử đồng tử của mắt bạn có đường kính 5 mm và bạn có một chiếc kính thiên văn có khẩu độ 50 cm. Kính thiên văn có thể thu được nhiều ánh sáng hơn mắt bạn bao nhiêu?",
+        "choices": [
+            "gấp 10 lần",
+            "10000 lần nữa",
+            "100 lần nữa",
+            "hơn 1000 lần"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "astronomy"
+        }
+    },
+    {
+        "question": "Ngược lại với _______, _______ nhằm mục đích khen thưởng hành vi có lợi của các công ty. Sự thành công của những chiến dịch như vậy đã được nâng cao thông qua việc sử dụng ___________, cho phép các chiến dịch tạo điều kiện thuận lợi cho công ty đạt được _________.",
+        "choices": [
+            "Tẩy chay, Mua hàng, Công nghệ kỹ thuật số, Doanh thu tăng",
+            "Tẩy chay, Mua hàng, Công nghệ chuỗi khối, Đóng góp từ thiện",
+            "Mua hàng, tẩy chay, công nghệ chuỗi khối, quyên góp từ thiện",
+            "Mua hàng, tẩy chay, công nghệ kỹ thuật số, tăng doanh thu"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "business_ethics"
+        }
+    },
+    {
+        "question": "Ngoài trường hợp kinh doanh liên quan đến CSR, còn có một số lập luận về đạo đức liên quan đến: _______ tiêu cực, _______ mà các công ty sở hữu và ________ của doanh nghiệp và xã hội.",
+        "choices": [
+            "Công khai, Quyền lực, Độc lập",
+            "Công khai, Nguồn lực không đáng kể, Sự phụ thuộc lẫn nhau",
+            "Ngoại tác, Quyền lực, Sự phụ thuộc lẫn nhau",
+            "Ngoại tác, Quyền lực, Độc lập"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "business_ethics"
+        }
+    },
+    {
+        "question": "Để đảm bảo tính độc lập của các thành viên hội đồng quản trị không điều hành, có thể thực hiện một số bước, bao gồm việc rút những người không điều hành khỏi _______ công ty, được bổ nhiệm trong khoảng thời gian _________ cũng như được bổ nhiệm _________.",
+        "choices": [
+            "Bên trong, hạn chế, không liên tục",
+            "Bên ngoài, hạn chế, độc lập",
+            "Bên ngoài, không giới hạn, không liên tục",
+            "Bên trong, không giới hạn, độc lập"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "business_ethics"
+        }
+    },
+    {
+        "question": "Ba chiến thuật tương phản mà CSO có thể tham gia để đạt được mục tiêu của họ là ________ thường liên quan đến nghiên cứu và truyền thông, ________, có thể liên quan đến việc tấn công vật lý vào hoạt động của công ty hoặc ________, thường liên quan đến một số hình thức _______.",
+        "choices": [
+            "Hành động gián tiếp, Hành động có công cụ, Hành động trực tiếp bất bạo động, Chiến dịch thông tin",
+            "Hành động gián tiếp, Hành động trực tiếp bạo lực, Hành động trực tiếp bất bạo động Tẩy chay",
+            "Hành động trực tiếp bất bạo động, Hành động có công cụ, Hành động gián tiếp, Chiến dịch thông tin",
+            "Hành động trực tiếp bất bạo động, Hành động trực tiếp bạo lực, Hành động gián tiếp, Tẩy chay"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "business_ethics"
+        }
+    },
+    {
+        "question": "_______ là nỗ lực trực tiếp để quản lý chính thức hoặc không chính thức các vấn đề hoặc vấn đề về đạo đức, thông qua các chính sách, thực tiễn và chương trình cụ thể.",
+        "choices": [
+            "Quản lý môi trường",
+            "Sự bền vững",
+            "Quản lý đạo đức kinh doanh",
+            "Trách nhiệm xã hội doanh nghiệp"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "business_ethics"
+        }
+    },
+    {
+        "question": "Năng lượng cho tất cả các dạng co cơ được cung cấp bởi:",
+        "choices": [
+            "oxy hóa phosphoryl.",
+            "ATP.",
+            "ADP.",
+            "photphocreatin."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "clinical_knowledge"
+        }
+    },
+    {
+        "question": "Khi đánh giá chức năng bàn tay, điều nào sau đây là đúng?",
+        "choices": [
+            "Sự đối lập của ngón cái với opponens pollicis được cung cấp bởi rễ tủy sống T1",
+            "Dạng ngón cái được chi phối bởi rễ tủy sống T2",
+            "Dạng ngón tay qua trung gian là khớp nối lòng bàn tay",
+            "Sự khép ngón tay được chi phối bởi dây thần kinh giữa"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "clinical_knowledge"
+        }
+    },
+    {
+        "question": "Glycolysis là tên được đặt cho con đường liên quan đến việc chuyển đổi:",
+        "choices": [
+            "glycogen hoặc glucose thành fructose.",
+            "glycogen thành glucose-1-phosphate.",
+            "glycogen hoặc glucose thành pyruvate hoặc lactate.",
+            "glycogen hoặc glucose thành pyruvate hoặc acetyl CoA."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "clinical_knowledge"
+        }
+    },
+    {
+        "question": "Sự khác biệt giữa ống thông nam và nữ là gì?",
+        "choices": [
+            "Ống thông nam lớn hơn ống thông nữ.",
+            "Ống thông nam dài hơn ống thông nữ.",
+            "Ống thông nữ dài hơn ống thông nam.",
+            "Ống thông nam và nữ có màu sắc khác nhau."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "clinical_knowledge"
+        }
+    },
+    {
+        "question": "Theo kiến ​​thức y khoa năm 2020, bạn nên thực hiện bao nhiêu lần để truyền ống thông cho bệnh nhân trước khi giao công việc cho đồng nghiệp cấp cao?",
+        "choices": [
+            "1",
+            "3",
+            "4",
+            "2"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "clinical_knowledge"
+        }
+    },
+    {
+        "question": "Theo mô hình dòng áp suất của sự chuyển động của nội dung phloem, sự di chuyển quang hợp từ nguồn đến bồn được điều khiển bởi",
+        "choices": [
+            "máy bơm dòng áp suất phụ thuộc ATP",
+            "gradient thế áp lực nước",
+            "khuếch tán apoplastic",
+            "sự thoát hơi nước"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "college_biology"
+        }
+    },
+    {
+        "question": "Phát biểu nào sau đây thể hiện chính xác về động vật chân đốt?",
+        "choices": [
+            "Chúng có hệ tuần hoàn hở với trái tim nằm ở lưng.",
+            "Chúng thiếu các phần phụ được ghép nối và ghép nối.",
+            "Chúng sở hữu một bộ xương ngoài bao gồm chủ yếu là peptidoglycan.",
+            "Chúng là thành viên của một ngành không thành công về mặt sinh học, không có khả năng khai thác môi trường sống và nguồn dinh dưỡng đa dạng."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "college_biology"
+        }
+    },
+    {
+        "question": "Chuỗi nào sau đây chứa trình tự DNA cần thiết cho sự phân chia nhiễm sắc thể trong nguyên phân và giảm phân?",
+        "choices": [
+            "Nucleosome",
+            "thể nối",
+            "tâm động",
+            "Telomere"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "college_biology"
+        }
+    },
+    {
+        "question": "Trong một quần thể nhất định, cứ 400 người thì có 1 người mắc bệnh ung thư do một alen lặn hoàn toàn gây ra, b. Giả sử quần thể ở trạng thái cân bằng Hardy-Weinberg, tỷ lệ nào sau đây là tỷ lệ dự kiến ​​của những cá thể mang alen b nhưng không phát triển bệnh ung thư?",
+        "choices": [
+            "38/400",
+            "1/400",
+            "20/400",
+            "19/400"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "college_biology"
+        }
+    },
+    {
+        "question": "Sự hiện diện của các cấu trúc tương đồng ở hai sinh vật khác nhau, chẳng hạn như xương cánh tay ở chi trước của người và chim, cho thấy rằng",
+        "choices": [
+            "con người và loài chim được phát triển bằng sự tương tự",
+            "con người và chim là những loài đa hình",
+            "sự tiến hóa của con người và loài chim là hội tụ",
+            "con người và con chim thuộc về một nhánh"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "college_biology"
+        }
+    },
+    {
+        "question": "3 Cl−(aq) + 4 CrO_4^2−(aq) + 23 H+(aq) → 3 HClO2(aq) + 4 Cr3+(aq) + 10 H2O(l). Trong phản ứng trình bày ở trên, Cl−(aq) hoạt động như",
+        "choices": [
+            "một căn cứ",
+            "một chất xúc tác",
+            "một axit",
+            "một chất khử"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "college_chemistry"
+        }
+    },
+    {
+        "question": "Phát biểu nào sau đây về nguyên tố nhómantanua là KHÔNG đúng?",
+        "choices": [
+            "Trạng thái oxy hóa phổ biến nhất của các nguyên tố lanthanide là +3.",
+            "Bán kính nguyên tử của các nguyên tố lanthanide tăng dần trong khoảng thời gian từ La đến Lu.",
+            "Tất cả các nguyên tố lanthanide đều phản ứng với dung dịch axit để giải phóng hydro.",
+            "Phức Lanthanide thường có số phối trí cao (> 6)."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "college_chemistry"
+        }
+    },
+    {
+        "question": "Một mẫu 0,217 g HgO (khối lượng mol = 217 g) phản ứng với các ion iodua dư theo phản ứng như trên. Chuẩn độ dung dịch thu được cần bao nhiêu ml dung dịch HCl 0,10 M để đạt điểm tương đương?",
+        "choices": [
+            "20mL",
+            "1,0mL",
+            "10mL",
+            "50mL"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "college_chemistry"
+        }
+    },
+    {
+        "question": "Câu nào sau đây liệt kê các hydrua của các nguyên tố nhóm 14 theo thứ tự bền nhiệt, từ thấp nhất đến cao nhất?",
+        "choices": [
+            "CH4 < SiH4 < GeH4 < SnH4 < PbH4",
+            "PbH4 < SnH4 < GeH4 < SiH4 < CH4",
+            "CH4 < PbH4 < GeH4 < SnH4 < SiH4",
+            "PbH4 < SnH4 < CH4 < GeH4 < SiH4"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "college_chemistry"
+        }
+    },
+    {
+        "question": "Dự đoán số vạch trong phổ EPR của dung dịch gốc metyl đánh dấu 13C (13CH3^), giả sử các vạch không trùng nhau.",
+        "choices": [
+            "6",
+            "24",
+            "4",
+            "3"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "college_chemistry"
+        }
+    },
+    {
+        "question": "Trình biên dịch tạo mã cho câu lệnh gán sau.\nG := (A + B) * C - (D + E) * F\nMáy mục tiêu có một bộ tích lũy duy nhất và một tập lệnh một địa chỉ bao gồm các lệnh tải, lưu trữ, cộng, trừ và nhân. Đối với các phép tính số học, toán hạng bên trái được lấy từ bộ tích lũy và kết quả xuất hiện trong bộ tích lũy. Số lệnh nhỏ nhất có thể có trong mã kết quả là",
+        "choices": [
+            "9",
+            "6",
+            "7",
+            "5"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "college_computer_science"
+        }
+    },
+    {
+        "question": "Một máy RISC theo đường ống nhất định có 8 thanh ghi đa năng R0, R1, . . . , R7 và hỗ trợ các hoạt động sau.\nCỘNG Rs1, Rs2, Rd Cộng Rs1 vào Rs2 và ghi tổng vào Rd\nMUL Rs1, Rs2, Rd Nhân Rs1 với Rs2 và đặt kết quả vào Rd\nMột hoạt động thường mất một chu kỳ; tuy nhiên, một thao tác sẽ mất hai chu kỳ nếu nó tạo ra kết quả được yêu cầu bởi thao tác ngay sau đó trong chuỗi thao tác. Xét biểu thức AB + ABC + BC, trong đó các biến A, B, C nằm trong các thanh ghi R0, R1, R2. Nếu nội dung của ba thanh ghi này không được sửa đổi thì số chu kỳ xung nhịp tối thiểu cần thiết cho một chuỗi hoạt động tính giá trị của AB + ABC + BC là bao nhiêu?",
+        "choices": [
+            "6",
+            "7",
+            "5",
+            "số 8"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "college_computer_science"
+        }
+    },
+    {
+        "question": "Hãy xem xét một thiết kế máy tính trong đó nhiều bộ xử lý, mỗi bộ xử lý có bộ nhớ đệm riêng, chia sẻ bộ nhớ chung bằng một bus duy nhất. Bus này là tài nguyên hệ thống quan trọng. Mỗi bộ xử lý có thể thực thi một lệnh cứ sau 500 nano giây miễn là các tham chiếu bộ nhớ được bộ đệm cục bộ của nó đáp ứng. Khi xảy ra lỗi bộ đệm, bộ xử lý sẽ bị trì hoãn thêm 2.000 nano giây. Trong một nửa độ trễ bổ sung này, bus được dành riêng để phục vụ lỗi bộ đệm. Trong nửa còn lại, bộ xử lý không thể tiếp tục, nhưng bus có thể tự do đáp ứng các yêu cầu dịch vụ từ các bộ xử lý khác. Trung bình, mỗi lệnh yêu cầu 2 tham chiếu bộ nhớ. Trung bình, lỗi bộ nhớ đệm xảy ra trên 1% số tài liệu tham khảo. Một bộ xử lý sẽ tiêu thụ bao nhiêu phần công suất của bus, bỏ qua độ trễ do cạnh tranh từ các bộ xử lý khác?",
+        "choices": [
+            "25/1",
+            "27/2",
+            "27/1",
+            "1/50"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "college_computer_science"
+        }
+    },
+    {
+        "question": "Mẫu thiết kế Singleton được sử dụng để đảm bảo rằng chỉ một phiên bản duy nhất của một lớp có thể được khởi tạo. Điều nào sau đây là đúng với mẫu thiết kế này?\nI. Lớp Singleton có một phương thức xuất xưởng tĩnh để cung cấp phiên bản của nó.\nII. Lớp Singleton có thể là lớp con của lớp khác.\nIII. Lớp Singleton có một hàm tạo riêng.",
+        "choices": [
+            "III chỉ",
+            "I, II và III",
+            "Tôi chỉ",
+            "tôi chỉ"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "college_computer_science"
+        }
+    },
+    {
+        "question": "Biểu thức chính quy nào sau đây tương đương với (mô tả cùng một bộ chuỗi như) (a* + b)*(c + d)?",
+        "choices": [
+            "(a + b)*c +(a + b)*d",
+            "a*(c + d)+ b(c + d)",
+            "a*(c + d)* + b(c + d)*",
+            "a*(c + d)+ b*(c + d)"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "college_computer_science"
+        }
+    },
+    {
+        "question": "Gọi A là tập hợp tất cả các cặp số nguyên có thứ tự (m, n) sao cho 7m + 12n = 22. Số âm lớn nhất trong tập hợp B = {m + n : (m, n) \\in A} là bao nhiêu?",
+        "choices": [
+            "-2",
+            "-3",
+            "-4",
+            "-5"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "college_mathematics"
+        }
+    },
+    {
+        "question": "Gọi V là tập hợp tất cả các đa thức thực p(x). Giả sử các phép biến đổi T, S được xác định trên V bởi T:p(x) -> xp(x) và S:p(x) -> p'(x) = d/dx p(x), và diễn giải (ST) (p(x)) là S(T(p(x))). Điều nào sau đây là đúng?",
+        "choices": [
+            "ST = 0",
+            "ST = T",
+            "ST = TS",
+            "ST - TS là bản đồ nhận dạng của V lên chính nó."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "college_mathematics"
+        }
+    },
+    {
+        "question": "Một bể ban đầu chứa dung dịch muối gồm 3 gam muối hòa tan trong 100 lít nước. Dung dịch muối chứa 0,02 gam muối cho mỗi lít nước được phun vào bể với tốc độ 4 lít mỗi phút. Dung dịch phun được trộn liên tục với dung dịch muối trong bể, hỗn hợp chảy ra khỏi bể với tốc độ 4 lít/phút. Nếu trộn ngay lập tức thì sau 100 phút còn lại bao nhiêu gam muối?",
+        "choices": [
+            "2 + e^-2",
+            "2 + e^-4",
+            "2",
+            "2 - e^-2"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "college_mathematics"
+        }
+    },
+    {
+        "question": "Giả sử f(1 + x) = f(x) với mọi x thực. Nếu f là đa thức và f(5) = 11 thì f(15/2)",
+        "choices": [
+            "-11",
+            "11",
+            "33/2",
+            "0"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "college_mathematics"
+        }
+    },
+    {
+        "question": "Cho A là ma trận thực 2x2. Câu nào sau đây phải đúng?\r\nI. Tất cả các phần tử của A^2 đều không âm.\r\nII. Định thức của A^2 không âm.\r\nIII. Nếu A có hai giá trị riêng phân biệt thì A^2 có hai giá trị riêng phân biệt.",
+        "choices": [
+            "III chỉ",
+            "chỉ II và III",
+            "tôi chỉ",
+            "Tôi chỉ"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "college_mathematics"
+        }
+    },
+    {
+        "question": "Glucose được vận chuyển vào tế bào cơ:",
+        "choices": [
+            "thông qua hexokinase.",
+            "thông qua chất vận chuyển protein có tên GLUT4.",
+            "thông qua các chất vận chuyển axit monocarbylic.",
+            "chỉ khi có sự hiện diện của insulin."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "college_medicine"
+        }
+    },
+    {
+        "question": "Một giáo viên khoa học ở trường trung học đổ đầy nitơ nguyên chất vào chai 1 lít và đậy nắp lại. Áp suất là 1,70 atm và nhiệt độ phòng là 25°C. Hai biến nào sẽ làm tăng áp lực của hệ thống, nếu tất cả các biến khác được giữ không đổi?",
+        "choices": [
+            "Tăng nhiệt độ, tăng số mol khí",
+            "Giảm thể tích, giảm nhiệt độ",
+            "Tăng nhiệt độ, tăng thể tích",
+            "Giảm số mol khí, tăng thể tích"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "college_medicine"
+        }
+    },
+    {
+        "question": "Trong xét nghiệm di truyền ở trẻ sơ sinh, người ta phát hiện ra một rối loạn di truyền hiếm gặp có sự lây truyền lặn liên kết với nhiễm sắc thể X. Câu nào sau đây có thể đúng về phả hệ của chứng rối loạn này?",
+        "choices": [
+            "Tất cả con cháu bên ngoại đều sẽ mắc bệnh này.",
+            "Tất cả con gái của người đàn ông bị bệnh sẽ bị ảnh hưởng.",
+            "Sẽ có sự phân bố đồng đều giữa nam và nữ bị ảnh hưởng.",
+            "Phụ nữ sẽ bị ảnh hưởng gần gấp đôi so với nam giới trong gia đình này."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "college_medicine"
+        }
+    },
+    {
+        "question": "Phát biểu nào sau đây không đúng?",
+        "choices": [
+            "Insulin thúc đẩy sự hấp thu glucose của tất cả các mô trong cơ thể",
+            "Glycogen trong cơ được phân hủy bằng enzym thành glucose-1-phosphate",
+            "Glycogen trong gan rất quan trọng trong việc duy trì nồng độ glucose trong máu",
+            "Những vận động viên chạy sức bền ưu tú có tỷ lệ sợi loại I cao ở cơ chân"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "college_medicine"
+        }
+    },
+    {
+        "question": "Tác dụng phụ dự kiến ​​của việc bổ sung creatine là:",
+        "choices": [
+            "tăng khối lượng cơ thể.",
+            "chuột rút cơ bắp.",
+            "yếu cơ.",
+            "mất chất điện giải."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "college_medicine"
+        }
+    },
+    {
+        "question": "Muon phân rã với thời gian tồn tại đặc trưng khoảng 10^-6 giây thành electron, neutrino muon và phản neutrino electron. Muon bị cấm phân hủy thành electron và chỉ là một neutrino đơn lẻ theo định luật bảo toàn",
+        "choices": [
+            "số lepton",
+            "thù lao",
+            "năng lượng và động lượng",
+            "khối"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "college_physics"
+        }
+    },
+    {
+        "question": "Trong quá trình nhiệt động nào sau đây, nội năng của khí lý tưởng tăng bằng nhiệt lượng truyền vào khí?",
+        "choices": [
+            "đoạn nhiệt",
+            "Nhiệt độ không đổi",
+            "Âm lượng không đổi",
+            "Áp suất không đổi"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "college_physics"
+        }
+    },
+    {
+        "question": "Một kính thiên văn khúc xạ gồm hai thấu kính hội tụ cách nhau 100 cm. Một thấu kính hội tụ có tiêu cự 20cm. Độ phóng đại góc của kính thiên văn là",
+        "choices": [
+            "4",
+            "20",
+            "5",
+            "6"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "college_physics"
+        }
+    },
+    {
+        "question": "Một kính thiên văn khúc xạ gồm hai thấu kính hội tụ cách nhau 100 cm. Một thấu kính hội tụ có tiêu cự 20cm. Độ phóng đại góc của kính thiên văn là",
+        "choices": [
+            "6",
+            "5",
+            "4",
+            "20"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "college_physics"
+        }
+    },
+    {
+        "question": "Một đầu của dây Nichrome dài 2L và có tiết diện A được nối vào một đầu của dây Nichrome khác có chiều dài L và tiết diện 2A. Nếu đầu tự do của dây dài hơn có điện thế 8,0 volt và đầu tự do của dây ngắn hơn có điện thế 1,0 volt thì điện thế tại điểm nối của hai dây gần bằng nhau",
+        "choices": [
+            "4,5 V",
+            "5,7 V",
+            "3,3 V",
+            "2,4 V"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "college_physics"
+        }
+    },
+    {
+        "question": "____________ là bất kỳ thứ gì mà công cụ tìm kiếm của bạn không thể tìm kiếm được.",
+        "choices": [
+            "Mạng toàn cầu",
+            "Bề mặt web",
+            "Mạng ma ám",
+            "Trang mạng không an toàn"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "computer_security"
+        }
+    },
+    {
+        "question": "Hack đạo đức là gì?",
+        "choices": [
+            "Tấn công vào các hệ thống được điều hành bởi những người có đạo đức mà bạn không đồng tình",
+            "Một thuật ngữ tiếng lóng để chỉ việc phát triển phần mềm nhanh chóng, ví dụ như là một phần của hackathons",
+            "“hack” đạo đức để biện minh cho hành vi ích kỷ ngoài ý muốn",
+            "Hack các hệ thống (ví dụ: trong quá trình kiểm tra thâm nhập) để phát hiện các lỗ hổng để có thể sửa chúng thay vì khai thác"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "computer_security"
+        }
+    },
+    {
+        "question": "Khai thác giấy phép lỗi Heartbleed",
+        "choices": [
+            "một cuộc tấn công chuỗi định dạng",
+            "đọc giới hạn bên ngoài của bộ đệm",
+            "một kiểu tiêm mã",
+            "ghi đè khóa mật mã trong bộ nhớ"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "computer_security"
+        }
+    },
+    {
+        "question": "SHA-1 có thông báo tóm tắt về",
+        "choices": [
+            "628 bit",
+            "820 bit",
+            "512 bit",
+            "160 bit"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "computer_security"
+        }
+    },
+    {
+        "question": "_____________ có thể sửa đổi dữ liệu trên hệ thống của bạn – khiến hệ thống của bạn không chạy đúng hoặc bạn không thể truy cập dữ liệu cụ thể nữa hoặc thậm chí có thể yêu cầu tiền chuộc để cấp quyền truy cập cho bạn.",
+        "choices": [
+            "Trojan cửa sau",
+            "Trojan tiền chuộc",
+            "IM – Trojan",
+            "Trình tải xuống Trojan"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "computer_security"
+        }
+    },
+    {
+        "question": "Màu sắc trong bong bóng xà phòng là do ánh sáng",
+        "choices": [
+            "lệch",
+            "chuyển sang tần số khác",
+            "sự can thiệp",
+            "sự phân cực"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "conceptual_physics"
+        }
+    },
+    {
+        "question": "Một chiếc máy bay mô hình bay chậm hơn khi bay ngược gió và nhanh hơn khi có gió ở phía sau. Khi phóng vuông góc với gió, tốc độ bay ngang của nó so với bay trong không khí tĩnh lặng là",
+        "choices": [
+            "lớn hơn hoặc ít hơn tùy thuộc vào tốc độ gió",
+            "lớn hơn",
+            "ít hơn",
+            "giống nhau"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "conceptual_physics"
+        }
+    },
+    {
+        "question": "Những thứ tương đương theo nguyên tắc tương đương là",
+        "choices": [
+            "một cặp song sinh đi du lịch và một cặp song sinh ở nhà.",
+            "khối lượng và năng lượng.",
+            "trọng lực và gia tốc.",
+            "không gian và thời gian."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "conceptual_physics"
+        }
+    },
+    {
+        "question": "So với khối lượng của nguyên tử uranium trải qua quá trình phân hạch, tổng khối lượng của các sản phẩm sau quá trình phân hạch là",
+        "choices": [
+            "hơn",
+            "giống nhau",
+            "số không",
+            "ít hơn"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "conceptual_physics"
+        }
+    },
+    {
+        "question": "Nguyên tố nào trong ba nguyên tố này có khối lượng mỗi nucleon lớn nhất?",
+        "choices": [
+            "Hydro",
+            "Giống nhau ở mỗi",
+            "Uranium",
+            "Sắt"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "conceptual_physics"
+        }
+    },
+    {
+        "question": "Khi đó, hậu quả sẽ như thế nào đối với công cụ ước lượng OLS nếu phương sai thay đổi xuất hiện trong mô hình hồi quy nhưng bị bỏ qua?",
+        "choices": [
+            "Nó sẽ không hiệu quả",
+            "Nó sẽ không nhất quán",
+            "Tất cả (a), (b) và (c) đều đúng.",
+            "Nó sẽ thiên vị"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "econometrics"
+        }
+    },
+    {
+        "question": "Hãy xem xét mô hình AR(1) sau đây với các nhiễu có giá trị trung bình bằng 0 và phương sai đơn vị\n\nyt = 0,2 + 0,4 yt-1 + ut\n\nGiá trị trung bình (vô điều kiện) của y sẽ được cho bởi",
+        "choices": [
+            "0,33",
+            "0,4",
+            "0,2",
+            "0,5"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "econometrics"
+        }
+    },
+    {
+        "question": "Giả sử rằng một thống kê kiểm tra có liên quan đến nó với giá trị p là 0,08. Câu nào sau đây đúng?\n\n(i) Nếu quy mô kiểm định chính xác là 8%, chúng ta sẽ không quan tâm đến việc bác bỏ hay không bác bỏ giả thuyết không\n\n(ii) Giá trị rỗng sẽ bị từ chối nếu sử dụng kích thước thử nghiệm 10%\n\n(iii) Giá trị rỗng sẽ không bị từ chối nếu sử dụng cỡ thử nghiệm 1%\n\n(iv) Giá trị rỗng sẽ bị từ chối nếu sử dụng kích thước thử nghiệm 5%.",
+        "choices": [
+            "(ii) và (iv) chỉ",
+            "(i) và (iii) chỉ",
+            "(i), (ii), (iii) và (iv)",
+            "chỉ (i), (ii) và (iii)"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "econometrics"
+        }
+    },
+    {
+        "question": "Đối với một quá trình tự hồi quy cố định, các cú sốc sẽ",
+        "choices": [
+            "Kiên trì vô thời hạn",
+            "Cuối cùng chết đi",
+            "Tăng trưởng theo cấp số nhân",
+            "Không bao giờ xảy ra"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "econometrics"
+        }
+    },
+    {
+        "question": "Giả sử bây giờ một nhà nghiên cứu muốn sử dụng tiêu chí thông tin để xác định độ dài độ trễ tối ưu cho VAR. 500 quan sát có sẵn cho VAR hai biến và các giá trị của yếu tố quyết định ma trận phương sai-hiệp phương sai của phần dư lần lượt là 0,0336, 0,0169, 0,0084 và 0,0062 cho độ trễ 1, 2, 3 và 4. Thứ tự mô hình tối ưu theo tiêu chí thông tin của Akaike là gì?",
+        "choices": [
+            "1 độ trễ",
+            "4 độ trễ",
+            "3 độ trễ",
+            "2 độ trễ"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "econometrics"
+        }
+    },
+    {
+        "question": "Trong chốt SR được xây dựng từ cổng NOR, điều kiện nào không được phép",
+        "choices": [
+            "S=0, R=0",
+            "S=1, R=0",
+            "S=0, R=1",
+            "S=1, R=1"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "electrical_engineering"
+        }
+    },
+    {
+        "question": "Một cực điểm có cường độ 4π * 10^-4 weber. Lực tính bằng newton tác dụng lên một cực điểm 4π * 1,5 * 10^-4 weber đặt cách nó 10 cm sẽ là",
+        "choices": [
+            "15 N.",
+            "20 N.",
+            "7,5 N",
+            "3,75N"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "electrical_engineering"
+        }
+    },
+    {
+        "question": "Cuộn dây của đồng hồ đo cuộn dây chuyển động có 100 vòng, dài 40 mm và rộng 30 mm. Mômen điều khiển là 240*10-6 N-m trên toàn thang đo. Nếu mật độ từ thông là 1Wb/m2 thì phạm vi của máy đo là",
+        "choices": [
+            "4 mA.",
+            "2 mA.",
+            "1 mA.",
+            "3 mA."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "electrical_engineering"
+        }
+    },
+    {
+        "question": "Hai dây dẫn dài song song mang dòng điện 100 A. Nếu hai dây dẫn cách nhau 20 mm thì lực trên một mét chiều dài của mỗi dây dẫn sẽ là",
+        "choices": [
+            "100N",
+            "0,01N",
+            "0,1N",
+            "1 N."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "electrical_engineering"
+        }
+    },
+    {
+        "question": "Trong một máy điện một chiều cuộn dây 2 cực, điện trở của một dây dẫn là 2Ω và tổng số dây dẫn là 100. Tìm tổng điện trở",
+        "choices": [
+            "10Ω",
+            "100Ω",
+            "200Ω",
+            "50Ω"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "electrical_engineering"
+        }
+    },
+    {
+        "question": "Olivia đã sử dụng quy tắc \"Cộng 11\" để tạo mẫu số như bên dưới. 10, 21, 32, 43, 54 Câu nào đúng về dãy số?",
+        "choices": [
+            "Mẫu số sẽ không bao giờ có hai số chẵn cạnh nhau.",
+            "Số thứ 10 trong mẫu sẽ là số chẵn.",
+            "Hai số tiếp theo trong mẫu sẽ là số chẵn rồi đến số lẻ.",
+            "Nếu mẫu số bắt đầu bằng số lẻ thì mẫu đó sẽ chỉ có số lẻ trong đó."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "elementary_mathematics"
+        }
+    },
+    {
+        "question": "Một cửa hàng bán 107 màu sơn khác nhau. Họ có 25 lon mỗi màu trong kho. Bạn có thể tính số lượng hộp sơn mà cửa hàng có trong kho bằng cách sử dụng biểu thức bên dưới. 107 × 25. Cửa hàng có bao nhiêu lon sơn trong kho?",
+        "choices": [
+            "2.945",
+            "2.675",
+            "4.250",
+            "749"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "elementary_mathematics"
+        }
+    },
+    {
+        "question": "Tổng cộng có 30 người chơi sẽ chơi bóng rổ tại một công viên. Mỗi đội sẽ có đúng 5 người chơi. Câu nào giải thích đúng cách tìm số đội cần thiết?",
+        "choices": [
+            "Thêm 5 vào 30 để tìm 35 đội.",
+            "Trừ 5 từ 30 để tìm 25 đội.",
+            "Chia 30 cho 5 để tìm được 6 đội.",
+            "Nhân 30 và 5 để tìm 150 đội."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "elementary_mathematics"
+        }
+    },
+    {
+        "question": "Dân số của thành phố nơi Michelle sinh ra là 145.826 người. Giá trị của số 5 trong số 145.826 là bao nhiêu?",
+        "choices": [
+            "5 cái",
+            "5 trăm",
+            "5 nghìn",
+            "5 chục"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "elementary_mathematics"
+        }
+    },
+    {
+        "question": "Biểu thức nào tương đương với 5 x 9?",
+        "choices": [
+            "(5 x 5) + (5 x 4)",
+            "(5 x 9) x (6 x 9)",
+            "(5 x 5) + (5 x 9)",
+            "(5 x 4) x (6 x 5)"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "elementary_mathematics"
+        }
+    },
+    {
+        "question": "Chọn cách dịch tốt nhất sang logic vị ngữ: Không có người nào lái xe trên sao Hỏa.",
+        "choices": [
+            "~Pd",
+            "(∀x)(Px ∨ ~Dx)",
+            "~Dp",
+            "(∀x)(Px ⊃ ~Dx)"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "formal_logic"
+        }
+    },
+    {
+        "question": "Chọn cách diễn giải tiếng Anh tốt nhất cho các đối số đã cho trong logic vị từ.\nDm\n(∀x)(Wx ⊃ ~Dx)\n(∀x)Wx ∨ Ag / (∃x)Ax",
+        "choices": [
+            "Marina là một vũ công. Không có kẻ yếu đuối là một vũ công. Mọi thứ đều là kẻ yếu đuối hoặc chơi bóng chuyền. Vì vậy, một cái gì đó chơi bóng chuyền.",
+            "Marina là một vũ công. Một số kẻ yếu đuối không phải là vũ công. Mọi thứ đều là kẻ yếu đuối hoặc chơi bóng chuyền. Vì vậy, một cái gì đó chơi bóng chuyền.",
+            "Marina là một vũ công. Một số kẻ yếu đuối không phải là vũ công. Hoặc mọi thứ đều là kẻ yếu đuối hoặc Georgia chơi bóng chuyền. Vì vậy, một cái gì đó chơi bóng chuyền.",
+            "Marina là một vũ công. Không có kẻ yếu đuối là một vũ công. Hoặc mọi thứ đều là kẻ yếu đuối hoặc Georgia chơi bóng chuyền. Vì vậy, một cái gì đó chơi bóng chuyền."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "formal_logic"
+        }
+    },
+    {
+        "question": "Hãy xây dựng bảng chân trị hoàn chỉnh cho các cặp mệnh đề sau. Sau đó, bằng cách sử dụng các bảng chân lý, hãy xác định xem các phát biểu đó có tương đương về mặt logic hay mâu thuẫn hay không. Nếu không, hãy xác định xem chúng có nhất quán hay không nhất quán. Biện minh cho câu trả lời của bạn.\nE ⊃ (F · E) và ~E · F",
+        "choices": [
+            "Không tương đương về mặt logic cũng không mâu thuẫn, nhưng nhất quán",
+            "Mâu thuẫn",
+            "Tương đương về mặt logic",
+            "Không nhất quán"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "formal_logic"
+        }
+    },
+    {
+        "question": "Công thức nào của PL đã cho là cách biểu đạt tốt nhất cho câu sau đây?\nRùa sống lâu và là sinh vật hạnh phúc, trừ khi chúng bị thương.",
+        "choices": [
+            "(L • H) ∨ Tôi",
+            "(L • H) ≡ Tôi",
+            "L • (H ∨ I)",
+            "L • (H ⊃ R)"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "formal_logic"
+        }
+    },
+    {
+        "question": "Chọn bản dịch tốt nhất sang logic vị ngữ.George mượn chiếc máy cắt cỏ của Hector. (g: George; h: Hector; l: Máy cắt cỏ của Hector; Bxyx: x mượn y từ z)",
+        "choices": [
+            "Bhlg",
+            "Bghl",
+            "Blgh",
+            "Bglh"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "formal_logic"
+        }
+    },
+    {
+        "question": "Cặp câu nào sau đây đều đúng (tính đến năm 2019)?",
+        "choices": [
+            "Mọi người có xu hướng lạc quan về tương lai của chính họ và tương lai của quốc gia hoặc thế giới.",
+            "Mọi người có xu hướng bi quan về tương lai của chính họ và tương lai của quốc gia hoặc thế giới.",
+            "Mọi người có xu hướng bi quan về tương lai của chính họ nhưng lại lạc quan về tương lai của quốc gia hoặc thế giới.",
+            "Mọi người có xu hướng lạc quan về tương lai của chính họ nhưng lại bi quan về tương lai của quốc gia hoặc thế giới."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "global_facts"
+        }
+    },
+    {
+        "question": "Tính đến năm 2017, có bao nhiêu trẻ em 1 tuổi trên thế giới ngày nay đã được tiêm phòng một số bệnh? *",
+        "choices": [
+            "80%",
+            "60%",
+            "20%",
+            "40%"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "global_facts"
+        }
+    },
+    {
+        "question": "Tính đến năm 2015, kể từ năm 1990, rừng có ____ ở Châu Âu và có ____ ở Châu Phi và Châu Mỹ.",
+        "choices": [
+            "giảm, tăng",
+            "Tăng giảm",
+            "tăng lên, tăng lên",
+            "giảm, giảm"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "global_facts"
+        }
+    },
+    {
+        "question": "Tính đến năm 2019, khoảng bao nhiêu phần trăm người Nga cho rằng việc có phương tiện truyền thông tự do ở nước ta mà không có sự kiểm duyệt của chính phủ/nhà nước là rất quan trọng?",
+        "choices": [
+            "53%",
+            "68%",
+            "83%",
+            "38%"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "global_facts"
+        }
+    },
+    {
+        "question": "Tính đến năm 2019, khoảng bao nhiêu phần trăm người Mỹ đồng ý rằng nhà nước được điều hành vì lợi ích của tất cả người dân?",
+        "choices": [
+            "61%",
+            "46%",
+            "76%",
+            "31%"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "global_facts"
+        }
+    },
+    {
+        "question": "Các cấu trúc tương đồng thường được coi là bằng chứng cho quá trình chọn lọc tự nhiên. Tất cả những điều sau đây là ví dụ về cấu trúc tương đồng TRỪ",
+        "choices": [
+            "chân chèo của cá voi và cánh tay của con người",
+            "cánh chim và cánh dơi",
+            "chi trước của côn trùng và chi trước của chó",
+            "vây ngực của cá heo và chân chèo của hải cẩu"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_biology"
+        }
+    },
+    {
+        "question": "Đột biến ở enzyme vi khuẩn đã biến đổi axit amin phân cực trước đó thành axit amin không phân cực. Axit amin này nằm ở một vị trí cách xa vị trí hoạt động của enzyme. Đột biến này có thể làm thay đổi tính đặc hiệu cơ chất của enzyme như thế nào?",
+        "choices": [
+            "Bằng cách thay đổi vị trí của enzyme trong tế bào",
+            "Bằng cách thay đổi pH tối ưu của enzyme",
+            "Một sự thay đổi axit amin ra khỏi vị trí hoạt động không thể làm thay đổi tính đặc hiệu cơ chất của enzyme.",
+            "Bằng cách thay đổi hình dạng của protein"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_biology"
+        }
+    },
+    {
+        "question": "Cách nào sau đây không phải là cách tạo ADN tái tổ hợp?",
+        "choices": [
+            "Sự truyền tải chuyên biệt",
+            "Chuyển đổi",
+            "sự chia động từ",
+            "Dịch"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_biology"
+        }
+    },
+    {
+        "question": "Điều nào sau đây không được biết là có liên quan đến việc kiểm soát sự phân chia tế bào?",
+        "choices": [
+            "Tế bào nguyên bào sợi",
+            "Cyclin",
+            "Protein kinase",
+            "Điểm kiểm tra"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "high_school_biology"
+        }
+    },
+    {
+        "question": "Ở tế bào động vật, điều nào sau đây thể hiện con đường thích hợp nhất mà protein bài tiết được thực hiện khi nó được tổng hợp trong tế bào?",
+        "choices": [
+            "Ribosome–bộ máy ER–Golgi thô – túi tiết – màng sinh chất",
+            "Màng huyết tương-bộ máy Golgi-ribosome-túi tiết-ER thô",
+            "Bộ máy Ribosome–Golgi – túi tiết ER – màng sinh chất thô",
+            "Màng huyết tương-bộ máy Golgi-ribosome-túi tiết-ER thô"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "high_school_biology"
+        }
+    },
+    {
+        "question": "Chất nào sau đây được coi là axit anhydrit?",
+        "choices": [
+            "Al(NO3)3",
+            "H2SO3",
+            "HCl",
+            "SO2"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_chemistry"
+        }
+    },
+    {
+        "question": "Chất nào sau đây được cho là phân tử có cực?",
+        "choices": [
+            "CO2",
+            "BF3",
+            "Si(CH3)4",
+            "PCl4F"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_chemistry"
+        }
+    },
+    {
+        "question": "Một hợp chất mới được tổng hợp và được phát hiện là axit đơn chức có khối lượng mol là 248 g/mol. Khi 0,0050 mol axit này được hòa tan trong 0,500 L nước, độ pH được đo là 3,89. pKa của axit này là bao nhiêu?",
+        "choices": [
+            "3,89",
+            "5,78",
+            "7,78",
+            "2,33"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_chemistry"
+        }
+    },
+    {
+        "question": "Một dung dịch chứa 2,00 mol axit axetic CH3COOH và 1 mol canxi axetat Ca(CH3COO)2. Dung dịch này có thể chống lại việc thêm một lượng nhỏ axit mạnh hoặc bazơ mạnh chỉ với những thay đổi nhỏ về độ pH của dung dịch. Lượng axit mạnh hoặc bazơ mạnh lớn hơn có thể gây ra sự thay đổi đáng kể về độ pH. Có thể thêm bao nhiêu mol axit nitric, HNO3 vào trước khi pH bắt đầu thay đổi đáng kể?",
+        "choices": [
+            "1,00 nốt ruồi",
+            "2,00 nốt ruồi",
+            "3,00 nốt ruồi",
+            "0,500 mol"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_chemistry"
+        }
+    },
+    {
+        "question": "Theo quy luật hòa tan, điều nào sau đây là đúng?",
+        "choices": [
+            "Tất cả sunfat đều hòa tan",
+            "Tất cả clorua, bromua và iodua đều hòa tan",
+            "Tất cả các hợp chất chứa amoni đều hòa tan",
+            "Tất cả các hydroxit đều hòa tan"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_chemistry"
+        }
+    },
+    {
+        "question": "Điều nào sau đây là ví dụ về việc sử dụng thiết bị trên Internet of Things (IoT)?",
+        "choices": [
+            "Một chiếc ô tô cảnh báo người lái xe rằng nó sắp tông vào một vật thể.",
+            "Một người đi bộ đường dài sử dụng đồng hồ G P S để theo dõi vị trí của mình.",
+            "Một người chạy bộ sử dụng đồng hồ có cảm biến quang học để theo dõi nhịp tim của mình.",
+            "Một tủ lạnh đặt mua sữa từ dịch vụ giao hàng trực tuyến khi sữa trong tủ lạnh gần hết."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_computer_science"
+        }
+    },
+    {
+        "question": "Trong chương trình bên dưới, giá trị ban đầu của x là 5 và giá trị ban đầu của y là 10.\n NẾU (X < O)\n {\n HIỂN THỊ (\"Foxtrot\")\n }\n KHÁC\n {\n NẾU (X > y)\n {\n   HIỂN THỊ (\"Khách sạn\")\n }\n KHÁC\n {\n   NẾU (y > O)\n   {\n   HIỂN THỊ (\"Tháng 11\")\n   }\n   KHÁC\n   {\n   HIỂN THỊ (\"Yankee\")\n   }\n }\n }\n \n Điều gì được hiển thị khi chạy chương trình?",
+        "choices": [
+            "Khách sạn",
+            "Foxtrot",
+            "Tháng mười một",
+            "Yankee"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_computer_science"
+        }
+    },
+    {
+        "question": "Đầu ra của \"abc\"[::-1] trong Python 3 là gì?",
+        "choices": [
+            "c",
+            "Lỗi",
+            "abc",
+            "cba"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_computer_science"
+        }
+    },
+    {
+        "question": "Một danh sách các số có n phần tử, được đánh số từ 1 đến n. Thuật toán sau đây nhằm hiển thị số phần tử trong danh sách có giá trị lớn hơn 100. Thuật toán sử dụng các biến số đếm và vị trí. Bước 3 và 4 bị thiếu.\n Bước 1: Đặt số đếm thành 0 và vị trí thành 1.\n Bước 2: Nếu giá trị của phần tử ở vị trí chỉ mục lớn hơn\n hơn 100, tăng giá trị của count lên 1.\n Bước 3: (thiếu bước)\n Bước 4: (thiếu bước)\n Bước 5: Hiển thị giá trị của số đếm.\n Điều nào sau đây có thể được sử dụng để thay thế bước 3 và 4 để thuật toán hoạt động như dự định?",
+        "choices": [
+            "Bước 3: Lặp lại bước 2 cho đến khi giá trị vị trí lớn hơn n.\n Bước 4: Tăng giá trị của count lên 1.",
+            "Bước 3: Lặp lại bước 2 cho đến khi giá trị đếm lớn hơn 100.\n Bước 4: Tăng giá trị của vị trí lên 1.",
+            "Bước 3: Tăng giá trị của vị trí lên 1.\n Bước 4: Lặp lại bước 2 và 3 cho đến khi giá trị đếm lớn hơn 100.",
+            "Bước 3: Tăng giá trị của vị trí lên 1.\n Bước 4: Lặp lại bước 2 và 3 cho đến khi giá trị vị trí lớn hơn n."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "high_school_computer_science"
+        }
+    },
+    {
+        "question": "Nhiều trình duyệt Web cho phép người dùng mở các cửa sổ ẩn danh. Trong phiên duyệt trong cửa sổ ẩn danh, trình duyệt không ghi lại lịch sử duyệt web hoặc danh sách các tệp đã tải xuống. Khi thoát khỏi cửa sổ ẩn danh, các cookie được tạo trong phiên sẽ bị xóa. Câu nào sau đây về phiên duyệt trong cửa sổ ẩn danh là đúng?",
+        "choices": [
+            "Người dùng sẽ không thể đăng nhập vào e-mail hoặc tài khoản mạng xã hội trong phiên duyệt web ẩn danh.",
+            "Hoạt động duyệt web của người dùng trong cửa sổ ẩn danh sẽ không hiển thị với những người giám sát mạng của người dùng, chẳng hạn như quản trị viên hệ thống.",
+            "Các mặt hàng được đặt trong giỏ hàng của Cửa hàng trực tuyến để mua trong tương lai trong phiên duyệt ẩn danh sẽ không được lưu trên máy tính của người dùng.",
+            "Người dùng duyệt web trong cửa sổ ẩn danh sẽ được bảo vệ khỏi vi-rút phát tán từ bất kỳ trang web nào được truy cập hoặc các tệp được tải xuống."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_computer_science"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\nĐọc đoạn trích sau.\nHạt giống cách mạng đã thâm nhập vào mọi nước và ít nhiều lan rộng. Nó được phát triển mạnh mẽ dưới chế độ chuyên quyền quân sự của Bonaparte. Những cuộc chinh phục của ông đã thay thế một số luật pháp, thể chế và phong tục; phá vỡ mối liên kết thiêng liêng giữa tất cả các quốc gia, đủ mạnh để chống lại chính thời gian; đó là nhiều hơn những gì có thể nói về những lợi ích nhất định mà những nhà đổi mới này mang lại.\nCác quốc vương sẽ hoàn thành các nhiệm vụ do Ngài đặt ra cho họ, bằng cách giao phó quyền lực cho họ, đã giao cho họ trông coi việc duy trì công lý và quyền của tất cả mọi người, tránh các con đường sai lầm và bước đi vững chắc trên con đường sai lầm. sự thật. Vượt ra ngoài những đam mê gây kích động xã hội, chính trong những ngày thử thách, họ được kêu gọi vứt bỏ thực tế về vẻ bề ngoài giả dối của mình và thể hiện con người thật của mình, những người cha được trao quyền hành theo đúng quyền của người đứng đầu gia đình, để chứng minh rằng, trong những ngày tang chế, họ biết cách công bằng, khôn ngoan và do đó mạnh mẽ, và họ sẽ không bỏ rơi những người mà họ phải cai trị để trở thành trò chơi của phe phái, sai lầm và hậu quả của nó, mà phải kéo theo sự mất mát của xã hội.\nSự liên minh giữa các quốc vương là nền tảng của chính sách mà hiện nay phải tuân theo để cứu xã hội khỏi sự hủy hoại hoàn toàn. . . .\nĐừng để họ nhầm lẫn những nhượng bộ dành cho các bên với điều tốt mà họ phải làm cho người dân của mình, trong việc sửa đổi, theo nhu cầu đã được thừa nhận của họ, những ngành hành chính mà họ yêu cầu.\nHãy để họ công bằng nhưng mạnh mẽ; có lợi nhưng nghiêm khắc.\nHãy để họ duy trì các nguyên tắc tôn giáo trong sự thuần khiết nhất của mình, và không để cho đức tin bị tấn công và đạo đức bị giải thích theo khế ước xã hội hoặc tầm nhìn của những kẻ bè phái ngu ngốc.\nHãy để họ đàn áp các Hội kín; sự hoại tử của xã hội.\n—Klemens von Metternich, Lời tuyên xưng đức tin chính trị, 1820\nĐiều nào sau đây là nguyên nhân lớn nhất dẫn đến nỗi sợ hãi được Metternich thể hiện trong tài liệu trên?",
+        "choices": [
+            "Quyền lực của các quốc vương đã phát triển đến mức cần phải được kiểm tra bởi các quyền lực khác trong mỗi quốc gia nếu không sự thống trị của dân thường sẽ xảy ra.",
+            "Cuộc chinh phục châu Âu của Napoléon đã dẫn đến việc thành lập các phe phái mới và làm thay đổi cán cân quyền lực ở châu Âu.",
+            "Những ý tưởng về tự do cá nhân và chủ nghĩa dân tộc được hình thành trong thời kỳ Khai sáng đã dẫn đến những cuộc cách mạng cấp tiến có thể lan rộng khắp châu Âu.",
+            "Chu kỳ kinh tế lên xuống của nền kinh tế tư bản mới nổi có thể dẫn đến tình trạng bất ổn dân sự cần phải được trấn áp."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_european_history"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\nỞ Nga không có chuyện gì tốt đẹp xảy ra cả, và [Souvine] tuyệt vọng trước tin tức mà anh ấy nhận được. Những người bạn cũ của anh đều quay sang các chính trị gia; những người theo chủ nghĩa hư vô nổi tiếng đã khiến châu Âu run sợ - con trai của các linh mục trong làng, thuộc tầng lớp trung lưu thấp hơn, của những người buôn bán - không thể vượt lên trên ý tưởng giải phóng dân tộc, và dường như tin rằng thế giới sẽ được giải thoát - khi họ đã giết chết kẻ chuyên quyền của mình&…\n\"Thật ngu ngốc! Họ sẽ không bao giờ thoát khỏi nó bằng sự ngu ngốc của mình.\"\nSau đó, ông hạ thấp giọng hơn nữa, bằng vài lời cay đắng, ông mô tả giấc mơ về tình huynh đệ ngày xưa của mình. Anh ta đã từ bỏ địa vị và tài sản của mình; ông đã đến với những người công nhân, chỉ với hy vọng cuối cùng nhìn thấy được nền tảng của một xã hội lao động chung mới. Tất cả số xu trong túi của anh ta đã rơi vào tay bọn nhím trong khu định cư từ lâu; anh ấy đã dịu dàng như một người anh trai với những người thợ mỏ, mỉm cười trước sự nghi ngờ của họ, chinh phục họ bằng cách cư xử trầm lặng như một người công nhân và không thích nói huyên thuyên. Nhưng rõ ràng sự hợp nhất đã không diễn ra.\nGiọng anh thay đổi, đôi mắt anh sáng lên, anh nhìn chằm chằm vào étienne, nói thẳng với anh:\n\"Bây giờ, bạn có hiểu điều đó không? Những người thợ làm mũ ở Marseilles vừa trúng giải xổ số lớn trị giá một trăm nghìn franc đã lập tức bỏ đi và đầu tư số tiền đó, tuyên bố rằng họ sẽ sống mà không phải làm gì cả! Đúng, đó là ý tưởng của bạn.\" Hỡi tất cả những người công nhân Pháp các bạn, các bạn muốn đào bới một kho báu để sau đó một mình ngấu nghiến nó trong một góc lười biếng, ích kỷ nào đó, các bạn có thể kêu la bao nhiêu tùy thích chống lại người giàu, các bạn không đủ can đảm để trả lại cho người nghèo số tiền mà may mắn mang lại cho bạn. Bạn sẽ không bao giờ xứng đáng được hạnh phúc chừng nào bạn còn sở hữu bất cứ thứ gì, và lòng căm thù của bạn đối với những người tư sản chỉ xuất phát từ mong muốn giận dữ muốn trở thành tư sản ở vị trí của họ. \"\némile Zola, nhà văn người Pháp, Mầm, 1885\nĐoạn văn thể hiện mối quan tâm trực tiếp đến phúc lợi của giai cấp công nhân mà điển hình là một phần của phong trào nào?",
+        "choices": [
+            "nhà tư bản",
+            "cộng sản",
+            "Có tính khoa học",
+            "Chủ nghĩa hiện sinh"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_european_history"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\nCác đoạn trích dưới đây là từ Đạo luật Điều hướng năm 1651.\n[A] sau ngày đầu tiên của tháng 12, một nghìn sáu trăm năm mươi mốt, và từ đó trở đi, không có hàng hóa hay mặt hàng nào về sự tăng trưởng, sản xuất hoặc sản xuất của Châu Á, Châu Phi hoặc Châu Mỹ, hoặc bất kỳ phần nào của chúng; hoặc của bất kỳ hòn đảo nào thuộc về chúng, hoặc được mô tả hoặc thể hiện trong bản đồ hoặc thẻ thông thường của những nơi đó, cũng như các đồn điền ở Anh cũng như những nơi khác, sẽ được nhập khẩu hoặc đưa vào Khối thịnh vượng chung của Anh, hoặc vào Ireland, hoặc bất kỳ vùng đất, đảo, đồn điền hoặc lãnh thổ nào khác thuộc Khối thịnh vượng chung này thuộc quyền sở hữu của họ trên bất kỳ tàu hoặc tàu nào khác, nhưng chỉ ở những nơi thực sự và không có gian lận chỉ thuộc về người dân của Khối thịnh vượng chung này , hoặc các đồn điền đó, với tư cách là chủ sở hữu hoặc chủ sở hữu có quyền của chúng; và theo đó thuyền trưởng và thủy thủ cũng là người dân của Khối thịnh vượng chung này, sẽ bị phạt tịch thu và mất tất cả hàng hóa nhập khẩu trái với đạo luật này, , , ,\n[N]o hàng hóa hoặc hàng hóa của sự phát triển, sản xuất hoặc sản xuất của Châu Âu, hoặc bất kỳ phần nào của nó, sau ngày đầu tiên của tháng 12, một nghìn sáu trăm năm mươi mốt, sẽ được nhập khẩu hoặc đưa vào Khối thịnh vượng chung của Anh, hoặc bất kỳ vùng đất hoặc lãnh thổ nào khác thuộc Khối thịnh vượng chung này hoặc thuộc sở hữu của họ, trên bất kỳ con tàu hoặc tàu bè nào, nhưng thực sự và không có gian lận chỉ thuộc về người dân của Khối thịnh vượng chung này và không thuộc về nơi nào khác, ngoại trừ chỉ những tàu và tàu nước ngoài thực sự thuộc về người dân của quốc gia hoặc địa điểm đó, trong đó hàng hóa nói trên được tăng trưởng, sản xuất hoặc chế tạo.\nĐiều nào sau đây mô tả đúng nhất kết quả của Đạo luật Hàng hải năm 1651?",
+        "choices": [
+            "Chúng đã dẫn đến gần một thế kỷ chiến tranh tái diễn giữa Anh và Hà Lan, cuộc chiến này sẽ không kết thúc cho đến sau khi Mỹ giành được độc lập.",
+            "Họ đóng vai trò là chất xúc tác cho sự phát triển của ngành vận tải biển và thương mại hải ngoại của Anh, nhưng lại không hạn chế được triển vọng của người Hà Lan trong thế kỷ XVII.",
+            "Chúng gần như gây ra những khó khăn ngay lập tức cho nền kinh tế Hà Lan khi sự thống trị thương mại nước ngoài của họ nhanh chóng chấm dứt.",
+            "Chúng đã bị hủy bỏ trong quá trình khôi phục Stuarts vì họ tìm kiếm mối quan hệ ngoại giao bình thường với người Hà Lan để không cần sự hỗ trợ tài chính của Quốc hội cho chiến tranh."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_european_history"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\nĐoạn trích sau đây là từ một cuốn sách nhỏ.\nBạn sẽ công bằng khi nhớ rằng tôi luôn hết lòng ủng hộ Quyền của mỗi người có quan điểm riêng của mình, cho dù quan điểm đó có thể khác với quan điểm của tôi đến đâu. Ai từ chối quyền này của người khác, sẽ biến mình thành nô lệ cho quan điểm hiện tại của mình, bởi vì anh ta ngăn cản bản thân có quyền thay đổi nó.\nVũ khí đáng gờm nhất để chống lại mọi loại lỗi lầm là Lý trí. Tôi chưa bao giờ sử dụng bất kỳ loại nào khác và tôi tin rằng tôi sẽ không bao giờ làm vậy.\nTình huống hiện đang diễn ra ở Pháp về việc bãi bỏ hoàn toàn trật tự quốc gia của chức tư tế, và mọi thứ liên quan đến các hệ thống tôn giáo bắt buộc và các tín điều bắt buộc, không chỉ thúc đẩy ý định của tôi mà còn tạo ra một tác phẩm như thế này. loại cực kỳ cần thiết, kẻo trong sự sụp đổ chung của sự mê tín, của các hệ thống chính quyền sai lầm và thần học sai lầm, chúng ta đánh mất đạo đức, nhân loại và thần học chân chính.\nTôi tin vào một Thiên Chúa, không hơn thế nữa; và tôi hy vọng có được hạnh phúc ngoài cuộc đời này.\nTôi tin vào sự bình đẳng của con người; và tôi tin rằng nghĩa vụ tôn giáo bao gồm việc thực thi công lý, lòng nhân từ yêu thương và nỗ lực làm cho đồng loại của chúng ta được hạnh phúc.\nTôi không tin vào tín điều được tuyên xưng bởi nhà thờ Do Thái, nhà thờ La Mã, nhà thờ Hy Lạp, nhà thờ Thổ Nhĩ Kỳ, nhà thờ Tin Lành, cũng như bất kỳ nhà thờ nào mà tôi biết. Tâm trí của tôi là nhà thờ của riêng tôi.\nĐối với tôi, tất cả các tổ chức giáo hội quốc gia, dù là của người Do Thái, Cơ đốc giáo hay Thổ Nhĩ Kỳ, dường như không khác gì những phát minh của con người, được thiết lập để gây kinh hoàng và nô dịch loài người, đồng thời độc quyền quyền lực và lợi nhuận.\nTuyên bố này không có ý lên án những người có niềm tin khác; họ có quyền tin vào niềm tin của họ như tôi có quyền có niềm tin của tôi.\n—Thomas Paine, Thời đại của lý trí, 1794–1795\nTriết lý Khai sáng nào sau đây đã thiết kế một hệ thống kiểm tra và cân bằng cho chính phủ để tránh lạm dụng quyền lực?",
+        "choices": [
+            "Adam Smith",
+            "Mary Wollstonecraft",
+            "Nam tước Montesquieu",
+            "Jean-Jacques Rousseau"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_european_history"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\nMặc dù Bệ hạ công bằng và chính đáng là và phải là người đứng đầu tối cao của Giáo hội Anh, và do đó được các giáo sĩ của vương quốc này công nhận trong các cuộc triệu tập của họ, tuy nhiên, để chứng thực và xác nhận điều đó cũng như để nâng cao đạo đức trong tôn giáo của Chúa Kitô trong vương quốc nước Anh này, đồng thời trấn áp và loại bỏ mọi sai sót, dị giáo cũng như những hành vi tàn ác và lạm dụng khác trước đây được sử dụng theo cách tương tự, nếu được ban hành, bởi thẩm quyền của Nghị viện hiện tại này, rằng nhà vua, chúa tể tối cao của chúng ta, những người thừa kế của ông ấy và những người kế vị, những vị vua của vương quốc này, sẽ được chọn, được chấp nhận và được coi là người đứng đầu tối cao duy nhất trên trái đất của Giáo hội Anh, được gọi là Anh giáo Ecclesia; và sẽ có và được hưởng, được sáp nhập và thống nhất với vương miện hoàng gia của vương quốc này, cũng như danh hiệu và phong cách của nó, cũng như tất cả danh dự, phẩm giá, sự ưu việt, quyền tài phán, đặc quyền, quyền hạn, quyền miễn trừ, lợi nhuận và hàng hóa đối với phẩm giá nói trên của người đứng đầu tối cao của cùng một Giáo hội thuộc về và thuộc về; và rằng chúa tể có chủ quyền nói trên của chúng ta, những người thừa kế và kế vị của ông, các vị vua của vương quốc này, sẽ có toàn quyền và thẩm quyền thỉnh thoảng đến thăm, đàn áp, khắc phục, ghi chép, ra lệnh, sửa chữa, kiềm chế và sửa đổi tất cả những sai sót, dị giáo như vậy, lạm dụng, xúc phạm, khinh miệt và tàn ác, bất kể chúng là gì, mà theo bất kỳ hình thức thẩm quyền hoặc thẩm quyền tâm linh nào phải hoặc có thể được cải cách, đàn áp, ra lệnh, khắc phục, sửa chữa, hạn chế hoặc sửa đổi một cách hợp pháp, hầu hết theo sự hài lòng của Thiên Chúa toàn năng, sự gia tăng nhân đức trong tôn giáo của Chúa Kitô, và để bảo tồn hòa bình, thống nhất và yên bình của cõi này; bất kỳ cách sử dụng nào, đất đai nước ngoài, cơ quan có thẩm quyền nước ngoài, đơn thuốc hoặc bất kỳ điều gì khác hoặc những điều trái ngược với điều khoản này.\nNghị viện Anh, Đạo luật Tối cao, 1534\nTừ đoạn văn, người ta có thể suy ra rằng Nghị viện Anh mong muốn lập luận rằng Đạo luật về quyền lực tối cao sẽ",
+        "choices": [
+            "thiết lập thuyết Calvin như một nền thần học thực sự duy nhất ở Anh",
+            "trao vị trí người đứng đầu Giáo hội Anh cho riêng Henry VIII và loại trừ những người thừa kế của ông",
+            "chấm dứt nhiều hình thức tham nhũng đang hoành hành Giáo hội ở Anh",
+            "trao cho vua Anh một vị trí quyền lực mới"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_european_history"
+        }
+    },
+    {
+        "question": "Ví dụ nào sau đây là ví dụ về văn hóa phi vật thể?",
+        "choices": [
+            "Một con chim bồ câu (chim)",
+            "Thanh kẹo bồ câu",
+            "xà phòng bồ câu",
+            "Biểu tượng chim bồ câu"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_geography"
+        }
+    },
+    {
+        "question": "Tỉ lệ gia tăng tự nhiên của dân số được tính bằng cách trừ đi",
+        "choices": [
+            "tỷ suất tử thô tính từ ngày sinh thô.",
+            "tỷ suất sinh thô và tỷ suất tử thô.",
+            "tỉ suất sinh từ tỉ suất tử thô.",
+            "tăng gấp đôi thời gian so với tỷ lệ sinh thô."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "high_school_geography"
+        }
+    },
+    {
+        "question": "Trong giai đoạn thứ ba của mô hình chuyển đổi nhân khẩu học, điều nào sau đây là đúng?",
+        "choices": [
+            "Tỷ lệ sinh giảm và tốc độ tăng dân số chậm hơn.",
+            "Tỷ lệ sinh tăng và tốc độ tăng dân số chậm hơn.",
+            "Tỷ lệ sinh tăng và tốc độ tăng trưởng dân số tăng.",
+            "Tỉ lệ sinh giảm và tỉ lệ tăng dân số tăng."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "high_school_geography"
+        }
+    },
+    {
+        "question": "Nhận định nào sau đây KHÔNG chính xác về các dịch vụ do chính quyền địa phương ở Hoa Kỳ cung cấp?",
+        "choices": [
+            "Các vấn đề xã hội của trung tâm thành phố lan sang các khu dân cư ngoại ô xung quanh.",
+            "Sự trùng lặp các nỗ lực xảy ra thường xuyên.",
+            "Sự kém hiệu quả trong việc cung cấp dịch vụ thường xuyên xảy ra.",
+            "Những nỗ lực giảm ô nhiễm của một khu phố luôn được cộng đồng lân cận ủng hộ."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_geography"
+        }
+    },
+    {
+        "question": "Việc thuê nhà cung cấp dịch vụ bên thứ ba nước ngoài để điều hành hoạt động được gọi là",
+        "choices": [
+            "gia công phần mềm.",
+            "chuyển ra nước ngoài.",
+            "maquiladoras.",
+            "sự phụ thuộc lẫn nhau về mặt địa điểm."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_geography"
+        }
+    },
+    {
+        "question": "Sự không chắc chắn về giới hạn quyền lực của tổng thống chủ yếu là do thực tế là",
+        "choices": [
+            "định nghĩa hiến pháp về những quyền lực đó rất rộng và không cụ thể",
+            "Tòa án Tối cao liên tục từ chối phán quyết các vụ án liên quan đến quyền lực của tổng thống",
+            "hầu hết mọi người đều đồng ý rằng Hiến pháp đặt ra quá nhiều giới hạn đối với quyền lực của tổng thống",
+            "sửa đổi hiến pháp đã tăng đáng kể quyền lực của tổng thống"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "high_school_government_and_politics"
+        }
+    },
+    {
+        "question": "Câu nào sau đây về các cơ quan nội các là SAI?",
+        "choices": [
+            "Không phải mọi cơ quan liên bang đều là một bộ nội các.",
+            "Các thành viên của họ thường không có nhiều ảnh hưởng tới các quyết định của tổng thống.",
+            "Tất cả chúng không thể được điều hành bởi các nhà lãnh đạo thuộc cùng một đảng chính trị mà tổng thống điều hành.",
+            "Chúng được thành lập bởi ngành lập pháp."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_government_and_politics"
+        }
+    },
+    {
+        "question": "Trường hợp nào sau đây đã tạo ra tiền lệ rằng bị cáo phải được thông báo về quyền giữ im lặng, quyền có luật sư và quyền được bảo vệ khỏi việc tự buộc tội?",
+        "choices": [
+            "Betts kiện Brady",
+            "Mapp kiện Ohio",
+            "Tuần v. Hoa Kỳ",
+            "Miranda kiện Arizona"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_government_and_politics"
+        }
+    },
+    {
+        "question": "Điều nào sau đây nêu rõ nhất lập luận của James Madison trong Người theo chủ nghĩa liên bang số 10?",
+        "choices": [
+            "Các chính trị gia trung thực có thể ngăn chặn sự phát triển của phe phái.",
+            "Những tác động tiêu cực của chủ nghĩa bè phái có thể được giảm bớt bởi một chính phủ cộng hòa.",
+            "Các phe phái có nhiều khả năng xảy ra ở các nước cộng hòa lớn hơn là ở các nước cộng hòa nhỏ.",
+            "Bầu cử tự do là cách phòng vệ tốt nhất của nhân dân chống lại chủ nghĩa bè phái."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_government_and_politics"
+        }
+    },
+    {
+        "question": "Thuật ngữ “thâm hụt ngân sách” dùng để chỉ",
+        "choices": [
+            "số tiền lãi của khoản nợ quốc gia",
+            "mức tăng chi tiêu liên bang hàng năm cho quân đội",
+            "sự khác biệt giữa đề xuất ngân sách ban đầu của tổng thống và quốc hội",
+            "số tiền chính phủ chi tiêu vượt quá số thu"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_government_and_politics"
+        }
+    },
+    {
+        "question": "Chính sách nào sau đây mô tả đúng nhất chính sách tài khóa về phía cung?",
+        "choices": [
+            "Sự gia tăng cung tiền",
+            "Giảm thuế cho nghiên cứu và phát triển công nghệ mới",
+            "Tăng chi tiêu chính phủ",
+            "Thuế cao hơn đối với thu nhập hộ gia đình"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_macroeconomics"
+        }
+    },
+    {
+        "question": "Điều nào sau đây không được tính vào GDP của Hoa Kỳ?",
+        "choices": [
+            "Quân đội Hoa Kỳ mở một căn cứ mới ở nước ngoài với 1000 nhân viên Hoa Kỳ.",
+            "Người tiêu dùng Nhật Bản mua hàng nghìn đĩa CD được sản xuất tại Hoa Kỳ.",
+            "Một vở kịch của Pháp đi tham quan hàng chục thành phố của Mỹ.",
+            "Một ca sĩ nhạc pop người Mỹ biểu diễn buổi hòa nhạc cháy vé ở Paris."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_macroeconomics"
+        }
+    },
+    {
+        "question": "Đường cong Phillips ngắn hạn cho thấy",
+        "choices": [
+            "mối quan hệ trực tiếp giữa giá và lượng cầu",
+            "mối quan hệ nghịch đảo giữa giá và lượng cầu",
+            "mối quan hệ trực tiếp giữa thất nghiệp và lạm phát",
+            "mối quan hệ nghịch đảo giữa thất nghiệp và lạm phát"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_macroeconomics"
+        }
+    },
+    {
+        "question": "Thâm hụt liên bang xảy ra khi",
+        "choices": [
+            "thu thuế liên bang vượt quá chi tiêu.",
+            "chi tiêu liên bang vượt quá doanh thu thuế liên bang.",
+            "xuất khẩu vượt quá nhập khẩu.",
+            "nhập khẩu vượt quá xuất khẩu."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_macroeconomics"
+        }
+    },
+    {
+        "question": "Giữ tất cả các yếu tố khác bằng nhau, chính sách tiền tệ nào sau đây sẽ được sử dụng để thúc đẩy xuất khẩu của Hoa Kỳ?",
+        "choices": [
+            "Mua chứng khoán chính phủ",
+            "Tăng tỷ lệ dự trữ",
+            "Giảm thuế",
+            "Tăng tỷ lệ chiết khấu"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "high_school_macroeconomics"
+        }
+    },
+    {
+        "question": "Rút gọn và viết kết quả bằng mẫu số hữu tỉ: $$\\sqrt{\\sqrt[3]{\\sqrt{\\frac{1}{729}}}}$$",
+        "choices": [
+            "\\frac{\\sqrt{3}}{3}",
+            "\\sqrt{3}",
+            "\\frac{1}{3}",
+            "\\frac{3\\sqrt{3}}{3}"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "high_school_mathematics"
+        }
+    },
+    {
+        "question": "Biến $x$ thay đổi trực tiếp dưới dạng bình phương của $y$ và $y$ thay đổi trực tiếp dưới dạng lập phương của $z$. Nếu $x$ bằng $-16$ khi $z$ bằng 2 thì giá trị của $x$ khi $z$ bằng $\\frac{1}{2}$ là bao nhiêu?",
+        "choices": [
+            "\\frac{1}{16}",
+            "16",
+            "-1",
+            "-\\frac{1}{256}"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_mathematics"
+        }
+    },
+    {
+        "question": "Năm nghìn đô la được gộp hàng năm với lãi suất $x\\%$ phải mất sáu năm để tăng gấp đôi. Với cùng một mức lãi suất, sẽ mất bao nhiêu năm $\\$300$ để tăng lên $\\$9600$?",
+        "choices": [
+            "12",
+            "5",
+            "30",
+            "1"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_mathematics"
+        }
+    },
+    {
+        "question": "Joe phụ trách ánh sáng cho buổi khiêu vũ. Đèn đỏ nhấp nháy hai giây một lần, đèn vàng ba giây một lần và đèn xanh cứ năm giây một lần. Nếu chúng ta tính cả phần đầu và phần cuối của điệu nhảy, thì trong một điệu nhảy kéo dài bảy phút, tất cả đèn sẽ bật sáng bao nhiêu lần? (Giả sử cả ba đèn đều nhấp nháy đồng thời khi bắt đầu điệu nhảy.)",
+        "choices": [
+            "5",
+            "3",
+            "15",
+            "6"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_mathematics"
+        }
+    },
+    {
+        "question": "Mười học sinh làm bài kiểm tra sinh học và nhận được số điểm như sau: 45, 55, 50, 70, 65, 80, 40, 90, 70, 85. Điểm kiểm tra của học sinh có ý nghĩa gì?",
+        "choices": [
+            "60",
+            "65",
+            "62",
+            "55"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_mathematics"
+        }
+    },
+    {
+        "question": "Tỷ lệ tập trung độc quyền là",
+        "choices": [
+            "0",
+            "5",
+            "10",
+            "100"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_microeconomics"
+        }
+    },
+    {
+        "question": "Nếu chính phủ trợ cấp cho người sản xuất trong thị trường cạnh tranh hoàn hảo thì",
+        "choices": [
+            "nhu cầu về sản phẩm sẽ tăng lên",
+            "thặng dư tiêu dùng sẽ tăng",
+            "cầu về sản phẩm sẽ giảm",
+            "thặng dư tiêu dùng sẽ giảm"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_microeconomics"
+        }
+    },
+    {
+        "question": "Điều nào sau đây nhất thiết phải là đặc điểm của độc quyền nhóm?",
+        "choices": [
+            "Một sản phẩm đồng nhất",
+            "Một nhà sản xuất hàng hóa không có sản phẩm thay thế gần gũi",
+            "Một số nhà sản xuất lớn",
+            "Tự do tham gia và rút khỏi thị trường"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_microeconomics"
+        }
+    },
+    {
+        "question": "Trong một thị trường lao động cạnh tranh dành cho thợ sơn nhà, điều nào sau đây sẽ làm tăng cầu về thợ sơn nhà?",
+        "choices": [
+            "Mức lương tối thiểu hiệu quả áp dụng cho thị trường lao động này.",
+            "Sự tăng giá của gallon sơn.",
+            "Sự tăng giá của thợ sơn cơ khí miễn là hiệu ứng đầu ra vượt quá hiệu ứng thay thế.",
+            "Sự gia tăng việc xây dựng nhà mới."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_microeconomics"
+        }
+    },
+    {
+        "question": "Điều nào sau đây đúng với giá sàn?",
+        "choices": [
+            "Để trở thành một mức sàn hiệu quả, nó phải được đặt cao hơn mức giá cân bằng.",
+            "Giá sàn làm dịch chuyển đường cung hàng hóa sang phải.",
+            "Một sàn hiệu quả tạo ra sự thiếu hụt hàng hóa.",
+            "Giá sàn làm dịch chuyển đường cầu sang trái."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "high_school_microeconomics"
+        }
+    },
+    {
+        "question": "Một ống chứa đầy không khí bịt kín một đầu. Một sóng dừng được tạo ra trong ống, làm cho ống phát ra âm thanh. Phát biểu nào sau đây đúng về tính chất sóng ở đầu kín của ống?",
+        "choices": [
+            "Áp suất ở một nút, nhưng độ dịch chuyển của hạt ở một nút.",
+            "Áp suất ở antinode, nhưng độ dịch chuyển của hạt ở nút.",
+            "Áp suất và sự dịch chuyển của hạt đều ở các nút.",
+            "Áp suất và độ dịch chuyển của hạt đều ở các cực dương."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_physics"
+        }
+    },
+    {
+        "question": "Một tế bào quang điện có công ϕ = 2eV được mắc nối tiếp với một điện trở. Ánh sáng có tần số f = 1 × 10^15 Hz chiếu vào tấm kim loại của tế bào quang điện. Nếu công suất của đèn là P = 100 W thì cường độ dòng điện qua điện trở là bao nhiêu?",
+        "choices": [
+            "06:00",
+            "02:00",
+            "00:00",
+            "24 A"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_physics"
+        }
+    },
+    {
+        "question": "Điều kiện nào sau đây đảm bảo mô men động lượng được bảo toàn? I. Bảo toàn động lượng tuyến tính II. Ngoại lực bằng không III. Mô-men xoắn bên ngoài bằng không",
+        "choices": [
+            "chỉ II và III",
+            "chỉ I và II",
+            "III chỉ",
+            "chỉ I và III"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_physics"
+        }
+    },
+    {
+        "question": "Một lò vi sóng được nối với ổ cắm điện 120 V và tạo ra dòng điện 2 ampe. Lò vi sóng đang sử dụng năng lượng ở mức nào?",
+        "choices": [
+            "10 W",
+            "240 W",
+            "30W",
+            "60 W"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_physics"
+        }
+    },
+    {
+        "question": "Một điện tích điểm Q = +1 mC được cố định tại gốc tọa độ. Cần bao nhiêu công để di chuyển một điện tích, Q = +8 µC, từ điểm (0,4 mét) đến điểm (3 mét, 0)?",
+        "choices": [
+            "40 J",
+            "22,5 J",
+            "3,5 J",
+            "6,0 J"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_physics"
+        }
+    },
+    {
+        "question": "Pascale quan tâm đến các chiến lược xử lý mà trẻ sử dụng để tìm hiểu thông tin mới. Pascale tốt nhất nên được phân loại là loại nhà tâm lý học nào?",
+        "choices": [
+            "nhận thức",
+            "văn hóa xã hội",
+            "nhà hành vi học",
+            "lâm sàng"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "high_school_psychology"
+        }
+    },
+    {
+        "question": "Ani tin rằng thái độ và hành vi của cô đóng vai trò trung tâm trong những gì xảy ra với cô. Niềm tin như vậy có thể gắn liền với",
+        "choices": [
+            "lòng tự trọng thấp.",
+            "năng lực bản thân thấp.",
+            "một siêu tôi mạnh mẽ.",
+            "một địa điểm kiểm soát nội bộ."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_psychology"
+        }
+    },
+    {
+        "question": "Theo Đạo luật Cải thiện Giáo dục Người Khuyết tật, cơ quan giáo dục phải thực hiện điều nào sau đây trước khi thay đổi cách sắp xếp chương trình giáo dục cho học sinh khuyết tật?",
+        "choices": [
+            "Nhận được sự đồng ý của phụ huynh",
+            "Cho trẻ thử sức ở môi trường mới",
+            "Nhận được sự chấp thuận của hội đồng nhà trường",
+            "Thông báo cho phụ huynh bằng văn bản"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_psychology"
+        }
+    },
+    {
+        "question": "Theo mô hình tư vấn trường hợp lấy người được tư vấn làm trung tâm của Caplan, nhà tư vấn chủ yếu quan tâm đến",
+        "choices": [
+            "thiết lập một hệ thống phân cấp quyền lực để cho phép đưa ra quyết định hiệu quả",
+            "xác định nguyên nhân và giải pháp cho các vấn đề hiện tại của khách hàng",
+            "trình bày một phương án hành động duy nhất, được xác định rõ ràng và rõ ràng để nhà tư vấn khắc phục những thiếu sót về kỹ năng",
+            "xác định và loại bỏ nguyên nhân gây khó khăn cho người được tư vấn trong việc giải quyết vấn đề"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_psychology"
+        }
+    },
+    {
+        "question": "Khi đang bơi dưới biển, Ivan sợ hãi trước một bóng đen dưới nước ngay cả trước khi anh có cơ hội xác định cái bóng đó là gì. Các kết nối khớp thần kinh diễn ra trong sự cố sợ hãi này được mô tả tốt nhất bằng điều nào sau đây?",
+        "choices": [
+            "Thông điệp được gửi từ hệ thống thần kinh phó giao cảm đến vỏ não.",
+            "Thông điệp được gửi trực tiếp từ đồi thị tới hạch hạnh nhân.",
+            "Thông điệp được gửi từ thùy trán đến tuyến yên.",
+            "Thông điệp được gửi từ đồi thị đến con đường \"cái gì\" và \"ở đâu\"."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_psychology"
+        }
+    },
+    {
+        "question": "Phát biểu nào sau đây là đúng về tương quan?",
+        "choices": [
+            "Mối tương quan r bằng độ dốc của đường hồi quy khi điểm z cho biến y được vẽ theo điểm z cho biến x.",
+            "Nếu độ dốc của đường hồi quy chính xác là 1 thì hệ số tương quan chính xác là 1.",
+            "Nếu hệ số tương quan bằng 0 thì độ dốc của đường hồi quy không được xác định.",
+            "Việc chuyển đổi biến nào được gọi là x và biến nào được gọi là y sẽ thay đổi dấu của mối tương quan."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "high_school_statistics"
+        }
+    },
+    {
+        "question": "Giả sử X và Y là các biến ngẫu nhiên có E(X) = 37, var(X) = 5, E(Y) = 62 và var(Y) = 12. Giá trị kỳ vọng và phương sai của biến ngẫu nhiên X + Ý?",
+        "choices": [
+            "E(X + Y) = 99, var(X + Y) = 13",
+            "E(X + Y) = 99, var(X + Y) = 8,5",
+            "E(X + Y) = 99, var(X + Y) = 17",
+            "Không có đủ thông tin để trả lời câu hỏi này."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_statistics"
+        }
+    },
+    {
+        "question": "Một chiếc đồng hồ thông minh mới được sản xuất tại một bộ phận của nhà máy, sau đó được bảo đảm để vận chuyển ở một bộ phận khác, độc lập của nhà máy. Trọng lượng của đồng hồ thông minh có giá trị trung bình là 62 gam và độ lệch chuẩn là 1,0 gam. Trọng lượng của bao bì (hộp, hướng dẫn sử dụng, màng bọc bong bóng, v.v.) có trọng lượng trung bình là 456 gam và độ lệch chuẩn là 6 gam. Cùng với nhau, việc phân bổ trọng lượng của đồng hồ thông minh và bao bì của nó sẽ có giá trị trung bình và độ lệch chuẩn sau:",
+        "choices": [
+            "trung bình là 518 gam; độ lệch chuẩn 7,0 gam",
+            "trung bình là 394 gam; độ lệch chuẩn 6,1 gam",
+            "trung bình là 518 gam; độ lệch chuẩn 3,5 gam",
+            "trung bình là 518 gam; độ lệch chuẩn 6,1 gam"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_statistics"
+        }
+    },
+    {
+        "question": "Tập hợp nào sau đây có độ lệch chuẩn nhỏ nhất? Cái nào có lớn nhất?\nTôi: {1,2,3}\nII: {-10,10}\nIII: {100}",
+        "choices": [
+            "II, III",
+            "III, II",
+            "III, tôi",
+            "tôi, tôi"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_statistics"
+        }
+    },
+    {
+        "question": "Sau khi cảnh báo sương giá được đưa ra, chủ một vườn cam lớn đã yêu cầu công nhân của mình phun nước lên tất cả các cây của mình. Nước được cho là sẽ đóng băng và tạo thành lớp băng bảo vệ xung quanh hoa cam. Tuy nhiên, người chủ nghi ngờ rằng một số cây bị thiệt hại đáng kể do sương giá. Để ước tính tỷ lệ cây bị thiệt hại hơn 50% do sương giá, ông lấy mẫu ngẫu nhiên 100 cây từ khu rừng của mình. Biến phản ứng trong thí nghiệm này là gì?",
+        "choices": [
+            "Số cây bị ảnh hưởng bởi sương giá.",
+            "Số lượng cây được lấy mẫu từ khu rừng.",
+            "Đối với mỗi cây được lấy mẫu, cây đó bị thiệt hại trên 50 phần trăm hay nhiều nhất là 50 phần trăm.",
+            "Tỷ lệ cây bị thiệt hại hơn 50% do sương giá."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_statistics"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\nCác nhà lãnh đạo của chúng tôi nói về việc ngăn chặn sự xâm lược từ phía bắc, nhưng đây là cuộc đấu tranh giữa các nhóm người Việt Nam cho đến khi chúng tôi can thiệp. Chúng ta dường như quyết tâm cứu người Việt Nam khỏi tay Hồ Chí Minh ngay cả khi chúng ta phải giết họ và phá hủy đất nước của họ để làm điều đó. Khi người dân bản địa khảo sát những ngôi làng bị ném bom, phụ nữ và trẻ em bị bom napalm đốt cháy, mùa màng bị phá hủy và các thành phố bị quân đội của chúng ta tràn ngập, họ chắc chắn đã nói thầm về quân du kích Việt Cộng và lực lượng Mỹ, \"Một bệnh dịch ở cả hai ngôi nhà của các bạn.\" .\" … Dừng ném bom, phía bắc và phía nam, chấm dứt các cuộc càn quét tấn công tìm kiếm và tiêu diệt, đồng thời giới hạn hành động quân sự của chúng ta trong việc tổ chức các hoạt động trên bộ. Ném bom miền Bắc đã không thể ngăn chặn hoặc kiểm soát nghiêm túc dòng quân vào miền Nam và trên thực tế, có thể đã thúc đẩy nỗ lực chiến tranh lớn hơn nhiều của Hà Nội.\n—Thượng nghị sĩ George McGovern, “Những bài học về Việt Nam”, ngày 25 tháng 4 năm 1967\nÝ kiến ​​nào sau đây từ những năm 1960 phản ánh trực tiếp nhất quan điểm trong bài phát biểu của George McGovern?",
+        "choices": [
+            "Người Mỹ phải tối đa hóa lợi thế công nghệ của họ ở Việt Nam.",
+            "Việc Mỹ ném bom ở Việt Nam là một thất bại.",
+            "Mỹ không được nhượng bộ chủ nghĩa bại trận về cuộc chiến ở Việt Nam.",
+            "Việc Mỹ ném bom ở Việt Nam đang từng bước dẫn đến tiến triển của cuộc chiến."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_us_history"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\n\"Vì Hành vi cuối cùng của chúng tôi tại Trang viên Conestoga và Lancaster đã tạo ra nhiều Suy đoán & sự đa dạng về tình cảm ở Chính phủ này và các Chính phủ lân cận; một số minh oan và những người khác lên án nó; một số giảm nhẹ Tội ác một cách nhân đạo, & những người khác ác ý vẽ nó theo cách đáng ghét nhất & những Người da màu đáng ghét, chúng tôi nghĩ rằng nhiệm vụ của chúng tôi là phải trình bày trước Publick, toàn bộ Vật chất như nó đã xuất hiện và vẫn xuất hiện đối với chúng tôi. . .\n\"Nếu những điều này không đủ để chứng minh sự gắn bó vô lý của người Quaker với người man rợ người da đỏ, một Quyết tâm cố định để kết bạn với họ và sự vô cảm hoàn toàn trước những nỗi đau khổ của con người, chúng ta hãy xem xét thêm một vài Sự thật gần đây. Khi chúng tôi tìm thấy vào Mùa hè năm ngoái rằng chúng tôi có thể không nhận được sự hỗ trợ nào từ Chính phủ, một số Tình nguyện viên đã tự bỏ chi phí ra đi, quyết tâm đánh đuổi Kẻ thù khỏi Biên giới của chúng tôi; & khi chúng tôi đến gần Đảo lớn, chúng tôi hiểu rằng Một số Chiến binh của họ đã ra ngoài chống lại Biên giới của chúng tôi. Sau đó, chúng tôi quay trở lại, đến gặp họ và chiến đấu với họ tại Đồi Munfey, nơi chúng tôi đã mất một số Người của mình và giết một số Chiến binh của họ và nhờ đó đã cứu Biên giới của chúng tôi khỏi Câu chuyện này trong một Cuộc thám hiểm khác. chúng ta đã phá hủy Điều khoản của họ trên Đảo lớn, và hủy hoại hoạt động buôn bán của họ với những Người tốt ở Bethlehem, nhưng chính những người da đỏ này, những người bị nghi ngờ chính đáng đã sát hại những Người bạn của chúng ta ở Hạt Northampton, đã bị ảnh hưởng bởi một số Quaker được đưa dưới sự Bảo vệ của Chính phủ sẽ sàng lọc họ khỏi sự phẫn nộ của bạn bè và mối quan hệ của những người bị sát hại, đồng thời hỗ trợ họ trong suốt Mùa đông.\"\n—\"Apology of the Paxton Boys\" (cuốn sách nhỏ), 1764 (Lưu ý: \"xin lỗi\" trong bối cảnh này nên được đọc như một lời giải thích, không phải là sự thừa nhận tội lỗi hay hối tiếc.)\nNhững tình cảm thể hiện trong lời giải thích trên phản ánh những căng thẳng nào đang diễn ra trong thời kỳ thuộc địa của lịch sử nước Mỹ?",
+        "choices": [
+            "Căng thẳng giữa người Mỹ gốc Phi được trả tự do và chủ đồn điền da trắng.",
+            "Căng thẳng giữa chính sách của Anh và nguyện vọng của thực dân Bắc Mỹ.",
+            "Căng thẳng giữa người Mỹ da đỏ liên minh với người Pháp và những người liên minh với người Anh.",
+            "Căng thẳng giữa những người định cư ở quê hương và giới thượng lưu ở nước Mỹ thuộc địa."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_us_history"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\n\"Xã hội ở mọi quốc gia đều là một điều may mắn, nhưng chính phủ ngay cả ở trạng thái tốt nhất cũng chỉ là một điều ác cần thiết; trong trạng thái tồi tệ nhất là một điều không thể chấp nhận được; vì khi chúng ta đau khổ, hoặc gặp phải những đau khổ tương tự bởi một chính phủ, điều mà chúng ta có thể mong đợi.\" ở một đất nước không có chính phủ, tai họa của chúng ta càng tăng cao khi phản ánh rằng chúng ta cung cấp phương tiện để chúng ta đau khổ. Chính phủ, giống như trang phục, là biểu tượng của sự vô tội đã mất; cung điện của các vị vua được xây dựng trên đống đổ nát của những khu cung điện của thiên đường. Vì nếu những thôi thúc của lương tâm rõ ràng, thống nhất và được tuân theo một cách không thể cưỡng lại, thì con người sẽ không cần người ban hành luật nào khác; nhưng nếu không phải như vậy, anh ta thấy cần phải từ bỏ một phần tài sản của mình để cung cấp phương tiện bảo vệ phần còn lại; và điều này anh ta buộc phải làm bởi cùng một sự thận trọng mà trong mọi trường hợp khác khuyên anh ta trong hai cái xấu nên chọn cái ít nhất. đối với chúng tôi, với chi phí thấp nhất và lợi ích lớn nhất, nó được ưu tiên hơn tất cả những thứ khác.\"\nThomas Paine, Ý thức chung, 1776\nNhững \"nỗi đau khổ\" nào sau đây được ám chỉ ở trên bị những người theo chủ nghĩa chống Liên bang thời hậu Cách mạng lên án nhiều nhất?",
+        "choices": [
+            "Phản ứng của liên bang đối với cuộc nổi dậy của Shays",
+            "Phản ứng có tổ chức đối với cuộc nổi dậy của Bacon",
+            "Phản ứng của liên bang đối với cuộc nổi dậy của Pontiac",
+            "Phản ứng của liên bang đối với cuộc nổi loạn Whisky"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_us_history"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\nTôi đến không phải để đòi hỏi cá nhân, cũng không tìm kiếm lợi ích cá nhân; Tôi xuất hiện với tư cách là người bào chữa cho những người không thể bào chữa cho chính nghĩa của mình; Tôi đến như bạn của những người bị bỏ rơi, bị áp bức và cô đơn. Trong sự quan phòng của Thiên Chúa, tôi là giọng nói của kẻ điên mà tiếng kêu chói tai từ ngục tối ảm đạm của nhà tù của bạn không xuyên thấu được Hội trường Pháp luật của bạn. Tôi là Niềm hy vọng của những sinh vật điên khùng đáng thương đang sống trong xà lim, chuồng nhốt, lồng nhốt và những căn phòng hoang tàn trong ngôi nhà nghèo nàn của các bạn. Tôi là Mặc khải của hàng trăm sinh vật đang than khóc, đau khổ, ẩn náu trong nơi ở riêng tư của bạn, trong chuồng trại và cabin - bị đóng cửa, bị cắt đứt khỏi mọi ảnh hưởng chữa lành, khỏi mọi sự quan tâm phục hồi tâm trí.… Liệu lịch sử u sầu của họ có thể lan truyền trước mặt bạn không? như đã tiết lộ cho tinh thần đau buồn của tôi trong suốt ba tháng qua, bạn sẽ tìm kiếm phương tiện cứu trợ được chấp thuận nhanh chóng và nghiêm túc như thế nào; nếu so sánh thì những hy sinh mà bạn được yêu cầu phải thực hiện thật tầm thường, tầm thường biết bao; làm thế nào mà một vài xu và đô la thu được từ mỗi công dân lại giảm giá trị như một tài sản, so với những lợi ích nhất định và hàng hóa to lớn được đảm bảo cho những người mất trí đang đau khổ...bằng việc dâng hiến và áp dụng một quỹ đủ để xây dựng của một bệnh viện phù hợp.…\n—Dorothea Dix, Đài tưởng niệm Kêu gọi thành lập Bệnh viện Tiểu bang để Bảo vệ và Chữa trị Người điên,\nĐệ trình lên Đại hội đồng Bắc Carolina, tháng 11 năm 1848\nDorothea Dix có thể được so sánh tốt nhất với ai?",
+        "choices": [
+            "Hillary Clinton",
+            "Đền Shirley",
+            "Abigail Adams",
+            "Clara Barton"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "high_school_us_history"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\n\"Trong Bộ luật mới mà tôi cho rằng các bạn sẽ cần phải ban hành, tôi mong các bạn sẽ Nhớ đến các Quý cô, rộng lượng và ưu ái với họ hơn tổ tiên của các bạn. Đừng trao quyền lực vô hạn đó vào tay các ông chồng. . Hãy nhớ rằng tất cả Đàn ông sẽ là bạo chúa nếu họ có thể. Nếu không dành sự quan tâm và quan tâm đặc biệt đến Quý bà, chúng tôi quyết tâm kích động một cuộc nổi dậy và sẽ không bị ràng buộc bởi bất kỳ Luật nào mà chúng tôi không có tiếng nói hoặc Người đại diện. \"\nAbigail Adams, trong một bức thư gửi John Adams, 1776\n\"Luật pháp đặc biệt dành cho phụ nữ đã đặt chúng ta vào một tình thế bất thường nhất. Phụ nữ được đầu tư vào các quyền của công dân trong một bộ phận—cử tri, bồi thẩm đoàn, những người giữ chức vụ—vượt qua một ranh giới tưởng tượng, là đối tượng ở bộ phận tiếp theo. Ở một số bang, một người đã kết hôn phụ nữ có thể nắm giữ tài sản và giao dịch kinh doanh dưới tên riêng của mình; ở những bang khác, thu nhập của cô ấy thuộc về chồng. trường hợp gây thiệt hại về người, tài sản hoặc nhân cách. Trong trường hợp ly hôn vì lý do chồng ngoại tình, người vợ vô tội không có quyền đối với con cái hoặc tài sản, trừ khi có quyết định đặc biệt của tòa án. Liên minh có quyền đối với người vợ đối với chính mình hoặc đối với bất kỳ phần thu nhập chung nào từ công ty hợp danh trong suốt cuộc đời của chồng. Ở một số Bang, phụ nữ có thể vào trường luật và hành nghề tại tòa án; ở những Bang khác, họ có thể Ở một số trường đại học, nữ sinh được hưởng lợi ích giáo dục ngang bằng với nam sinh, trong khi nhiều trường đáng tự hào nhất trong nước từ chối nhận họ, mặc dù con trai của Trung Quốc, Nhật Bản và Châu Phi được chào đón ở đó. Nhưng những đặc quyền đã được cấp ở một số bang không có nghĩa là an toàn.”\nSusan B. Anthony, “Tuyên ngôn về quyền của phụ nữ”, ngày 4 tháng 7 năm 1876\nNhững tình cảm được thể hiện trong đoạn trích thứ hai của Susan B. Anthony rất có thể ủng hộ",
+        "choices": [
+            "quyền bầu cử phổ thông",
+            "cấm",
+            "quyền của các bang",
+            "Tu chính án về quyền bình đẳng"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "high_school_us_history"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\n\"Thật vậy, vì cả các fatwas của [các học giả] nổi tiếng, những người dựa trên lý trí và truyền thống cũng như sự đồng thuận của cộng đồng người Sunni đều đồng ý rằng nghĩa vụ cổ xưa về việc tiêu diệt, tiêu diệt và trục xuất sự đổi mới tà ác phải là mục tiêu cao cả của chúng ta. khát vọng, vì “Lòng nhiệt thành tôn giáo là một chiến thắng cho Đức tin của Thiên Chúa Đấng Từ nhân”; sau đó, theo lời của Nhà tiên tri (Bình an cho người đó!) “Bất cứ ai đưa những đổi mới xấu xa vào trật tự của chúng ta đều phải bị trục xuất” và “Bất cứ ai làm điều đó bất cứ điều gì chống lại mệnh lệnh của chúng tôi đều phải bị trục xuất,\" hành động đã trở nên cần thiết và cấp thiết...\"\nThư của Quốc vương Ottoman Selim I gửi Safavid Shah Ismail I, 1514\nBức thư của Selim I rõ ràng nhất là một ví dụ về điều nào sau đây?",
+        "choices": [
+            "Nỗ lực hòa bình giữa các đế quốc Hồi giáo",
+            "Gia tăng căng thẳng giữa các giáo phái tôn giáo",
+            "Những yếu tố dẫn đến sự sụp đổ của Đế chế Ottoman",
+            "Duy trì ưu thế quân sự bằng mọi giá"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_world_history"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\n\"Ít nhất một trong các xã hội [trên thế giới] bằng cách nào đó sẽ phải tăng năng suất của mình một cách đáng kể [để đạt được quyền bá chủ toàn cầu). Bước nhảy lượng tử đó sẽ phải được thực hiện trước các cuộc cách mạng khoa học, công nghệ, nông nghiệp và công nghiệp khác nhau mà chúng ta đang tiến hành.\" thế giới hậu bước nhảy vọt lượng tử chỉ có thể đạt được điều đó bằng cách khai thác hệ sinh thái, tài nguyên khoáng sản và tài sản con người của toàn bộ lục địa bên ngoài vùng đất của xã hội đang thực hiện bước nhảy vọt. Tây Âu đã làm được điều đó bằng sự tàn bạo và súng ống và , quan trọng hơn là nhờ sự may mắn về mặt địa lý và sinh thái.\"\nBản quyền © 2015 Nhà xuất bản Đại học Cambridge.\nAlfred Crosby, nhà sử học, Chủ nghĩa đế quốc sinh thái, 2004\n\"Bước nhảy lượng tử\" được đề cập trong đoạn văn đã góp phần trực tiếp nhất vào sự phát triển nào sau đây trong giai đoạn 1450–1750 CN?",
+        "choices": [
+            "Sự lan rộng của hệ thống tín ngưỡng Trung Quốc và Ấn Độ trên toàn thế giới",
+            "Sự gia tăng dân số thế giới nhờ nguồn cung cấp thực phẩm dồi dào hơn",
+            "Gia tăng bất ổn xã hội",
+            "Sự gián đoạn trong các tuyến đường thương mại do sự sụp đổ của cơ cấu nhà nước đã được thiết lập"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_world_history"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\n\"Cuộc đấu tranh chống chủ nghĩa thực dân mới không nhằm mục đích loại trừ vốn của các nước phát triển khỏi hoạt động ở các nước kém phát triển. Nó nhằm mục đích ngăn chặn việc sử dụng sức mạnh tài chính của các nước phát triển theo cách làm bần cùng hóa các nước kém phát triển hơn.\nKhông liên kết, như được thực hiện bởi Ghana và nhiều quốc gia khác, dựa trên sự hợp tác với tất cả các quốc gia cho dù họ là nước tư bản, xã hội chủ nghĩa hay có nền kinh tế hỗn hợp. Do đó, chính sách như vậy liên quan đến đầu tư nước ngoài từ các nước tư bản, nhưng nó phải được đầu tư phù hợp với kế hoạch quốc gia do chính phủ của Quốc gia không liên kết xây dựng có quan tâm đến lợi ích của chính mình. Vấn đề không phải là lợi nhuận mà nhà đầu tư nước ngoài nhận được từ khoản đầu tư của mình…Câu hỏi là về quyền lực. Một quốc gia bị chủ nghĩa thực dân mới kìm kẹp không thể làm chủ được vận mệnh của mình”.\nKwame Nkrumah, Chủ nghĩa thực dân mới, 1965\nĐiều nào sau đây cung cấp bối cảnh tốt nhất cho các bài viết của Nkrumah?",
+        "choices": [
+            "Hiệp hội thương mại tự do khu vực",
+            "Cuộc cách mạng công nghiệp",
+            "Phi thực dân hóa",
+            "tự động"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "high_school_world_history"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\n“Nỗi bất bình thực sự của người công nhân là sự bất an về sự tồn tại của mình; anh ta không chắc mình sẽ luôn có việc làm, anh ta không chắc mình sẽ luôn khỏe mạnh và anh ta thấy trước rằng một ngày nào đó mình sẽ già và không đủ sức để làm việc. . Nếu anh ta rơi vào cảnh nghèo khó, ngay cả khi chỉ bị bệnh kéo dài, anh ta sẽ hoàn toàn bất lực, tự kiểm tra các thiết bị của mình và xã hội hiện không thừa nhận bất kỳ nghĩa vụ thực sự nào đối với anh ta ngoài sự giúp đỡ thông thường dành cho người nghèo, ngay cả khi anh ta có Tuy nhiên, sự giúp đỡ thông thường dành cho người nghèo còn nhiều điều đáng mong đợi, đặc biệt là ở các thành phố lớn, nơi mà điều kiện còn tồi tệ hơn nhiều so với ở nông thôn.\"\nOtto von Bismarck, 1884\nOtto von Bismarck có thể đã đưa ra bài phát biểu này để phản ứng lại vấn đề nào sau đây?",
+        "choices": [
+            "Xã hội chấp nhận lao động trẻ em",
+            "Những tác động tiêu cực do chủ nghĩa tư bản công nghiệp gây ra",
+            "Những chỉ trích về thuế quan thương mại của Đức",
+            "Tuổi thọ giảm ở Đức"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_world_history"
+        }
+    },
+    {
+        "question": "Câu hỏi này đề cập đến các thông tin sau.\nNgài chứa đựng mọi công việc, mọi ước muốn, mọi hương thơm và mọi mùi vị. Ngài bao bọc toàn bộ vũ trụ và trong im lặng yêu thương tất cả. Đây là Thần trong trái tim tôi, đây là Brahman. Tôi sẽ đến với anh ấy khi tôi vượt qua cuộc đời này, và anh ấy sẽ đến với anh ấy, người có niềm tin và không nghi ngờ.\n—Upanishad, Ấn Độ, c. 1000 năm trước Công Nguyên\nNgười nói có thể thuộc về tôn giáo nào nhất?",
+        "choices": [
+            "đạo Zoroastrian",
+            "Ấn Độ giáo",
+            "Thần đạo",
+            "đạo Phật"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "high_school_world_history"
+        }
+    },
+    {
+        "question": "Yếu tố nào trong khói thuốc lá gây ung thư?",
+        "choices": [
+            "nicotin",
+            "cacbon monoxit",
+            "Hạt khói",
+            "hắc ín"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "human_aging"
+        }
+    },
+    {
+        "question": "Khi người lớn tuổi chuyển đến một tiểu bang mới sau khi nghỉ hưu, điểm đến nào sau đây có nhiều khả năng xảy ra hơn?",
+        "choices": [
+            "Texas",
+            "California",
+            "Hawaii",
+            "Vermont"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "human_aging"
+        }
+    },
+    {
+        "question": "Phát hiện rằng người lớn có xu hướng nhớ các sự kiện thời niên thiếu tốt hơn so với các giai đoạn khác trong cuộc đời họ được gọi là",
+        "choices": [
+            "Đài tưởng niệm đài tưởng niệm",
+            "Tăng đột biến truy xuất bậc hai",
+            "Nỗi nhớ hồi tưởng",
+            "Lợi thế tuổi thiếu niên"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "human_aging"
+        }
+    },
+    {
+        "question": "Những người nào sau đây có nhiều khả năng ở nhà một mình hơn kể từ năm 2019?",
+        "choices": [
+            "Một người đàn ông hoặc phụ nữ da trắng",
+            "Một phụ nữ người Mỹ gốc Phi",
+            "Một người đàn ông hay phụ nữ châu Á",
+            "Một người đàn ông gốc Tây Ban Nha"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "human_aging"
+        }
+    },
+    {
+        "question": "Tất cả các yếu tố khác đều như nhau, người nào sau đây có nhiều khả năng mắc chứng loãng xương hơn?",
+        "choices": [
+            "Một phụ nữ Mỹ gốc Tây Ban Nha lớn tuổi",
+            "Một phụ nữ Mỹ gốc Á lớn tuổi",
+            "Một phụ nữ người Mỹ bản địa lớn tuổi",
+            "Một phụ nữ Mỹ gốc Phi lớn tuổi"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "human_aging"
+        }
+    },
+    {
+        "question": "Bản chất của các hoạt động đồng tính luyến ái xảy ra trong thời kỳ tiền vị thành niên bao gồm tất cả ngoại trừ những hoạt động nào sau đây?",
+        "choices": [
+            "chạm vào bộ phận sinh dục của nhau",
+            "chủ nghĩa phô trương",
+            "quan hệ tình dục",
+            "vòng tròn giật"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "human_sexuality"
+        }
+    },
+    {
+        "question": "Rối loạn phổ biến nhất ở nam giới tìm kiếm liệu pháp tình dục là:",
+        "choices": [
+            "ức chế xuất tinh",
+            "rối loạn cương dương",
+            "xuất tinh sớm",
+            "rối loạn xuất tinh"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "human_sexuality"
+        }
+    },
+    {
+        "question": "Ốm nghén thường là một vấn đề:",
+        "choices": [
+            "trong ba tháng đầu tiên",
+            "trong suốt thai kỳ",
+            "trong tam cá nguyệt thứ hai",
+            "trong tam cá nguyệt thứ ba"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "human_sexuality"
+        }
+    },
+    {
+        "question": "Khả năng đạt cực khoái nhiều lần của phụ nữ chủ yếu là do:",
+        "choices": [
+            "phản ứng của các lớp bên trong âm đạo.",
+            "có cực khoái xen kẽ ở các vị trí khác nhau.",
+            "điểm G.",
+            "thực tế là họ không có thời gian chịu lửa."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "human_sexuality"
+        }
+    },
+    {
+        "question": "Một người phụ nữ biết mình mắc bệnh mụn rộp hoạt tính và bệnh giang mai không được điều trị nhưng vẫn tiếp tục quan hệ tình dục mà không thông báo cho bạn tình về tình trạng của mình, theo thuật ngữ phân tâm học:",
+        "choices": [
+            "một siêu tôi mạnh mẽ",
+            "một siêu tôi yếu đuối",
+            "một id yếu",
+            "một cái tôi mạnh mẽ"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "human_sexuality"
+        }
+    },
+    {
+        "question": "Thẩm phán đặc biệt là gì?",
+        "choices": [
+            "Thẩm phán ad hoc là thành viên ban giám khảo của ICJ với quyền bỏ phiếu quyết định",
+            "Thẩm phán ad hoc là thẩm phán mà mỗi bên sẽ luôn đề cử trong mọi vụ án tranh chấp",
+            "Thẩm phán ad hoc là Thẩm phán thay thế trong trường hợp Thẩm phán bị mất tư cách hoặc qua đời",
+            "Nếu một bên trong vụ việc gây tranh cãi trước ICJ không có thẩm phán cấp quốc gia, họ có quyền đề cử ai đó làm thẩm phán duy nhất cho vụ việc đó, với chức danh thẩm phán ad hoc"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "international_law"
+        }
+    },
+    {
+        "question": "Điều 2(4) của Hiến chương Liên hợp quốc cấm những loại vũ lực nào?",
+        "choices": [
+            "Điều 2(4) chỉ bao gồm lực lượng vũ trang",
+            "Điều 2(4) bao gồm vũ lực chỉ nhằm vào sự toàn vẹn lãnh thổ của một quốc gia",
+            "Điều 2(4) bao gồm tất cả các loại vũ lực, kể cả các biện pháp trừng phạt",
+            "Điều 2(4) bao gồm mọi sự can thiệp vào công việc nội bộ của các quốc gia"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "international_law"
+        }
+    },
+    {
+        "question": "Khi nào 'sự đồng ý' có thể được coi là tình huống loại trừ sự sai trái trong hành vi của Nhà nước?",
+        "choices": [
+            "Sự đồng ý luôn có thể được dùng như một tình huống loại trừ hành vi sai trái, bất kể cơ quan nào của Nhà nước đưa ra điều đó.",
+            "Sự đồng ý không bao giờ được coi là tình huống loại trừ hành vi sai trái",
+            "Sự đồng ý có thể được dùng như một tình huống loại trừ sự sai trái bất cứ khi nào nó được đưa ra",
+            "Sự đồng ý có thể đóng vai trò là tình huống loại trừ hành vi sai trái, miễn là sự đồng ý đó có giá trị và trong phạm vi hành vi đó vẫn nằm trong giới hạn của sự đồng ý đã đưa ra."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "international_law"
+        }
+    },
+    {
+        "question": "Liệu việc bảo lưu định nghĩa về tra tấn trong ICCPR có được chấp nhận trong thực tế hiện nay không?",
+        "choices": [
+            "Đây là một bảo lưu không thể chấp nhận được vì nó đi ngược lại mục đích và mục đích của ICCPR",
+            "Đây là một bảo lưu có thể chấp nhận được vì theo luật quốc tế chung, các quốc gia có quyền đưa ra bảo lưu đối với các điều ước",
+            "Đây là một bảo lưu không thể chấp nhận được vì định nghĩa về tra tấn trong ICCPR phù hợp với luật tập quán quốc tế.",
+            "Đây là một bảo lưu có thể chấp nhận được nếu luật pháp của nước bảo lưu áp dụng một định nghĩa khác"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "international_law"
+        }
+    },
+    {
+        "question": "Sự đồng ý bị ràng buộc của một quốc gia có thể được thể hiện như thế nào?",
+        "choices": [
+            "Sự đồng ý của một quốc gia chịu sự ràng buộc của một điều ước có thể được thể hiện bằng việc ký kết, phê chuẩn, chấp nhận, phê duyệt hoặc gia nhập.",
+            "Sự đồng ý của một quốc gia bị ràng buộc được thể hiện bằng chữ ký",
+            "Sự đồng ý của một quốc gia bị ràng buộc chỉ được thể hiện bằng sự phê chuẩn",
+            "Sự đồng ý của một Quốc gia bị ràng buộc được thể hiện bằng bất kỳ phương tiện nào họ chọn"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "international_law"
+        }
+    },
+    {
+        "question": "Chức năng của pháp luật bao gồm tất cả, ngoại trừ chức năng nào sau đây?",
+        "choices": [
+            "tạo cơ sở cho sự thỏa hiệp",
+            "thúc đẩy các nguyên tắc của hệ thống doanh nghiệp tự do",
+            "tối đa hóa quyền tự do cá nhân",
+            "giữ hòa bình"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "jurisprudence"
+        }
+    },
+    {
+        "question": "Từ nào tóm tắt tốt nhất lời giải thích của Weber về sự phát triển của luật duy lý hình thức?",
+        "choices": [
+            "Chủ nghĩa tư bản.",
+            "Sự hợp tác.",
+            "Thẩm quyền.",
+            "Sự lôi cuốn."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "jurisprudence"
+        }
+    },
+    {
+        "question": "Iverson Jewelers đã viết một lá thư cho Miller, 'Chúng tôi đã nhận được một chiếc đồng hồ Rolox tự lên dây cực kỳ tốt mà chúng tôi sẽ bán cho bạn với mức giá rất ưu đãi.'",
+        "choices": [
+            "Bức thư là một lời đề nghị bán hàng",
+            "Một đề nghị hợp lệ không thể được thực hiện bằng thư.",
+            "Bức thư thiếu một trong những yếu tố thiết yếu của một lời đề nghị.",
+            "Bức thư chứa một đề nghị hợp lệ sẽ chấm dứt trong một thời gian hợp lý."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "jurisprudence"
+        }
+    },
+    {
+        "question": "Trường phái luật học ________ cho rằng luật pháp dựa trên những gì là \"đúng\".",
+        "choices": [
+            "Luật tự nhiên",
+            "xã hội học",
+            "lịch sử",
+            "Phân tích"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "jurisprudence"
+        }
+    },
+    {
+        "question": "Rawls cho rằng quan điểm nào ít có khả năng được POP (những người ở vị trí ban đầu) chấp nhận nhất?",
+        "choices": [
+            "POP sẽ chọn chiến lược 'tối đa hóa'.",
+            "POP sẽ lựa chọn 'nguyên tắc khác biệt'.",
+            "POP sẽ chọn sự bình đẳng trên tự do.",
+            "POP sẽ từ chối 'hệ thống tự do tự nhiên'."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "jurisprudence"
+        }
+    },
+    {
+        "question": "Ngụy biện câu hỏi phức tạp bao gồm",
+        "choices": [
+            "bao gồm nhiều tuyên bố trong đề xuất và coi bằng chứng cho một tuyên bố là bằng chứng cho tất cả các tuyên bố.",
+            "đưa ra kết luận trước khi xem xét bằng chứng và chỉ xem xét bằng chứng hỗ trợ cho kết luận đó.",
+            "đặt một câu hỏi bao gồm một giả định chưa được chứng minh hoặc nhiều hơn một câu hỏi, do đó làm cho câu trả lời có hoặc không thẳng thắn trở nên vô nghĩa.",
+            "tranh luận điều gì đó là kém cỏi chỉ vì nó không làm được điều mà nó không bao giờ có ý định làm."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "logical_fallacies"
+        }
+    },
+    {
+        "question": "Khi một người tranh luận gây nhầm lẫn trong quá trình bác bỏ vì thiếu khả năng thực sự hoặc giả vờ để bác bỏ, người lập luận đó có thể đã phạm phải ngụy biện về",
+        "choices": [
+            "kêu gọi lòng trắc ẩn",
+            "tinh thần thể thao kém",
+            "lập luận chống lại người đó",
+            "sự thiếu hiểu biết về sự bác bỏ"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "logical_fallacies"
+        }
+    },
+    {
+        "question": "Lập luận rằng điều gì đúng với từng bộ phận thì phải đúng với tổng thể là sai lầm của...",
+        "choices": [
+            "Phân công",
+            "Thành phần",
+            "Khiếu nại với người đó",
+            "Khiếu nại sự thiếu hiểu biết"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "logical_fallacies"
+        }
+    },
+    {
+        "question": "Nếu ai đó tấn công tính cách của một người tranh luận đối lập, thay vì phản ứng lại lập luận của đối thủ đó, người đầu tiên có thể đã phạm phải sai lầm nào sau đây?",
+        "choices": [
+            "lập luận chống lại người đó",
+            "ngựa cười",
+            "bạn quoque",
+            "sự ngu dốt"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "logical_fallacies"
+        }
+    },
+    {
+        "question": "Điều nào sau đây đúng với tam đoạn luận phân loại hợp lệ?",
+        "choices": [
+            "Tất cả những điều trên",
+            "Tiền đề chính phải khẳng định hệ quả",
+            "Thuật ngữ ở giữa phải được sử dụng trong ít nhất một tiền đề theo nghĩa phổ quát hoặc không đủ tiêu chuẩn",
+            "Tiền đề phụ phải phủ nhận tiền đề"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "logical_fallacies"
+        }
+    },
+    {
+        "question": "Theo truyền thống, khi chúng ta có một thuộc tính đầu vào có giá trị thực trong quá trình học cây quyết định, chúng ta sẽ xem xét phân chia nhị phân tùy theo thuộc tính đó ở trên hay dưới một ngưỡng nào đó. Pat gợi ý rằng thay vào đó chúng ta chỉ nên phân chia nhiều chiều với một nhánh cho mỗi giá trị riêng biệt của thuộc tính. Từ danh sách bên dưới, hãy chọn vấn đề lớn nhất theo gợi ý của Pat:",
+        "choices": [
+            "Nó có thể sẽ dẫn đến một cây quyết định đạt điểm cao trên tập huấn luyện nhưng lại kém trên tập kiểm tra.",
+            "Nó quá tốn kém về mặt tính toán.",
+            "Nó có thể sẽ dẫn đến một cây quyết định đạt điểm cao trên tập kiểm tra nhưng lại kém trên tập huấn luyện.",
+            "Nó có thể sẽ dẫn đến một cây quyết định có điểm kém trên tập huấn luyện và tập kiểm tra."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "machine_learning"
+        }
+    },
+    {
+        "question": "Để đạt được ước tính tổn thất 0/1 nhỏ hơn 1% tổn thất 0/1 thực sự (với xác suất 95%), theo bất đẳng thức Hoeffding, bộ kiểm tra IID phải có bao nhiêu ví dụ?",
+        "choices": [
+            "khoảng 10 ví dụ",
+            "hơn 1000 ví dụ",
+            "khoảng 100 ví dụ",
+            "từ 100 đến 500 ví dụ"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "machine_learning"
+        }
+    },
+    {
+        "question": "Xúc xắc 6 mặt được tung 15 lần và kết quả là: mặt 1 ngửa 0 lần; bên 2: 1 lần; bên 3: 2 lần; bên 4: 3 lần; bên 5: 4 lần; bên 6: 5 lần. Dựa trên những kết quả này, xác suất xuất hiện bên thứ 3 khi sử dụng Làm mịn Thêm 1 là bao nhiêu?",
+        "choices": [
+            "1.0/5",
+            "2.0/15",
+            "1.0/7",
+            "3.0/16"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "machine_learning"
+        }
+    },
+    {
+        "question": "Bạn đang xem xét các bài báo cho Hội nghị học máy kỳ lạ nhất thế giới và bạn thấy các bài nộp có các tuyên bố sau. Những cái nào bạn sẽ xem xét chấp nhận?",
+        "choices": [
+            "Phương pháp của tôi đạt được sai số huấn luyện thấp hơn tất cả các phương pháp trước đó!",
+            "Phương pháp của tôi đạt được lỗi xác thực chéo thấp hơn tất cả các phương pháp trước đó! (Chú thích cuối trang: Khi tham số chính quy hóa λ được chọn để giảm thiểu lỗi xác thực chéo.)",
+            "Phương pháp của tôi đạt được sai số kiểm tra thấp hơn tất cả các phương pháp trước đó! (Chú thích cuối trang: Khi tham số chính quy hóa λ được chọn để giảm thiểu lỗi xác thực chéo.)",
+            "Phương pháp của tôi đạt được sai số kiểm tra thấp hơn tất cả các phương pháp trước đó! (Chú thích cuối trang: Khi tham số chuẩn hóa λ được chọn để giảm thiểu sai số kiểm tra.)"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "machine_learning"
+        }
+    },
+    {
+        "question": "Việc tăng cường dữ liệu hình ảnh nào là phổ biến nhất cho hình ảnh tự nhiên?",
+        "choices": [
+            "phối màu",
+            "cắt ngẫu nhiên và lật ngang",
+            "cắt ngẫu nhiên và lật dọc",
+            "áp phích hóa"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "machine_learning"
+        }
+    },
+    {
+        "question": "Yếu tố vệ sinh gắn liền với tác nhân nào?",
+        "choices": [
+            "Abraham Maslow",
+            "DC McClelland",
+            "Frederick Hertzberg",
+            "Douglas McGregor"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "management"
+        }
+    },
+    {
+        "question": "Làm thế nào có thể mô tả các cơ cấu tổ chức được đặc trưng bởi phong cách quản lý dân chủ và toàn diện?",
+        "choices": [
+            "Thứ bậc",
+            "chức năng",
+            "Phẳng",
+            "quan liêu"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "management"
+        }
+    },
+    {
+        "question": "Đặc điểm nào không phải là đặc điểm chính của mô hình quản lý 'hệ thống mở'?",
+        "choices": [
+            "Sự đổi mới",
+            "Đạo đức",
+            "Nguồn lực tăng trưởng",
+            "Thích ứng"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "management"
+        }
+    },
+    {
+        "question": "Hai khía cạnh chính của Nghiên cứu Ohio về khả năng lãnh đạo là gì?",
+        "choices": [
+            "Cấu trúc và cân nhắc ban đầu",
+            "Vị trí bắt đầu và vị trí kết thúc",
+            "Môi trường ban đầu và môi trường thay đổi",
+            "Cơ cấu tổ chức và điều kiện"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "management"
+        }
+    },
+    {
+        "question": "Yếu tố nào của trang web văn hóa tạo nên vương giả?",
+        "choices": [
+            "Biểu tượng",
+            "Cấu trúc điện",
+            "Nghi thức và thói quen",
+            "Hệ thống điều khiển"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "management"
+        }
+    },
+    {
+        "question": "_____________ là kết quả tự nhiên khi kết hợp các biến số về nhân khẩu học và địa lý.",
+        "choices": [
+            "Sự khác biệt hóa sản phẩm.",
+            "Quản lý thương hiệu.",
+            "Ma trận ANSOFF.",
+            "Địa lý học"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "marketing"
+        }
+    },
+    {
+        "question": "Nhóm duy nhất trong xã hội dễ bị tổn thương nhất trước ảnh hưởng của nhóm tham khảo là:",
+        "choices": [
+            "Những người nhập cư mới thực sự muốn hòa nhập vào nền văn hóa mới của họ.",
+            "Người tiêu dùng lớn tuổi cảm thấy hơi bị bỏ rơi.",
+            "Những phụ nữ đã lập gia đình, nhiều người trong số họ cảm thấy cần sự ổn định trong cuộc sống.",
+            "Trẻ em, những người hầu hết đưa ra quyết định mua hàng đều dựa trên những ảnh hưởng bên ngoài."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "marketing"
+        }
+    },
+    {
+        "question": "Điều nào sau đây là giả định trong Tháp nhu cầu của Maslow?",
+        "choices": [
+            "Những nhu cầu được thỏa mãn là động cơ thúc đẩy và những nhu cầu mới sẽ xuất hiện khi những nhu cầu hiện tại không được đáp ứng.",
+            "Những nhu cầu ở cấp độ thấp hơn phải được thỏa mãn ít nhất một phần trước khi những nhu cầu ở cấp độ cao hơn có thể ảnh hưởng đến hành vi.",
+            "Nhu cầu phụ thuộc vào văn hóa và cả tầng lớp xã hội.",
+            "Các nhu cầu không được ưu tiên hoặc sắp xếp theo bất kỳ thứ tự cụ thể nào."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "marketing"
+        }
+    },
+    {
+        "question": "Mặc dù nội dung và chất lượng có thể được kiểm soát như thư trực tiếp nhưng tỷ lệ phản hồi của phương tiện này thấp hơn do thiếu cơ chế địa chỉ cá nhân. Định dạng phương tiện này được gọi là:",
+        "choices": [
+            "Dòng chăm sóc.",
+            "Thư trực tiếp.",
+            "Chèn.",
+            "Cửa đến cửa."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "marketing"
+        }
+    },
+    {
+        "question": "Trong một tổ chức, nhóm người được giao nhiệm vụ đưa ra quyết định mua hàng được gọi là _______________.",
+        "choices": [
+            "Đơn vị điều hành chính.",
+            "Đơn vị ra quyết định.",
+            "Đơn vị gia công bên ngoài.",
+            "Trung tâm mua sắm."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "marketing"
+        }
+    },
+    {
+        "question": "Trường hợp nào sau đây không thể hiện tính di truyền đa yếu tố?",
+        "choices": [
+            "Spina bifida (khiếm khuyết ống thần kinh)",
+            "Hẹp môn vị",
+            "hội chứng Marfan",
+            "Tâm thần phân liệt"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "medical_genetics"
+        }
+    },
+    {
+        "question": "Giai đoạn giảm phân trong đó các nhiễm sắc thể bắt cặp và trao đổi chéo là:",
+        "choices": [
+            "kỳ giữa II",
+            "siêu hình tôi",
+            "tiên tri tôi",
+            "tiên tri II"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "medical_genetics"
+        }
+    },
+    {
+        "question": "Việc mở rộng lặp lại bộ ba lớn có thể được phát hiện bằng cách:",
+        "choices": [
+            "Phương Tây làm mờ.",
+            "phân tích đa hình hình dạng sợi đơn.",
+            "Phản ứng chuỗi polymerase.",
+            "Miền Nam làm mờ."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "medical_genetics"
+        }
+    },
+    {
+        "question": "Một gen thể hiện tính đồng trội",
+        "choices": [
+            "có các alen liên kết chặt chẽ trên cùng một nhiễm sắc thể",
+            "có cả hai alen biểu hiện độc lập ở thể dị hợp tử",
+            "có một alen trội hơn alen kia",
+            "có các alen được biểu hiện cùng lúc trong quá trình phát triển"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "medical_genetics"
+        }
+    },
+    {
+        "question": "DNA ligase là",
+        "choices": [
+            "một loại enzyme nối các đoạn trong quá trình sao chép DNA bình thường",
+            "một loại enzyme có nguồn gốc vi khuẩn cắt DNA theo trình tự bazơ xác định",
+            "một loại enzyme tạo điều kiện cho việc phiên mã các gen cụ thể",
+            "một enzyme giới hạn mức độ mà một chất dinh dưỡng cụ thể đạt tới"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "medical_genetics"
+        }
+    },
+    {
+        "question": "Địa danh nào được đặt tên trong tựa album live năm 1979 của huyền thoại nhạc rock Cheap Trick?",
+        "choices": [
+            "nước Anh",
+            "Budokan",
+            "Budapest",
+            "Bhutan"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "miscellaneous"
+        }
+    },
+    {
+        "question": "Những gì được tạo ra trong quá trình quang hợp?",
+        "choices": [
+            "ánh sáng",
+            "hydro",
+            "nylon",
+            "ôxy"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "miscellaneous"
+        }
+    },
+    {
+        "question": "Ai là người lùn nhất từng vô địch giải NBA Slam Dunk?",
+        "choices": [
+            "Michael 'Air' Jordan",
+            "Julius 'Tiến sĩ J' Erving",
+            "Tyrone 'Muggsy' Bogues",
+            "Anthony 'Spud' Webb"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "miscellaneous"
+        }
+    },
+    {
+        "question": "Bài hát nào sau đây đã lọt vào Top 10 bản hit của ban nhạc rock The Police?",
+        "choices": [
+            "'Đổ Đò Đê Đa Đa Đa'",
+            "'Oblada obladi'",
+            "'Đài phát thanh ga Ga'",
+            "'Trong một Gadda da Vida'"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "miscellaneous"
+        }
+    },
+    {
+        "question": "Một ô tô tiêu chuẩn có bao nhiêu trục?",
+        "choices": [
+            "hai",
+            "một",
+            "bốn",
+            "tám"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "miscellaneous"
+        }
+    },
+    {
+        "question": "Theo Metz, những lập luận theo chủ nghĩa hệ quả chống lại hình phạt tử hình dựa trên các giá trị châu Phi có gì sai?",
+        "choices": [
+            "Chủ nghĩa hệ quả không được hỗ trợ bởi các giá trị châu Phi.",
+            "Vẫn chưa rõ liệu hình phạt tử hình có ngăn cản được tổn hại cho bất kỳ cá nhân nào hay không.",
+            "Hiện vẫn chưa rõ liệu hình phạt tử hình có ngăn chặn được tác hại cho cộng đồng hay không.",
+            "Mặc dù chủ nghĩa hệ quả được các giá trị châu Phi ủng hộ, nhưng không có lập luận nào theo chủ nghĩa hệ quả được đóng khung dưới dạng các giá trị châu Phi được đưa ra."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "moral_disputes"
+        }
+    },
+    {
+        "question": "Theo Singer, điều nào sau đây là hàng hóa nội tại?",
+        "choices": [
+            "ngắn hơn mức trung bình",
+            "ở tầng lớp trên",
+            "xinh đẹp hơn hầu hết mọi người",
+            "khả năng học hỏi và giải quyết vấn đề"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "moral_disputes"
+        }
+    },
+    {
+        "question": "Baron thừa nhận rằng các phiên bản giả thuyết về quả bom tích tắc mà cô thảo luận là \"ngu ngốc một cách đáng kinh ngạc\", nhưng cô khẳng định đây thực sự là bằng chứng về",
+        "choices": [
+            "sự ngu ngốc của hầu hết các ví dụ triết học truyền thống.",
+            "sự sẵn sàng của nhiều người thông minh coi tra tấn là giải pháp tốt nhất để đối phó với chủ nghĩa khủng bố.",
+            "sự thiếu thông minh nói chung ở những người có bằng cấp cao.",
+            "sự sai trái của việc tra tấn."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "moral_disputes"
+        }
+    },
+    {
+        "question": "Trứng đã thụ tinh còn được gọi là",
+        "choices": [
+            "một phôi thai.",
+            "một khả năng tồn tại.",
+            "một hợp tử.",
+            "một phôi nang."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "moral_disputes"
+        }
+    },
+    {
+        "question": "Pence so sánh sáu trường hợp sinh sản khác nhau, từ sinh đôi tự nhiên đến SCNT. Ông rút ra kết luận gì từ sự so sánh này?",
+        "choices": [
+            "cả A và B",
+            "SCNT không phải là một hình thức sao chép khác vì không có sự khác biệt nào liên quan đến mặt đạo đức giữa nó và các phương tiện sao chép được phép khác.",
+            "Bởi vì sinh đôi tự nhiên có ít nguy cơ gây hại nên SCNT sẽ có ít nguy cơ gây hại.",
+            "chẳng phải A cũng chẳng phải b"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "moral_disputes"
+        }
+    },
+    {
+        "question": "Trong hai tình huống này, nhân vật chính (người sử dụng I/me/my) làm điều gì đó rõ ràng là sai về mặt đạo đức, theo tiêu chuẩn đạo đức thông thường ở Hoa Kỳ vào năm 2020? Kịch bản 1 | Tôi mua một chiếc xe bán tải cũ để đi làm. Kịch bản 2 | Tôi nhìn lên thác nước tuyệt đẹp và ném một tảng đá vào nó.",
+        "choices": [
+            "Không sai, không sai",
+            "Sai, không sai",
+            "Không sai, sai",
+            "Sai, sai"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "moral_scenarios"
+        }
+    },
+    {
+        "question": "Trong hai tình huống này, nhân vật chính (người sử dụng I/me/my) làm điều gì đó rõ ràng là sai về mặt đạo đức, theo tiêu chuẩn đạo đức thông thường ở Hoa Kỳ vào năm 2020? Kịch bản 1 | Tôi đã lấy ví của anh ấy sau khi anh ấy quấy rối tôi ở quán bar. Kịch bản 2 | Tôi đã làm tình với đứa con trai mới sinh của tôi.",
+        "choices": [
+            "Không sai, không sai",
+            "Sai, sai",
+            "Sai, không sai",
+            "Không sai, sai"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "moral_scenarios"
+        }
+    },
+    {
+        "question": "Trong hai tình huống này, nhân vật chính (người sử dụng I/me/my) làm điều gì đó rõ ràng là sai về mặt đạo đức, theo tiêu chuẩn đạo đức thông thường ở Hoa Kỳ vào năm 2020? Kịch bản 1 | Tôi xin một điếu thuốc từ anh chàng ngoài cửa hàng. Kịch bản 2 | Khi nhân viên bảo vệ rời khỏi vị trí của mình, tôi đã bỏ túi một đồng xu hiếm.",
+        "choices": [
+            "Không sai, sai",
+            "Không sai, không sai",
+            "Sai, không sai",
+            "Sai, sai"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "moral_scenarios"
+        }
+    },
+    {
+        "question": "Trong hai tình huống này, nhân vật chính (người sử dụng I/me/my) làm điều gì đó rõ ràng là sai về mặt đạo đức, theo tiêu chuẩn đạo đức thông thường ở Hoa Kỳ vào năm 2020? Kịch bản 1 | Trong lúc phá dỡ ngôi nhà, tôi đã đẩy anh ta vào tường. Kịch bản 2 | Khi tôi chọn người trông trẻ cho hai cháu gái song sinh của mình, tôi không quan tâm đến nguồn gốc chủng tộc của cô ấy.",
+        "choices": [
+            "Không sai, không sai",
+            "Sai, sai",
+            "Sai, không sai",
+            "Không sai, sai"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "moral_scenarios"
+        }
+    },
+    {
+        "question": "Trong hai tình huống này, nhân vật chính (người sử dụng I/me/my) làm điều gì đó rõ ràng là sai về mặt đạo đức, theo tiêu chuẩn đạo đức thông thường ở Hoa Kỳ vào năm 2020? Kịch bản 1 | Tôi thực sự yêu đứa con trai mới sinh của tôi. Kịch bản 2 | Cô bạn mới xấu hổ khi phải sống trong bãi đậu xe kéo nên tôi mời cả lớp đến nhà cô ấy.",
+        "choices": [
+            "Sai, sai",
+            "Sai, không sai",
+            "Không sai, không sai",
+            "Không sai, sai"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "moral_scenarios"
+        }
+    },
+    {
+        "question": "Câu nào sau đây là lời giải thích hợp lý nhất cho tác dụng bảo vệ của chất xơ chống lại bệnh ung thư ruột kết, tính đến năm 2020?",
+        "choices": [
+            "Không có lựa chọn nào trong số này là đúng",
+            "Axit propionic, được hình thành trong quá trình lên men chất xơ ở đại tràng, ức chế tổng hợp axit béo ở gan",
+            "Axit butyric được hình thành trong quá trình lên men chất xơ đại tràng kích thích sự “im lặng” của gen ức chế khối u SLC5A8",
+            "Axit butyric, được hình thành trong quá trình lên men chất xơ đại tràng, kích thích khả năng phòng vệ chống oxy hóa trong ruột kết"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "nutrition"
+        }
+    },
+    {
+        "question": "Trong một nghiên cứu thuần tập, tỷ lệ nguy cơ phát triển bệnh tiểu đường là 0,86 khi so sánh người tiêu dùng trà (người tiếp xúc) với người không uống trà (người không tiếp xúc). Câu nào đúng (theo kiến ​​thức năm 2020)?",
+        "choices": [
+            "Những người uống trà có nguy cơ mắc bệnh tiểu đường thấp hơn.",
+            "Tỷ lệ rủi ro gần bằng giá trị 1 nên không có sự khác biệt về nguy cơ mắc bệnh giữa hai nhóm.",
+            "Dựa trên thông tin được cung cấp, chúng tôi không thể biết liệu sự khác biệt quan sát được về nguy cơ mắc bệnh có phải là kết quả của sự ngẫu nhiên hay không.",
+            "Những người uống trà có nguy cơ mắc bệnh tiểu đường cao hơn."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "nutrition"
+        }
+    },
+    {
+        "question": "Câu nào sau đây về iốt là đúng vào năm 2020?",
+        "choices": [
+            "50% người trưởng thành tiêu thụ iốt ở mức dưới RNI",
+            "Các sản phẩm từ sữa là nguồn cung cấp iốt kém",
+            "Hàm lượng iốt trong sữa hữu cơ nhìn chung thấp hơn hàm lượng iốt trong sữa không hữu cơ",
+            "Các giá trị tham khảo về chế độ ăn uống của Vương quốc Anh khuyến nghị tăng lượng iốt trong thai kỳ"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "nutrition"
+        }
+    },
+    {
+        "question": "Thuốc ưu tiên cho bệnh nhân tiểu đường tuýp 2 và béo phì tính đến năm 2020 là gì?",
+        "choices": [
+            "Sulphonylurea",
+            "metformin",
+            "Acarbose",
+            "insulin"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "nutrition"
+        }
+    },
+    {
+        "question": "Nhận định nào sau đây là đúng (theo kiến ​​thức năm 2020)?",
+        "choices": [
+            "Người tiêu dùng mắc bệnh phenylketon niệu phải tránh tiêu thụ chất tạo ngọt saccharin",
+            "Người tiêu dùng mắc chứng phenylketon niệu phải tránh tiêu thụ chất tạo ngọt sucralose",
+            "Người tiêu dùng mắc chứng phenylketon niệu phải tránh tiêu thụ chất làm ngọt aspartame",
+            "Người tiêu dùng mắc bệnh phenylketon niệu phải tránh tiêu thụ chất làm ngọt acesulfame K"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "nutrition"
+        }
+    },
+    {
+        "question": "Trước khi Tolstoy cải sang đạo Thiên Chúa, quan điểm của ông về ý nghĩa cuộc sống là gì?",
+        "choices": [
+            "người lạc quan",
+            "thỏa mãn",
+            "trên danh nghĩa là tôn giáo",
+            "người bi quan"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "philosophy"
+        }
+    },
+    {
+        "question": "Theo d'Holbach, mọi người luôn hành động theo _____.",
+        "choices": [
+            "ý chí không xác định",
+            "quy luật tự nhiên cần thiết",
+            "lựa chọn miễn phí",
+            "mệnh lệnh của tâm hồn"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "philosophy"
+        }
+    },
+    {
+        "question": "Theo “chủ nghĩa vị lợi lý tưởng” của Moore, hành động đúng đắn là hành động mang lại nhiều lợi ích nhất:",
+        "choices": [
+            "Đức hạnh.",
+            "niềm hạnh phúc.",
+            "vinh hạnh.",
+            "Tốt."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "philosophy"
+        }
+    },
+    {
+        "question": "Chủ nghĩa ích kỷ tâm lý là:",
+        "choices": [
+            "không có điều nào ở trên.",
+            "một tuyên bố về bản chất con người và cách con người có khả năng hành xử.",
+            "một lý thuyết đạo đức về cách chúng ta nên cư xử",
+            "một sự khái quát hóa liên quan đến cách mọi người có xu hướng cư xử."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "philosophy"
+        }
+    },
+    {
+        "question": "Việc nghiên cứu thực tế theo nghĩa rộng nhất, một cuộc tìm hiểu về bản chất cơ bản của vũ trụ và những thứ trong đó, được gọi là _____.",
+        "choices": [
+            "tri thức luận",
+            "vật lý lượng tử",
+            "tiên đề học",
+            "siêu hình học"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "philosophy"
+        }
+    },
+    {
+        "question": "Dung tích sọ trung bình gần đúng của Homo erectus là bao nhiêu?",
+        "choices": [
+            "khoảng 800cc",
+            "dưới 650cc",
+            "dưới 1000cc",
+            "1200 cc"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "prehistory"
+        }
+    },
+    {
+        "question": "Các nhà nghiên cứu hiện nay tin rằng sự suy tàn của người Maya chủ yếu là do:",
+        "choices": [
+            "cuộc chiến tranh bất tận giữa các thành bang láng giềng của người Maya.",
+            "một thảm họa nào đó, chẳng hạn như động đất, núi lửa hoặc sóng thần.",
+            "suy thoái sinh thái do kỹ thuật canh tác đốt nương làm rẫy.",
+            "thực hành lai giống dẫn đến sự gia tăng mạnh mẽ các rối loạn bẩm sinh."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "prehistory"
+        }
+    },
+    {
+        "question": "Theo Timothy Pauketat, bằng chứng về sự phân tầng xã hội và quyền lực chính trị ở Cahokia cho thấy:",
+        "choices": [
+            "một tù trưởng quốc đơn giản hoặc có lẽ là một tù trưởng quốc phức tạp đã phát triển vào khoảng năm 1500 sau Công nguyên.",
+            "một trung tâm của nền văn minh Mississippi với những điều kiện tương tự như sự trỗi dậy của các quốc gia sơ khai.",
+            "những hạn chế về quyền lực trong xã hội người Mỹ bản địa của những người kiếm ăn theo chủ nghĩa quân bình.",
+            "một trung tâm của nền văn minh Mississippi với các điều kiện tương tự như các xã hội ở Bờ biển Tây Bắc Bắc Mỹ."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "prehistory"
+        }
+    },
+    {
+        "question": "Nghiên cứu gần đây về các loài vượn nhân hình có niên đại từ Trung Pliocene chỉ ra rằng có (tính đến năm 2020):",
+        "choices": [
+            "một lượng lớn sự đa dạng về loài, hoặc một loài duy nhất thể hiện rất nhiều sự đa dạng.",
+            "rất ít sự đa dạng về loài trong thời kỳ này và rất ít loài vượn nhân hình.",
+            "giảm sự đa dạng loài do kỷ băng hà kéo dài sau đó là hạn hán nghiêm trọng.",
+            "giảm sự đa dạng về loài nhưng lại tăng số lượng đá búa và vảy, cho thấy việc chế tạo công cụ bằng đá."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "prehistory"
+        }
+    },
+    {
+        "question": "Vị vua Maya vĩ đại Pacal đã xây dựng những ngôi đền ở thành phố Palenque để:",
+        "choices": [
+            "hợp pháp hóa vương quyền của mình, vì cha ông không phải là hoàng gia.",
+            "khiến kẻ thù sợ hãi, đặc biệt là người Tây Ban Nha.",
+            "làm hài lòng các linh mục thiên văn học mạnh mẽ của người Maya.",
+            "thể hiện sự hào phóng của mình với người dân thường vì họ được phép sống trong các ngôi chùa."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "prehistory"
+        }
+    },
+    {
+        "question": "Vào ngày 1 tháng 1 năm 1, Công ty Alpha đã ký thỏa thuận bảo trì hàng năm với nhà cung cấp phần mềm với giá 15.000 USD và thời gian bảo trì bắt đầu vào ngày 1 tháng 3 năm 2. Alpha cũng phải chịu 5.000 USD chi phí vào ngày 1 tháng 1 năm 1 liên quan đến sửa đổi phần mềm. các yêu cầu sẽ tăng cường chức năng của phần mềm. Alpha khấu hao các tài sản máy tính và phần mềm trong vòng 5 năm theo phương pháp đường thẳng. Tổng chi phí mà Alpha phải ghi nhận liên quan đến hợp đồng bảo trì và sửa đổi phần mềm cho năm kết thúc vào ngày 31 tháng 12 năm 1 là bao nhiêu?",
+        "choices": [
+            "20.000 USD",
+            "$13,500",
+            "16.000 USD",
+            "5.000 USD"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "professional_accounting"
+        }
+    },
+    {
+        "question": "Kiểm toán viên theo dõi số sê-ri trên thiết bị tới sổ cái phụ của nhà phát hành không phát hành. Khẳng định quản lý nào sau đây được hỗ trợ bởi thử nghiệm này?",
+        "choices": [
+            "Định giá và phân bổ",
+            "Trình bày và tiết lộ",
+            "Quyền và nghĩa vụ",
+            "Tính đầy đủ"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "professional_accounting"
+        }
+    },
+    {
+        "question": "Một trăm năm trước, bà cố của bạn đã đầu tư 100 đô la với lãi suất 5% hàng năm. Khoản đầu tư có giá trị ngày hôm nay là bao nhiêu?",
+        "choices": [
+            "15.000 USD",
+            "$600",
+            "28.000 USD",
+            "13.000 USD"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "professional_accounting"
+        }
+    },
+    {
+        "question": "Box, một tổ chức phi lợi nhuận phi chính phủ đã có các giao dịch sau trong năm: Tiền thu được từ việc bán khoản đầu tư $80000 Mua bất động sản, nhà xưởng và thiết bị $10000 Tiền thu được từ nợ dài hạn $100000 Lỗ từ việc bán khoản đầu tư $5000 Số tiền nào sẽ được báo cáo là số tiền ròng tiền mặt được cung cấp bởi hoạt động tài chính trong báo cáo lưu chuyển tiền tệ của Box?",
+        "choices": [
+            "80.000 USD",
+            "70.000 USD",
+            "75.000 USD",
+            "100000"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "professional_accounting"
+        }
+    },
+    {
+        "question": "Krete là người nộp thuế chưa lập gia đình và chỉ có thu nhập từ tiền lương. Đến ngày 31 tháng 12 năm thứ nhất, người chủ của Krete đã khấu trừ 16.000 USD tiền thuế thu nhập liên bang và Krete chưa phải trả khoản thuế ước tính nào. Vào ngày 15 tháng 4 năm thứ 2, Krete đã kịp thời nộp đơn yêu cầu gia hạn để nộp tờ khai thuế cá nhân và nộp 300 đô la tiền thuế bổ sung. Khoản nợ thuế năm 1 của Krete là 16.500 USD khi cô nộp tờ khai đúng hạn vào ngày 30 tháng 4 năm thứ 2 và thanh toán số dư nợ thuế còn lại. Số tiền nào sẽ bị phạt vì nộp thiếu thuế ước tính?",
+        "choices": [
+            "$1,650",
+            "$500",
+            "$0",
+            "16.500 USD"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "professional_accounting"
+        }
+    },
+    {
+        "question": "Vào ngày 1 tháng 10 năm 1980, một nhà phát triển, chủ sở hữu vài trăm mẫu đất ở một quận nông thôn, đã phác thảo một kế hoạch phát triển chung cho khu vực. Kế hoạch được ghi chép hợp lệ đã đưa ra những giới hạn và hạn chế phức tạp đối với đất đai trong quy hoạch, nơi sẽ được phát triển thành khu dân cư. Các hạn chế được áp dụng cho tất cả những người mua bất kỳ lô đất nào cũng như những người thừa kế, người được chuyển nhượng và người thuê của họ. Ngoài ra còn có điều kiện là tất cả các chủ sở hữu tiếp theo sẽ phải chịu trách nhiệm thông báo đúng hạn về các hạn chế. Trong số những hạn chế đó trong kế hoạch chung bao gồm: (22) Quyền nhượng quyền được tạo ra trên một dải đất rộng 10 feet dọc theo phía sau mỗi lô để các công ty tiện ích công cộng có quyền ra vào. (23) Không được phép xây dựng bất kỳ ngôi nhà hoặc công trình kiến ​​trúc nào trên dải đất nói trên chạy qua các lô đất nói trên. Năm 2000, một người về hưu đã mua một trong những lô đất, xây nhà và dựng hàng rào phía sau khu đất của mình trong khu vực cấm. Năm 2004, một giáo viên mua lô đất liền kề với tài sản của người về hưu và xây một ngôi nhà mới. Hai năm sau, một thủ thư mua lô đất liền kề với tài sản của giáo viên. Ba chứng thư đối với những tài sản đó đều có tham chiếu đến sổ chứng thư nơi ghi lại kế hoạch chung. Năm 2008, người thủ thư bắt đầu xây dựng một hàng rào cột và đường ray dài 7 foot dọc theo đường phân chia lô đất của mình với lô đất của giáo viên và dọc theo trung tâm khu vực thuộc quyền nhượng quyền. Mặc dù giáo viên phản đối việc xây dựng nhưng hàng rào vẫn được hoàn thành. Nếu giáo viên yêu cầu một lệnh bắt buộc dỡ bỏ hàng rào của thủ thư, tòa án rất có thể sẽ",
+        "choices": [
+            "từ chối cứu trợ vì hàng rào sẽ không được hiểu là \"một công trình\" theo các điều khoản của hạn chế.",
+            "cấp cứu trợ vì việc lấn chiếm hàng rào đã vi phạm hạn chế trong kế hoạch ban đầu.",
+            "từ chối sự trợ giúp vì giáo viên đã không thực thi được biện pháp hạn chế đối với người về hưu.",
+            "cấp cứu trợ vì hàng rào đã vi phạm hạn chế về quyền sử dụng đất."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "professional_law"
+        }
+    },
+    {
+        "question": "Một cơ quan lập pháp của tiểu bang gần đây đã ban hành một đạo luật quy định việc chửi rủa, lăng mạ hoặc sử dụng ngôn ngữ tục tĩu hoặc chống đối đối với hoặc đề cập đến một sĩ quan cảnh sát đang thực hiện nhiệm vụ của mình là tội nhẹ. Một sinh viên tại một trường đại học của bang đã tổ chức biểu tình trong khuôn viên trường để phản đối chiến tranh. Cuộc biểu tình có sự tham gia của một nhóm gồm 50 sinh viên, hô vang thông điệp phản chiến với những chiếc ô tô đi ngang qua. Để thể hiện sự khinh thường nước Mỹ, sinh viên này đã khâu lá cờ Mỹ vào phía sau quần jean của mình. Khi một sĩ quan cảnh sát nhìn thấy lá cờ được cắm trên quần jean của sinh viên, anh ta đã tiến lại gần và yêu cầu anh ta gỡ lá cờ ra nếu không anh ta sẽ bị bắt. Người sinh viên trở nên tức giận và hét vào mặt viên cảnh sát: \"Nghe này, đồ khốn, tôi sẽ mặc miếng giẻ này ở bất cứ đâu tôi muốn.\" Người sinh viên sau đó đã bị bắt và bị buộc tội vi phạm quy chế của bang. Sau đó, sinh viên này khởi kiện lên tòa án tiểu bang thách thức tính hợp hiến của đạo luật. Lập luận hiến pháp mạnh mẽ nhất cho sinh viên là",
+        "choices": [
+            "quy chế này vô hiệu vì có sự mơ hồ theo điều khoản về thủ tục tố tụng hợp pháp của Tu chính án thứ mười bốn.",
+            "quy chế này là sự tóm tắt quyền tự do ngôn luận theo Tu chính án thứ nhất vì có sẵn các phương tiện ít hạn chế hơn để đạt được mục đích tương tự.",
+            "quy chế này có phạm vi rộng và do đó không hợp lệ theo Tu chính án thứ nhất và thứ mười bốn.",
+            "quy chế không hợp lệ vì nó vi phạm quyền tự do ngôn luận của người khởi kiện theo Tu chính án thứ nhất."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "professional_law"
+        }
+    },
+    {
+        "question": "Thẩm phán đã thông báo tư pháp về một số sự kiện khi bắt đầu phiên tòa. Điều nào sau đây không phải là loại tình tiết thích hợp để đưa ra thông báo tư pháp?",
+        "choices": [
+            "Sự thật có khả năng xác minh khoa học.",
+            "Sự thật không thể chối cãi.",
+            "Sự thật được công nhận là đúng bởi kiến ​​​​thức phổ biến.",
+            "Sự thật đã được khẳng định bởi các tổ chức chính trị cá nhân."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "professional_law"
+        }
+    },
+    {
+        "question": "Một người con trai nợ chủ nợ 5.000 USD. Cha của cậu con trai đã liên lạc với chủ nợ và nói rằng ông muốn trả nợ cho con trai. Người cha đã ký một văn bản tuyên bố rằng người cha sẽ trả khoản nợ cho con trai với mức 500 USD/tháng trong 10 tháng. Chủ nợ không đưa ra cam kết bằng văn bản hoặc bằng miệng về việc từ chối kiện con trai để đòi khoản nợ 5.000 đô la, và người cha cũng không đưa ra yêu cầu bằng miệng hoặc bằng văn bản nào về bất kỳ khoản hoãn trả nào như vậy. Trong 5 tháng tiếp theo, người cha đã thực hiện và chủ nợ chấp nhận khoản thanh toán hàng tháng 500 USD như đã thỏa thuận. Trong thời gian đó, trên thực tế, người chủ nợ đã từ chối thực hiện bất kỳ hành động pháp lý nào chống lại người con trai. Tuy nhiên, người cha sau đó đã thông báo với chủ nợ rằng ông sẽ không trả thêm khoản nợ nào nữa. Lập luận nào sau đây thuyết phục nhất cho rằng người cha phải chịu trách nhiệm trước chủ nợ theo các điều khoản trong thỏa thuận của họ?",
+        "choices": [
+            "Bằng cách đảm nhận nghĩa vụ nợ trước đó mà người con trai phải trả cho chủ nợ, người cha đã trở thành người bảo lãnh mà lời hứa với chủ nợ có hiệu lực thi hành, vì nó được lập thành văn bản và được hỗ trợ bởi sự xem xét thỏa đáng.",
+            "Lời hứa của người cha và sự tin cậy của chủ nợ vào đó, nếu được chứng minh, sẽ dẫn đến yêu cầu bồi thường hợp lệ của chủ nợ đối với người cha dựa trên học thuyết về sự ngăn cản hứa hẹn.",
+            "Năm khoản thanh toán của người cha cho chủ nợ với tổng trị giá 2.500 đô la thể hiện ý định nghiêm túc của người cha trong việc ràng buộc theo hợp đồng và biểu hiện đó thường được công nhận là sự thay thế hiệu quả cho việc xem xét.",
+            "Bởi vì có thể thấy trước rằng lời hứa của người cha sẽ khiến chủ nợ không được thực hiện bất kỳ hành động nào chống lại con trai, nên về mặt luật pháp, sự nhẫn nhịn đó là một sự mặc cả để xem xét lời hứa của người cha."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "professional_law"
+        }
+    },
+    {
+        "question": "Một bang gần đây đã ban hành đạo luật cấm thải bỏ bất kỳ chất thải hạt nhân nào trong bang. Luật này không trái ngược hoặc xung đột với bất kỳ đạo luật liên bang nào. Một người đàn ông điều hành một công ty ở bang chuyên xử lý chất thải hạt nhân. Sau khi quy chế của tiểu bang được thông qua, người đàn ông này, chưa biết về luật mới, đã ký hợp đồng với nhiều công ty ngoài tiểu bang để xử lý chất thải hạt nhân của họ trong tiểu bang. Tuy nhiên, do luật mới này, người đàn ông sẽ không thể thực hiện các hợp đồng này. Giả sử rằng người đàn ông có quyền thách thức luật pháp tiểu bang này. Điều nào sau đây trình bày cơ sở hiến pháp mạnh mẽ nhất của ông để thách thức luật pháp tiểu bang cấm thải bỏ chất thải hạt nhân trong tiểu bang?",
+        "choices": [
+            "Điều khoản ưu đãi và miễn trừ tại Điều IV, Mục 2.",
+            "Điều khoản hợp đồng.",
+            "Điều khoản bảo vệ bình đẳng của Tu chính án thứ mười bốn.",
+            "Điều khoản thương mại."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "professional_law"
+        }
+    },
+    {
+        "question": "Một nam vận động viên marathon 22 tuổi đến phòng khám với lý do đau xương sườn bên phải khi chạy đường dài. Khám thực thể cho thấy các dấu hiệu về tim và phổi bình thường và rối loạn chức năng thở ra ở xương sườn 4-5 bên phải. Cơ hoặc nhóm cơ nào sau đây sẽ hữu ích nhất trong việc điều chỉnh rối loạn chức năng này bằng phương pháp trực tiếp?",
+        "choices": [
+            "ngực nhỏ",
+            "lưng rộng",
+            "cơ vuông thắt lưng",
+            "vảy trước"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "professional_medicine"
+        }
+    },
+    {
+        "question": "Một người đàn ông 44 tuổi đến phòng khám vì bệnh sử đau họng, ho khan, sổ mũi và nhức đầu vùng trán đã 3 ngày. Ông ấy nói rằng cơn đau đầu sẽ tệ hơn vào buổi sáng và thuốc ibuprofen có thể giúp giảm bớt cơn đau. Anh ấy không hề bị khó thở. Lịch sử y tế là không đáng kể. Anh ấy không dùng thuốc nào khác ngoài ibuprofen để giảm đau. Dấu hiệu sinh tồn là nhiệt độ 37,4°C (99,4°F), mạch 88 lần/phút, nhịp thở 18 lần/phút và huyết áp 120/84 mm Hg. Khám mũi cho thấy niêm mạc có ban đỏ. Khám họng cho thấy ban đỏ và tăng sản bạch huyết dạng nang ở vùng sau họng. Không có bệnh lý hạch cổ có thể sờ thấy được. Phổi nghe rõ. Nguyên nhân nào sau đây có khả năng nhất gây ra các triệu chứng ở bệnh nhân này?",
+        "choices": [
+            "virus tê giác",
+            "Viêm mũi dị ứng",
+            "Mycoplasma viêm phổi",
+            "Virus Epstein-Barr"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "professional_medicine"
+        }
+    },
+    {
+        "question": "Một người đàn ông 42 tuổi đến phòng khám để đánh giá trước khi phẫu thuật cắt tuyến thượng thận dự kiến ​​trong 2 tuần. Một tháng trước, anh ấy được chăm sóc tại khoa cấp cứu vì đau ở sườn phải sau một vụ va chạm xe cơ giới. Vào thời điểm đó, huyết áp là 160/100 mm Hg và chụp CT bụng cho thấy tình cờ có một khối u thượng thận trái 10 cm. Kết quả nghiên cứu trong phòng thí nghiệm, bao gồm công thức máu toàn phần, nồng độ điện giải trong huyết thanh và xét nghiệm chức năng gan, đều nằm trong phạm vi tham chiếu. Mặt khác, bệnh nhân khỏe mạnh và chưa bao giờ được thông báo rằng mình bị tăng huyết áp. Anh ấy không dùng thuốc. Một lần tái khám tại phòng khám cách đây 2 tuần cho thấy nồng độ Normetanephrine và metanephrine trong nước tiểu và aldosterone trong huyết tương tăng cao. Bệnh nhân được giới thiệu đến một bác sĩ phẫu thuật và được đề nghị cắt bỏ tuyến thượng thận. Ngày nay, các dấu hiệu sinh tồn là nhiệt độ 36,6°C (97,9°F), mạch 100 lần/phút, nhịp thở 14 lần/phút và huyết áp 170/95 mm Hg. Khám thực thể cho thấy không có phát hiện gì đáng kể. Chuẩn bị ban đầu trước phẫu thuật nên bao gồm điều trị bằng phương pháp nào sau đây?",
+        "choices": [
+            "Liều nạp kali clorua",
+            "Phenoxybenzamin",
+            "Nifedipin",
+            "Labetalol"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "professional_medicine"
+        }
+    },
+    {
+        "question": "Một người phụ nữ 32 tuổi trước đây khỏe mạnh đến gặp bác sĩ 8 tháng sau khi chồng cô qua đời trong một vụ tai nạn ô tô. Kể từ đó, cô chán ăn và khó ngủ. Cô ấy nói rằng cô ấy thường xuyên buồn và khóc. Cô đã kiểm tra lại khóa cửa năm lần trước khi rời khỏi nhà và phải đếm chính xác năm mẩu giấy vệ sinh trước khi sử dụng. Cô ấy nói rằng cô ấy luôn là người theo chủ nghĩa cầu toàn nhưng những thôi thúc và nghi thức này còn mới mẻ. Liệu pháp dược lý nên nhắm tới chất dẫn truyền thần kinh nào sau đây?",
+        "choices": [
+            "Dopamin",
+            "Serotonin",
+            "Norepinephrine",
+            "Glutamat"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "professional_medicine"
+        }
+    },
+    {
+        "question": "Một người đàn ông 36 tuổi đến phòng khám với bệnh sử đau thắt lưng đã 3 tuần. Anh ấy phủ nhận mọi chấn thương gần đây nhưng nói rằng anh ấy ra vào xe tải nhiều lần trong ngày vì công việc của mình. Khám bệnh nhân ở tư thế nằm sấp cho thấy một rãnh xương cùng sâu ở bên trái, một góc bên dưới phía sau ở bên phải, và một chỗ nối thắt lưng cùng có thể tự do co giãn khi bị nén. Chẩn đoán có khả năng nhất là",
+        "choices": [
+            "xoắn xương cùng trái phải",
+            "xoắn xương cùng bên phải bên phải",
+            "gấp xương cùng một bên phải",
+            "xoắn xương cùng bên trái"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "professional_medicine"
+        }
+    },
+    {
+        "question": "Carl Jung tin rằng sự chuyển giao của khách hàng:",
+        "choices": [
+            "đại diện cho “cảm xúc lẫn lộn” đối với nhà trị liệu.",
+            "phản ánh vô thức cá nhân và tập thể của khách hàng.",
+            "là một ảo tưởng làm khách hàng mất tập trung khỏi thực tế.",
+            "\"là một hình thức\"\"hành động.\"\"\""
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "professional_psychology"
+        }
+    },
+    {
+        "question": "Một trong những khách hàng trị liệu của bạn hỏi lời khuyên của bạn về một chương trình giảm cân hiệu quả. Bạn đã tìm hiểu các chương trình trong cộng đồng và đăng ký vào chương trình mà bạn cho là tốt nhất. Chương trình này cung cấp khoản tiền thưởng $50 cho khách hàng quen của mình đối với mỗi người mới mà họ đưa vào chương trình. Trong những trường hợp này, phản ứng thích hợp nhất của bạn sẽ là",
+        "choices": [
+            "cho khách hàng của bạn biết những ưu và nhược điểm của từng chương trình mà bạn biết ngoại trừ chương trình bạn đã đăng ký",
+            "giới thiệu cho khách hàng của bạn chương trình mà bạn đã đăng ký và đề nghị nhận khoản tiền thưởng $50 được ghi có vào tài khoản khách hàng của bạn trong chương trình",
+            "cho khách hàng của bạn biết những ưu và nhược điểm của từng chương trình mà bạn biết nhưng không yêu cầu tiền thưởng $50 nếu khách hàng đăng ký tham gia chương trình của bạn",
+            "giới thiệu cho khách hàng của bạn chương trình mà bạn đã đăng ký và giải thích khoản tiền thưởng $50 mà bạn sẽ nhận được"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "professional_psychology"
+        }
+    },
+    {
+        "question": "Xét về năm khía cạnh văn hóa của Hofstede (1980), Hoa Kỳ đạt điểm cao nhất về:",
+        "choices": [
+            "chủ nghĩa cá nhân và khoảng cách quyền lực.",
+            "chủ nghĩa cá nhân.",
+            "khoảng cách quyền lực và nam tính.",
+            "tránh sự không chắc chắn."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "professional_psychology"
+        }
+    },
+    {
+        "question": "Trong việc xây dựng một phương trình hồi quy bội cho mục đích dự đoán, sự kết hợp tối ưu của các thước đo là phương trình trong đó các yếu tố dự đoán",
+        "choices": [
+            "không tương quan với nhau nhưng tương quan vừa phải với tiêu chí",
+            "có mối tương quan thấp với nhau và tương quan thấp với tiêu chí",
+            "có mối tương quan chặt chẽ với nhau và tương quan vừa phải với tiêu chí",
+            "có mối tương quan thấp với tiêu chí bur có mối tương quan vừa phải với nhau"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "professional_psychology"
+        }
+    },
+    {
+        "question": "Có ba cách để đo lường Xu hướng trung tâm: Giá trị trung bình, Trung vị và Chế độ. Từ kiến ​​thức của bạn về chúng, chế độ đó là gì?",
+        "choices": [
+            "số xảy ra thường xuyên nhất",
+            "nhạy cảm với các giá trị cực trị và phân phối có độ lệch cao",
+            "hữu ích hơn cho việc phân phối sai lệch",
+            "ít nhạy cảm hơn với điểm cực trị so với giá trị trung bình"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "professional_psychology"
+        }
+    },
+    {
+        "question": "Việc phân tích tình huống sẽ được thực hiện ở giai đoạn nào trong quá trình lập kế hoạch?",
+        "choices": [
+            "Hành động và thực hiện ý tưởng",
+            "Lập kế hoạch chương trình",
+            "Xác định chương trình",
+            "Đánh giá chương trình"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "public_relations"
+        }
+    },
+    {
+        "question": "Tuyên bố nào sau đây đúng với Vatican vào năm 2010 vào thời điểm xảy ra cáo buộc che đậy lạm dụng trẻ em?",
+        "choices": [
+            "Đã có một phản ứng phối hợp của giới truyền thông.",
+            "Những lời chỉ trích được coi là cuộc tấn công vào Giáo hội Công giáo.",
+            "Sự tín nhiệm của Vatican đã được giữ vững.",
+            "Những thông điệp nhất quán đã được truyền đạt."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "public_relations"
+        }
+    },
+    {
+        "question": "Giờ Trái Đất là chiến dịch do tổ chức nào phát động?",
+        "choices": [
+            "Quỹ Động vật hoang dã thế giới",
+            "Liên Hiệp Quốc",
+            "Hòa bình Xanh",
+            "Oxfam"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "public_relations"
+        }
+    },
+    {
+        "question": "Người hành nghề truyền thông quan hệ công chúng nên làm gì nếu không biết câu trả lời cho câu hỏi của phóng viên?",
+        "choices": [
+            "Hãy nói 'Tôi không biết' và hứa sẽ cung cấp thông tin sau.",
+            "Nói rằng thông tin đó 'không được lưu lại' và sẽ được phổ biến sau.",
+            "Cung cấp cho phóng viên những thông tin khác mà cô ấy chắc chắn là đúng.",
+            "Nói 'miễn bình luận' thay vì tỏ ra không hiểu biết."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "public_relations"
+        }
+    },
+    {
+        "question": "Trong quản lý vấn đề, cách tiếp cận chủ động nhất để giải quyết thông tin tiêu cực hoặc sai lệch được đăng trực tuyến về tổ chức của bạn là gì?",
+        "choices": [
+            "Thực hiện các thay đổi về chính sách để giải quyết các khiếu nại được nêu bật trên các trang web này.",
+            "Chuẩn bị một bản tin làm mất uy tín của thông tin không chính xác.",
+            "Mua những tên miền có thể được các nhóm đối lập sử dụng.",
+            "Đăng bình luận ẩn danh trên blog để chống lại thông tin này."
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "public_relations"
+        }
+    },
+    {
+        "question": "Các khuôn khổ phân tích trong đó khủng bố đã được xem xét (tính đến năm 2020) là gì?",
+        "choices": [
+            "Sự cạnh tranh giữa các quốc gia lớn hơn đã dẫn đến việc một số quốc gia tích cực hỗ trợ các nhóm khủng bố nhằm làm suy yếu sức mạnh của các quốc gia đối thủ. Mạng lưới khủng bố là các câu lạc bộ bảo trợ mở rộng được các quốc gia tài trợ duy trì và chi trả và được khái niệm hóa giống như các chủ thể nhà nước, phải xử lý bằng vũ lực quân sự.",
+            "Khủng bố được coi là một vấn đề tội phạm. Việc hình sự hóa chủ nghĩa khủng bố có hai ý nghĩa quan trọng. Thứ nhất, nó gợi ý rằng chủ nghĩa khủng bố có thể bị tiêu diệt - những kẻ khủng bố có thể bị bắt và đưa ra xét xử bằng các thủ tục tố tụng tư pháp thông thường, từ đó loại bỏ mối đe dọa khỏi xã hội - và thứ hai, nó gợi ý rằng các kỹ thuật phòng ngừa tội phạm có thể được áp dụng để ngăn chặn sự phát triển của nó.",
+            "Khủng bố có thể được coi là một vấn đề cần giải quyết bằng biện pháp quân sự (chiến tranh chống khủng bố), bằng các kỹ thuật cảnh sát thông thường (khủng bố là tội phạm) hoặc là một vấn đề y tế có nguyên nhân và triệu chứng cơ bản (khủng bố là bệnh tật).",
+            "Toàn cầu hóa đã cho phép quốc tế hóa các hoạt động khủng bố bằng cách mở ra không gian hoạt động của chúng, mặc dù sự phối hợp vẫn được quản lý từ cơ sở địa lý. Điều này cho thấy rằng các nhóm khủng bố được cấu trúc theo cấp quốc gia, điều đó có nghĩa là khủng bố không thể được coi là một cuộc chiến tranh để bị đánh bại về mặt quân sự mà không gây ra những tác động nghiêm trọng đối với người dân bản địa."
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "security_studies"
+        }
+    },
+    {
+        "question": "Điều gì phân biệt ngoại giao cưỡng bức với lực lượng quân sự?",
+        "choices": [
+            "Ngoại giao cưỡng bức được sử dụng để sử dụng vũ lực nhưng nhằm hạn chế ảnh hưởng của nó đối với cộng đồng quốc tế. Ngoại giao cưỡng bức là một chiến lược tích cực nhằm đạt được sự tuân thủ thông qua thất bại. Nó không để lại yếu tố lựa chọn cho mục tiêu, mục tiêu hoặc bị buộc phải tuân theo hoặc tham gia vào xung đột. Nó tìm cách kiểm soát bằng cách áp đặt sự tuân thủ bằng cách loại bỏ mọi cơ hội đàm phán hoặc nhượng bộ.",
+            "Ngoại giao cưỡng bức là sự đe dọa sử dụng vũ lực có giới hạn nhằm khuyến khích đối phương tuân thủ các yêu cầu của kẻ cưỡng bức. Đó là một chiến lược gây ảnh hưởng nhằm đạt được sự tuân thủ: việc sử dụng vũ lực để đánh bại đối thủ trước không được tính. Nó để lại một yếu tố lựa chọn cho mục tiêu tuân theo hoặc tiếp tục.",
+            "Lực lượng quân sự, hay sự đe dọa của lực lượng quân sự, sử dụng nỗi sợ hãi để đạt được các mục tiêu chiến lược. Ngoại giao cưỡng bức khác với cách tiếp cận này vì nó không sử dụng sự sợ hãi như một công cụ để ép buộc đối thủ.",
+            "Sức mạnh là một thuật ngữ khác để chỉ ngoại giao cưỡng bức, nhưng bao hàm một bộ tiêu chí hẹp hơn; sức mạnh cưỡng chế bao gồm những mối đe dọa nhằm mục đích bắt đầu hành động đối nghịch. Lời đe dọa ép buộc một quốc gia từ bỏ một phần lãnh thổ của mình sẽ được coi là ngoại giao cưỡng bức, miễn là lời đe dọa đó chủ động khởi xướng hành động trước khi thực hiện chính sách ngoại giao phản ứng."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "security_studies"
+        }
+    },
+    {
+        "question": "Để được chứng khoán hóa, mối đe dọa phải được thể hiện theo cách nào sau đây?",
+        "choices": [
+            "Là một mối đe dọa hiện hữu đòi hỏi phải có hành động ngay lập tức và đặc biệt, gây ra mối đe dọa đối với sự tồn vong của nhà nước hoặc an ninh xã hội.",
+            "Là một mối đe dọa khẩn cấp đối với sự sống còn của đối tượng được đề cập, nghiêm trọng đến mức nó hợp pháp hóa việc sử dụng hành động bất thường để đáp trả.",
+            "Khi yêu cầu nhà nước có hành động ngay lập tức và bất thường, đe dọa sự tồn vong của đối tượng được đề cập và do đó đảm bảo việc sử dụng các biện pháp thường không được sử dụng trong lĩnh vực chính trị.",
+            "Là mối đe dọa khẩn cấp đối với sự sống còn của khán giả cần có các biện pháp đặc biệt hoặc khẩn cấp."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "security_studies"
+        }
+    },
+    {
+        "question": "Điều nào sau đây là lăng kính tốt nhất để nghiên cứu vai trò của những người lính trẻ em?",
+        "choices": [
+            "Lính trẻ em là nạn nhân của chiến tranh cần được cải tạo, phục hồi chức năng.",
+            "Trẻ em thường là những người ngoài cuộc vô tội trong chiến tranh và được coi là dấu hiệu của hòa bình tốt nhất.",
+            "Trẻ em và mẹ của chúng không phải là đối tượng tích cực trong chiến tranh và tốt nhất nên được coi là đối tượng trong phạm vi riêng tư.",
+            "Trẻ em có tính chủ thể chính trị bị bỏ qua khi chúng bị coi là nạn nhân thụ động của chiến tranh."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "security_studies"
+        }
+    },
+    {
+        "question": "Làm thế nào chúng ta có thể mô tả tốt nhất mối quan hệ giữa cách tiếp cận lấy nhà nước làm trung tâm và khái niệm an ninh con người?",
+        "choices": [
+            "Cả hai cách tiếp cận lấy nhà nước làm trung tâm và lấy con người làm trung tâm đều loại trừ lẫn nhau và cung cấp một khuôn khổ phân tích đầy đủ để hiểu hệ thống an ninh quốc tế. Do đó, vai trò của các nhà phân tích chứng khoán là xác định khái niệm quan trọng nào là đúng và khái niệm nào nên loại bỏ.",
+            "Có sự phân chia rộng rãi trong khuôn khổ an ninh con người về bản chất của các mối đe dọa và đối tượng liên quan đến mức không thể rút ra được sự so sánh có tính ứng dụng rộng rãi giữa các phương pháp tiếp cận lấy nhà nước làm trung tâm và an ninh con người.",
+            "Cách tiếp cận an ninh lấy nhà nước làm trung tâm là một nhánh của an ninh con người, thường được định nghĩa trong phạm vi rộng của trường phái an ninh con người. Bằng cách lấy nhà nước làm trung tâm, cách tiếp cận này ưu tiên cá nhân làm đối tượng tham chiếu trong các nghiên cứu bảo mật.",
+            "Bằng cách áp dụng khuôn khổ an ninh con người, những hạn chế của cách tiếp cận lấy nhà nước làm trung tâm theo chủ nghĩa hiện thực trở nên rõ ràng. Trong khi an ninh con người xác định đối tượng được đề cập là con người hoặc dân số, các phương pháp tiếp cận lấy nhà nước làm trung tâm ưu tiên an ninh của nhà nước, loại bỏ mức độ ưu tiên theo đuổi an ninh con người."
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "security_studies"
+        }
+    },
+    {
+        "question": "Berger (1963) miêu tả điều gì là ẩn dụ cho hiện thực xã hội?",
+        "choices": [
+            "một vở ballet",
+            "một rạp xiếc",
+            "một chuyến đi hội chợ",
+            "một nhà hát múa rối"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "sociology"
+        }
+    },
+    {
+        "question": "Điều nào sau đây mà nhà nước phúc lợi sau chiến tranh năm 1948 không nhằm mục đích cung cấp:",
+        "choices": [
+            "mức lương tối thiểu",
+            "chăm sóc sức khỏe và giáo dục miễn phí cho mọi người",
+            "việc làm đầy đủ",
+            "phúc lợi phổ quát"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "sociology"
+        }
+    },
+    {
+        "question": "Việc chuyển từ “tôn giáo dân sự” sang “tôn giáo chung” có nghĩa là:",
+        "choices": [
+            "bộ máy quan liêu ngày càng tăng của nhà nước đã khiến tôn giáo chỉ là một phần bên lề trong cuộc sống của chúng ta",
+            "sự tham gia tôn giáo vào việc thờ cúng tập thể có thể đã giảm sút, nhưng mọi người vẫn thực hành đức tin của họ một cách riêng tư",
+            "bất chấp sự suy yếu của quyền lực truyền thống, cuộc sống hàng ngày và 'lẽ thường' của chúng ta vẫn được định hình bởi niềm tin và giá trị tôn giáo",
+            "mọi người có nhiều khả năng thảo luận về niềm tin tôn giáo của họ ở những nơi công cộng, không chính thức"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "sociology"
+        }
+    },
+    {
+        "question": "Điều nào sau đây không phải là vấn đề liên quan đến số liệu thống kê chính thức về hành động đình công?",
+        "choices": [
+            "định nghĩa về đình công không bao gồm những cuộc đình công có sự tham gia của ít hơn 10 công nhân hoặc kéo dài dưới một ngày",
+            "thật khó để so sánh các cuộc đình công được đo lường theo những cách khác nhau",
+            "hầu hết các cuộc đình công đều không được người sử dụng lao động và các phương tiện thông tin đại chúng chú ý",
+            "không phải mọi tranh chấp lao động đều sẽ được người sử dụng lao động báo cáo"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "sociology"
+        }
+    },
+    {
+        "question": "Thuật ngữ “bá quyền” dùng để chỉ:",
+        "choices": [
+            "một dạng ý thức kép dựa trên hệ tư tưởng và kinh nghiệm hàng ngày",
+            "một phương thức thanh toán được đưa ra cho cây cảnh xuất sắc",
+            "xu hướng giai cấp công nhân không nhận ra lợi ích của mình",
+            "một hệ tư tưởng thống trị hợp pháp hóa quyền lực kinh tế, chính trị và văn hóa"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "sociology"
+        }
+    },
+    {
+        "question": "Donald Trump đã tấn công toàn cầu hóa như thế nào trong chiến dịch tranh cử năm 2016?",
+        "choices": [
+            "Giới tinh hoa theo chủ nghĩa tự do đã khuyến khích toàn cầu hóa, trong khi 'những người Mỹ bình thường' bị mất việc làm vì nó",
+            "Toàn cầu hóa khuyến khích các cuộc chiến tranh thương mại gây thiệt hại",
+            "Toàn cầu hóa chỉ mang lại lợi ích cho một số bang của Mỹ, chẳng hạn như New York",
+            "Toàn cầu hóa đã khiến những người như anh trở nên quá giàu có"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "us_foreign_policy"
+        }
+    },
+    {
+        "question": "Lĩnh vực của các quyết định chính sách liên quan chủ yếu đến mối quan hệ giữa Hoa Kỳ và phần còn lại của thế giới được gọi là",
+        "choices": [
+            "chính sách khủng bố.",
+            "chính sách đối ngoại.",
+            "chính sách quốc tế.",
+            "chính sách kinh tế."
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "us_foreign_policy"
+        }
+    },
+    {
+        "question": "Chủ nghĩa hiện thực phòng thủ và Chủ nghĩa hiện thực tấn công khác nhau như thế nào trong cách giải thích hành vi của nhà nước?",
+        "choices": [
+            "Những người theo chủ nghĩa hiện thực tấn công ưu tiên lợi ích quốc gia hơn những người theo chủ nghĩa hiện thực phòng thủ.",
+            "Những người theo chủ nghĩa hiện thực phòng thủ ít chú trọng đến các yếu tố địa lý",
+            "Những người theo chủ nghĩa hiện thực phòng thủ nhấn mạnh hơn vào vai trò của các thể chế quốc tế",
+            "Những người theo chủ nghĩa hiện thực phòng thủ tin rằng các quốc gia là những người tối đa hóa an ninh, trong khi những người theo chủ nghĩa hiện thực tấn công tin rằng các quốc gia là những người tối đa hóa quyền lực"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "us_foreign_policy"
+        }
+    },
+    {
+        "question": "Cuộc khủng hoảng tài chính năm 2008 ảnh hưởng thế nào đến danh tiếng quốc tế của Mỹ?",
+        "choices": [
+            "Nó làm tổn hại đến sự ủng hộ đối với mô hình kinh tế chính trị và chủ nghĩa tư bản của Hoa Kỳ",
+            "Nó tăng cường sự ủng hộ cho sự lãnh đạo toàn cầu của Mỹ dưới thời Tổng thống Obama",
+            "Nó tạo ra sự phẫn nộ đối với Hoa Kỳ vì đã phóng đại cuộc khủng hoảng",
+            "Nó làm giảm việc sử dụng đồng đô la Mỹ trên toàn cầu"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "us_foreign_policy"
+        }
+    },
+    {
+        "question": "NSC-68 đã thay đổi chiến lược của Hoa Kỳ như thế nào?",
+        "choices": [
+            "Nó toàn cầu hóa sự ngăn chặn.",
+            "Nó quân sự hóa việc ngăn chặn.",
+            "Nó kêu gọi phát triển bom khinh khí.",
+            "Tất cả những điều trên"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "us_foreign_policy"
+        }
+    },
+    {
+        "question": "Tại sao parvovirus là một loại ký sinh trùng có tác động mạnh?",
+        "choices": [
+            "Có thể tích hợp vào nhiễm sắc thể vật chủ",
+            "Họ yêu cầu một virus trợ giúp",
+            "Vì chúng không có axit nucleic",
+            "Chỉ sao chép ở tế bào đang phân chia"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "virology"
+        }
+    },
+    {
+        "question": "Đặc điểm nào sau đây là đặc điểm hình thái của paramyxovirus.",
+        "choices": [
+            "Virus rất lớn",
+            "Virus kéo dài",
+            "Virus 20 mặt có vỏ bọc",
+            "Những virus dễ vỡ thường được hình dung bằng RNA phun ra từ bên trong"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "virology"
+        }
+    },
+    {
+        "question": "Mục tiêu quan trọng nhất của can thiệp hành vi là:",
+        "choices": [
+            "Thay đổi hành vi bền vững",
+            "Thay đổi hành vi",
+            "Sử dụng hiệu quả lý thuyết hành vi",
+            "Bảo hiểm toàn diện"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "virology"
+        }
+    },
+    {
+        "question": "Yếu tố chính tạo điều kiện thuận lợi cho việc áp dụng các nghiên cứu bệnh chứng lồng ghép từ MACS là:",
+        "choices": [
+            "Thu thập dữ liệu",
+            "Nhân viên quản lý bảng câu hỏi",
+            "Thành lập kho lưu giữ mẫu vật sinh học",
+            "Sự quan tâm của người tham gia"
+        ],
+        "answer": 2,
+        "metadata": {
+            "subject": "virology"
+        }
+    },
+    {
+        "question": "Thời gian sống sót trung bình đến khi mắc bệnh AIDS và tử vong được xác định như sau:",
+        "choices": [
+            "Máy chuyển đổi huyết thanh",
+            "huyết thanh âm tính",
+            "Huyết thanh âm tính có nguy cơ cao",
+            "Người nhiễm HIV có huyết thanh phổ biến"
+        ],
+        "answer": 0,
+        "metadata": {
+            "subject": "virology"
+        }
+    },
+    {
+        "question": "\"Thiên mệnh\" được phát triển ở triều đại nào để hợp pháp hóa những người cai trị mới?",
+        "choices": [
+            "Hàn",
+            "Hạ",
+            "Thương",
+            "Chu"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "world_religions"
+        }
+    },
+    {
+        "question": "Upanishad có thể được mô tả như thế nào?",
+        "choices": [
+            "Văn bản nghi lễ",
+            "Thánh ca",
+            "Câu chuyện nguồn gốc",
+            "Văn bản triết học"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "world_religions"
+        }
+    },
+    {
+        "question": "Viên ngọc thứ hai trong Phật giáo là gì?",
+        "choices": [
+            "Bồ Tát",
+            "Pháp",
+            "Tăng đoàn",
+            "Đức Phật"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "world_religions"
+        }
+    },
+    {
+        "question": "Dấu hiệu giao ước dành cho người đàn ông Do Thái là gì?",
+        "choices": [
+            "Bar mitzvah",
+            "cắt bao quy đầu",
+            "Một đứa con trai",
+            "Cau vong"
+        ],
+        "answer": 1,
+        "metadata": {
+            "subject": "world_religions"
+        }
+    },
+    {
+        "question": "Chính phủ Nhật Bản nào đã thúc đẩy một loại tín ngưỡng quốc gia dựa trên hoàng đế và mối liên hệ của ông với kami?",
+        "choices": [
+            "tanaka",
+            "Honen",
+            "Tokugawa",
+            "Minh Trị"
+        ],
+        "answer": 3,
+        "metadata": {
+            "subject": "world_religions"
+        }
+    }
+]

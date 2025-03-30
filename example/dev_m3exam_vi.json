@@ -1,0 +1,402 @@
+[
+    {
+        "question": "Hình lập phương có cạnh là 5 m. Vậy thể tích hình đó là:",
+        "choices": [
+            "$150 m^{3}$",
+            "$25 m^{3}$",
+            "$100 m^{3}$",
+            "$125 m^{3}$"
+        ],
+        "answer": 3,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "low",
+            "subject": "math",
+            "sub_subject": "math"
+        }
+    },
+    {
+        "question": "Các cơ quan sinh dục cái và cơ quan sinh dục đực của thực vật có hoa là:",
+        "choices": [
+            "Đài hoa và nhụy hoa.",
+            "Cánh hoa và bao phấn.",
+            "Nhụy và nhị.",
+            "Cả 3 ý trên."
+        ],
+        "answer": 2,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "low",
+            "subject": "natural-science",
+            "sub_subject": "science"
+        }
+    },
+    {
+        "question": "Chống bão ở nước ta phải luôn kết hợp với chống",
+        "choices": [
+            "hạn hán.",
+            "động đất.",
+            "ngập lụt.",
+            "sương muối."
+        ],
+        "answer": 2,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "high",
+            "subject": "social-science",
+            "sub_subject": "geography"
+        }
+    },
+    {
+        "question": "Trong các câu sau đây, câu nào không chứa thành phần tình thái?",
+        "choices": [
+            "Hình như thu đã về.",
+            "Nhiều mây đấy.",
+            "Trời ơi, chỉ còn năm phút.",
+            "Đêm khuya, chó sủa nhiều chắc là có trộm."
+        ],
+        "answer": 2,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "mid",
+            "subject": "language",
+            "sub_subject": "literature"
+        }
+    },
+    {
+        "question": "Cặp từ nào trái nghĩa với nhau:",
+        "choices": [
+            "sướng – khổ",
+            "dai – dẻo",
+            "tủi – nhục",
+            "mềm – dẻo"
+        ],
+        "answer": 0,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "low",
+            "subject": "language",
+            "sub_subject": "vietnamese"
+        }
+    },
+    {
+        "question": "Biết đồ thị hàm số $y = ax + 2$ đi qua điểm (-2;4). Khi đó hệ số góc a bằng:",
+        "choices": [
+            "4.",
+            "-2.",
+            "-1.",
+            "2."
+        ],
+        "answer": 2,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "mid",
+            "subject": "math",
+            "sub_subject": "math"
+        }
+    },
+    {
+        "question": "Hôn nhân hợp pháp được nhà nước thừa nhận là cuộc hôn nhân",
+        "choices": [
+            "nam nữ kết hôn đúng độ tuổi.",
+            "có tổ chức hôn lễ.",
+            "có giấy chứng nhận kết hôn.",
+            "nam, nữ tự nguyện"
+        ],
+        "answer": 2,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "mid",
+            "subject": "social-science",
+            "sub_subject": "civic"
+        }
+    },
+    {
+        "question": "Có mấy loại vi phạm pháp luật?",
+        "choices": [
+            "3",
+            "2",
+            "5",
+            "4"
+        ],
+        "answer": 3,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "mid",
+            "subject": "social-science",
+            "sub_subject": "civic"
+        }
+    },
+    {
+        "question": "Công thức phân tử của glixerol là",
+        "choices": [
+            "C3H8O.",
+            "C3H8O3.",
+            "C2H6O2.",
+            "C2H6O."
+        ],
+        "answer": 1,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "high",
+            "subject": "natural-science",
+            "sub_subject": "chemistry"
+        }
+    },
+    {
+        "question": "Đặc điểm nào sau đây không phải là thành tựu sản xuất nông nghiệp của đồng bằng sông Cửu Long?",
+        "choices": [
+            "Bình quân lương thực theo đầu người cao nhất.",
+            "Năng suất lúa cao nhất cả nước",
+            "Là vùng trồng cây ăn quả lớn nhất cả nước.",
+            "Diện tích và sản lượng lúa cả năm cao nhất."
+        ],
+        "answer": 2,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "mid",
+            "subject": "social-science",
+            "sub_subject": "geography"
+        }
+    },
+    {
+        "question": "Hỗn số $5\\frac{3}{5}$ được viết dưới dạng phân số là:",
+        "choices": [
+            "$13/10$",
+            "$28/5$",
+            "$25/3$",
+            "$21/5$"
+        ],
+        "answer": 1,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "low",
+            "subject": "math",
+            "sub_subject": "math"
+        }
+    },
+    {
+        "question": "Hình vuông cạnh bằng 1, bán kính đường tròn ngoại tiếp hình vuông là:",
+        "choices": [
+            "$\\frac{\\sqrt{2}}{2}$",
+            "$\\sqrt{2}$",
+            "1/2",
+            "1"
+        ],
+        "answer": 0,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "mid",
+            "subject": "math",
+            "sub_subject": "math"
+        }
+    },
+    {
+        "question": "Sản xuất lúa gạo ở nước ta hiện nay",
+        "choices": [
+            "phát triển theo xu hướng hàng hóa.",
+            "chỉ tập trung ở khu vực đồng bằng.",
+            "hoàn toàn theo hình thức gia đình.",
+            "chỉ phục vụ nhu cầu ở trong nước."
+        ],
+        "answer": 0,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "high",
+            "subject": "social-science",
+            "sub_subject": "geography"
+        }
+    },
+    {
+        "question": "Màu lúa chín dưới đồng vàng xuộm lại. Nắng nhạt ngả màu vàng hoe. Trong vườn, lắc lư những chùm quả vàng lịm không trông thấy cuống, như những chuỗi tràng hạt bồ đề treo lơ lửng.\nĐọc đoạn văn trên và so sánh nghĩa của các từ in đậm có trong đoạn:",
+        "choices": [
+            "Vàng xuộm, vàng hoe, vàng lịm là những từ có nghĩa gần giống nhau nhưng khác nhau về cấp độ màu sắc.",
+            "Vàng xuộm, vàng hoe, vàng lịm là những từ có nghĩa trái nhau",
+            "Vàng xuộm, vàng hoe, vàng lịm là những từ có nghĩa hoàn toàn giống nhau đều chỉ chung một màu sắc.",
+            "Vàng xuộm, vàng hoe, vàng lịm là những từ có nghĩa hoàn toàn khác nhau."
+        ],
+        "answer": 0,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "low",
+            "subject": "language",
+            "sub_subject": "vietnamese"
+        }
+    },
+    {
+        "question": "Để Copy văn bản, em nhấn phím tắt gì ?",
+        "choices": [
+            "Ctrl + Shift",
+            "Ctrl + C",
+            "Ctrl + V",
+            "Phím nào cũng được"
+        ],
+        "answer": 1,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "low",
+            "subject": "natural-science",
+            "sub_subject": "informatics"
+        }
+    },
+    {
+        "question": "Cho hàm số $f(x) = 1 - \\frac{1}{cos^{2} 2x}$. Khẳng định nào dưới đây đúng?",
+        "choices": [
+            "$\\int f( x) dx = x + \\frac{1}{2} tan2x + C$",
+            "$\\int f( x) dx = x - \\frac{1}{2} tan2x + C$",
+            "$\\int f( x) dx = x + \\frac{1}{2} cot2x + C$",
+            "$\\int f( x) dx = x + tan2x + C$"
+        ],
+        "answer": 1,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "high",
+            "subject": "math",
+            "sub_subject": "math"
+        }
+    },
+    {
+        "question": "Giá trị của chữ số 9 trong số: 217,95 là:",
+        "choices": [
+            "$9/1000$",
+            "$9/10$",
+            "$9/100$",
+            "$9/1000$"
+        ],
+        "answer": 1,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "low",
+            "subject": "math",
+            "sub_subject": "math"
+        }
+    },
+    {
+        "question": "Xét về cấu tạo ngữ pháp, câu “Tác phẩm vừa là kết tinh của tâm hồn người sáng tác, vừa là sợi dây truyền cho mọi người sự sống mà nghệ sĩ mang trong lòng\" (Nguyễn Đình Thi Tiếng nói của văn nghệ) thuộc kiểu câu nào?",
+        "choices": [
+            "Câu rút gọn.",
+            "Câu đặc biệt.",
+            "Câu đơn.",
+            "Câu ghép."
+        ],
+        "answer": 2,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "mid",
+            "subject": "language",
+            "sub_subject": "literature"
+        }
+    },
+    {
+        "question": "Chất X (C_{n}H_{2n+4}O4N2) là muối amoni của axit cacboxylic đa chức, chất Y (C_{m}H_{2m+4}O2N2) là muối amoni của một amino axit. Cho m gam E gồm X và Y (có tỉ lệ mol tương ứng là 7 : 3) tác dụng hết với lượng dư dung dịch NaOH đun nóng, thu được 0,17 mol etylamin và 15,09 gam hỗn hợp muối. Phần trăm khối lượng của X trong E có giá trị gần nhất với giá trị nào sau đây?",
+        "choices": [
+            "68.",
+            "52.",
+            "71.",
+            "77."
+        ],
+        "answer": 3,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "high",
+            "subject": "natural-science",
+            "sub_subject": "chemistry"
+        }
+    },
+    {
+        "question": "Từ ngữ nào dưới đây dùng để  chỉ phẩm chất của phụ nữ Việt Nam :",
+        "choices": [
+            "thanh thoát",
+            "nữ tính",
+            "vị tha",
+            "ghê gớm"
+        ],
+        "answer": 2,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "low",
+            "subject": "language",
+            "sub_subject": "vietnamese"
+        }
+    },
+    {
+        "question": "Các loài hoa thụ phấn nhờ côn trùng có đặc điểm gì?",
+        "choices": [
+            "Không có màu sắc.",
+            "Có màu sắc sặc sỡ.",
+            "Không có hương thơm.",
+            "Có màu sắc sặc sỡ và có hương thơm"
+        ],
+        "answer": 3,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "low",
+            "subject": "natural-science",
+            "sub_subject": "science"
+        }
+    },
+    {
+        "question": "Tập xác định của hàm số $y = 9^{x}$ là",
+        "choices": [
+            "$(0; +∞)$",
+            "$\\mathbb{R} \\ {0}$",
+            "$\\mathbb{R}$",
+            "$[0; +∞)$"
+        ],
+        "answer": 2,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "high",
+            "subject": "math",
+            "sub_subject": "math"
+        }
+    },
+    {
+        "question": "Có bao nhiêu cách chọn hai học sinh từ một nhóm gồm 34 học sinh?",
+        "choices": [
+            "$A_{34}^{2}$",
+            "$C_{34}^{2}$",
+            "$2^{34}$",
+            "$34^{2}$"
+        ],
+        "answer": 1,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "high",
+            "subject": "math",
+            "sub_subject": "math"
+        }
+    },
+    {
+        "question": "Thể tích của hình trụ có chiều cao $h$, bán kính đáy $r$, được tính theo công thức",
+        "choices": [
+            "$V=2πrh$.",
+            "$V=πrh$.",
+            "$V=1/3πr^{2}h$.",
+            "$V=πr^{2}h$."
+        ],
+        "answer": 3,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "mid",
+            "subject": "math",
+            "sub_subject": "math"
+        }
+    },
+    {
+        "question": "Việc ông M không cho bà K phát biểu ý kiến cá nhân trong cuộc họp tổ dân phố là vi phạm quyền nào dưới đây của công dân?",
+        "choices": [
+            "Quản trị truyền thông.",
+            "Tự do ngôn luận.",
+            "Quản lí nhân sự.",
+            "Tự chủ phán quyết."
+        ],
+        "answer": 1,
+        "metadata": {
+            "language": "vietnamese",
+            "level": "high",
+            "subject": "social-science",
+            "sub_subject": "civic"
+        }
+    }
+]
