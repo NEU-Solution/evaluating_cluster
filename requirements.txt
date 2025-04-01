@@ -1,1 +1,5 @@
 vllm
+wandb
+pandas
+tqdm
+transformers

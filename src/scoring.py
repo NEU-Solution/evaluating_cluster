@@ -20,35 +20,31 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 def single_scoring_mcq(llm: LLM, response: dict, output_path: str) -> dict:
 
     mcq = response['mcq_question']
-    choice = response['choice']
+    choices = response['choice']
     correct_choice = response['answer']
 
     system_prompt = """
 Bạn được cung cấp một câu hỏi trắc nghiệm và các lựa chọn trả lời.
-Bạn hãy suy nghĩ từng bước một cách cẩn thận và chọn ra câu trả lời đúng nhất.
-Đáp án của bạn phải là một trong các lựa chọn A, B, C, D.
-
-Đáp án lựa chọn của bạn phải được để trong \\boxed{} và viết hoa (ví dụ: \\boxed{A}).
+Hãy phân tích từng bước một cách cẩn thận trước khi chọn ra câu trả lời đúng nhất.
+Đáp án của bạn phải là một trong các lựa chọn A, B, C, D và được để trong $\\boxed{}$ và viết hoa (ví dụ: $\\boxed{A}$).
 """
 
     prompt = f"""
-<question>
+Câu hỏi:
 {mcq}
-</question>
 
-<choices>
-{choice}
-</choices>
+Các lựa chọn:
+{choices}
 """
 
     messages = [
         {
             "role": "system",
-            "content": system_prompt
+            "content": system_prompt.strip()
         },
         {
             "role": "user",
-            "content": prompt
+            "content": prompt.strip()
         }
     ]
 
@@ -70,15 +66,18 @@ Bạn hãy suy nghĩ từng bước một cách cẩn thận và chọn ra câu 
     result = dict()
     result['id'] = response['id']
     result['score'] = score
-    result['question'] = mcq
+    result['question'] = mcq + "\n\n" + choices
     result['response'] = answer
 
     append_jsonl_to_file(result, output_path)
 
     return result
 
+def single_scoring_preference(llm: LLM, response: dict, output_path: str) -> dict:
+    pass
 
-def scoring_mcq(llm: LLM, questions: list[dict], output_path: str, max_workers: bool = 4, multi_thread: bool = False):
+
+def scoring(llm: LLM, questions: list[dict], output_path: str, max_workers: bool = 4, multi_thread: bool = False, task: str = 'mcq') -> list[dict]:
     
     total_questions = len(questions)
     results = []
@@ -87,7 +86,15 @@ def scoring_mcq(llm: LLM, questions: list[dict], output_path: str, max_workers: 
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             futures = {}
             for question in questions:
-                future = executor.submit(single_scoring_mcq, llm, question, output_path)
+                
+                # Add task to queue
+                if task == 'mcq':
+                    future = executor.submit(single_scoring_mcq, llm, question, output_path)
+                elif task == 'preference':
+                    future = executor.submit(single_scoring_preference, llm, question, output_path)
+                else:
+                    raise ValueError(f"Unknown task type: {task}")
+                
                 futures[future] = question
                 
             # Process results as they complete with proper error handling
@@ -139,8 +146,8 @@ def evaluate_generation(llm: LLM, question_path : str, multi_thread : bool = Fal
     
     output_path = os.path.join(output_folder, output_file_name)
 
-    print(f"Number of questions: {len(question)}")
+    logging.info(f"Number of questions: {len(question)}")
 
-    return scoring_mcq(llm, question[:5], output_path, max_workers, multi_thread)
+    return scoring(llm, question, output_path, max_workers, multi_thread)
 
 

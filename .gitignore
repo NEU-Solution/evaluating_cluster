@@ -136,3 +136,4 @@ models/
 wandb/
 
 .DS_Store 
+test.ipynb
