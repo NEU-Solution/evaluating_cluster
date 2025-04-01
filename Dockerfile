@@ -1,4 +1,16 @@
-FROM python:3.12-slim
+FROM nvidia/cuda:12.8.0-runtime-ubuntu22.04
+
+# Install Python and required packages
+RUN apt-get update && apt-get install -y \
+    python3 \
+    python3-pip \
+    git \
+    nvidia-cuda-toolkit \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set Python aliases
+RUN ln -sf /usr/bin/python3 /usr/bin/python && \
+    ln -sf /usr/bin/pip3 /usr/bin/pip
 
 WORKDIR /app
 
@@ -6,16 +18,32 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Explicitly install torch with CUDA support
+RUN pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu126
+
+
 # Clone the LLM repository
-RUN apt-get update && apt-get install -y git
 RUN git clone https://github.com/hung20gg/llm.git
+
+COPY . .
+# COPY llm/requirements.txt .
 RUN pip install -r llm/quick_requirements.txt
 
-# Copy the rest of the application code (excluding .env file)
-COPY . .
+# # Copy the rest of the application code, including .env file
+# COPY . . 
+# COPY .env .env
+# COPY . .
 
 # Set Python path to include the current directory
-ENV PYTHONPATH=/app:${PYTHONPATH}
+ENV PYTHONPATH=/app
 
-# Default command to run tests
-CMD ["python", "-m", "test.test"]
+# Configure CUDA environment variables
+ENV NVIDIA_VISIBLE_DEVICES=all
+ENV NVIDIA_DRIVER_CAPABILITIES=compute,utility
+ENV CUDA_VISIBLE_DEVICES=0
+
+# Add a comment to indicate GPU usage
+# Note: Container must be run with --gpus flag
+
+# Default command to run main application
+CMD ["python", "main.py"]

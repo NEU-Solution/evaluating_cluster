@@ -26,14 +26,30 @@ The evaluation dataset must be in the following format
 ]
 ```
 
+Test
+```bash
+python -m test.test
+```
+
+Remenber add env file
+```bash
+WANDB_API_KEY=your_api_key
+WANDB_PROJECT=mlops
+WANDB_ENTITY=neu-solution
+```
 
 Run docker image
 ```bash
 # Build the Docker image
 docker build -t evaluate_cluster .
 
+docker build --no-cache -t evaluate_cluster .
+
 # Run the container with tests
-docker run evaluate_cluste
+docker run --gpus all --env-file .env evaluate_cluster
 ```
 
 Run via docker compose
+```bash
+docker-compose up --build -d
+```

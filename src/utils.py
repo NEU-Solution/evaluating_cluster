@@ -129,7 +129,7 @@ def extract(answer, q_type = 'MCQ'):
             return 'None'
     else:
         answer = answer.strip().upper().replace(' ', '').replace(',', '').replace('AND', '').replace(':', '')
-        print(f'Processed strings:{answer}\n')
+        # print(f'Processed strings:{answer}\n')
         match1 = re.findall(r'[\[,\{,\(][A-D]+[\],\},\)]', answer)
         match2 = re.findall(r'[\[,\{,\(]-?[0-9]+\.?[0-9]*[\],\},\)]', answer)
         match3 = re.findall(r'ANSWERIS-?[0-9]+\.?[0-9]*', answer)

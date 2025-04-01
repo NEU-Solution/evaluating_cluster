@@ -45,7 +45,9 @@ def dev_load_vmlu(**kwargs) -> None:
 
     # Save to jsonl
     # output_file_name = '../temp/vmlu.jsonl'
-    # output_path = os.path.join(current_dir, output_file_name)
+    # output_folder = os.path.join(current_dir, '../temp')
+    # os.makedirs(output_folder, exist_ok=True)
+    # output_path = os.path.join(output_folder, output_file_name)
     # convert_and_save_mcq(data, output_path)
     
 
@@ -64,7 +66,9 @@ def dev_load_mmlu(**kwargs) -> None:
 
     # Save to jsonl
     # output_file_name = '../temp/mmlu_vi.jsonl'
-    # output_path = os.path.join(current_dir, output_file_name)
+    # output_folder = os.path.join(current_dir, '../temp')
+    # os.makedirs(output_folder, exist_ok=True)
+    # output_path = os.path.join(output_folder, output_file_name)
     # convert_and_save_mcq(data, output_path)
 
 
@@ -83,7 +87,10 @@ def dev_load_m3exam(**kwargs) -> None:
 
     # Save to jsonl
     output_file_name = '../temp/m3exam_vi.jsonl'
-    output_path = os.path.join(current_dir, output_file_name)
+    output_folder = os.path.join(current_dir, '../temp')
+    os.makedirs(output_folder, exist_ok=True)
+    output_path = os.path.join(output_folder, output_file_name)
+
     convert_and_save_mcq(data, output_path)
 
 
