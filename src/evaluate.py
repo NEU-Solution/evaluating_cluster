@@ -13,8 +13,9 @@ from src.load_model import (download_model_regristry,
                             terminate_server, 
                             # load_huggingface_model
                             )
+from src.logging import BaseLogger, create_logger
 
-from llm import OpenAIWrapper
+from llm import OpenAIWrapper, LLM
 
 import logging
 import pandas as pd
@@ -28,25 +29,27 @@ WANDB_ENTITY = os.getenv("WANDB_ENTITY")
 wandb.login(key = WANDB_API_KEY)
 
 
-def log_result(run, results: list[dict], dataset_name: str) -> float:
+def log_result(logger: BaseLogger, results: list[dict], dataset_name: str) -> float:
 
     score = 0
     for result in results:
         score += result['score']
+    
+    avg_score = score/len(results) * 100
 
-    run.log({dataset_name: score/len(results) * 100})
+    logger.log_metric(dataset_name, avg_score)
 
     df = pd.DataFrame(results)
     df.to_csv(os.path.join(current_dir, '../data', f"{dataset_name}.csv"), index=False)
 
-    table = wandb.Table(dataframe=df)
-    run.log({f"{dataset_name}_response": table})
+    # table = wandb.Table(dataframe=df)
+    logger.log_table(f"{dataset_name}_response", df)
 
-    return score/len(results) * 100
+    return avg_score
 
 
 
-def llm_evaluate(llm, current_dir: str, run = None, multi_thread:bool = True, max_workers:int = 2) -> list[dict]:
+def llm_evaluate(llm: LLM, current_dir: str, logger: BaseLogger = None, multi_thread:bool = True, max_workers:int = 2) -> list[dict]:
     """
     Evaluate the model using the provided questions and answers.
     """
@@ -73,27 +76,32 @@ def llm_evaluate(llm, current_dir: str, run = None, multi_thread:bool = True, ma
         evaluate_results[eval_dataset_name] = results
 
         # Log the results
-        if run is not None:
-            score = log_result(run, results, eval_dataset_name)
-            run.summary[f"{eval_dataset_name}_final_score"] = score
+        if logger is not None:
+            score = log_result(logger, results, eval_dataset_name)
+            logger.update_summary(f"{eval_dataset_name}_final_score", score)
 
         logging.info(f"Evaluation completed for {eval_dataset_name}.")
 
 
     
 
-def evaluate(base_model_name: str, wandb_model_name: str, data_version: str, run = None, model_version: str = None, multi_thread:bool = True, llm_bankend = 'hugging_face', max_workers:int = 2, port:int = 8000):
+def evaluate(base_model_name: str, lora_name: str, data_version: str, logger = None, model_version: str = None, multi_thread:bool = True, llm_bankend = 'vllm', max_workers:int = 2, port:int = 8000, tracking_backend: str = 'wandb'):
 
     fake_etl()
     
     inner_run = False
-    if run is None:
+    if logger is None:
         inner_run = True
-        # Initialize a new W&B run
-        run = wandb.init(project=WANDB_PROJECT, entity=WANDB_ENTITY, job_type="evaluate")
-    # run = wandb.init(project=WANDB_PROJECT, entity=WANDB_ENTITY, job_type="evaluate")
+        # Initialize a new logger with a new run
+        logger = create_logger(tracking_backend)
+        logger.login()
+        logger.init_run(
+            project=os.getenv("WANDB_PROJECT") if tracking_backend == 'wandb' else os.getenv("MLFLOW_EXPERIMENT_NAME", "Default"),
+            entity=os.getenv("WANDB_ENTITY") if tracking_backend == 'wandb' else None,
+            job_type="evaluate"
+        )
 
-    lora_path = download_model_regristry(wandb_model_name, version=model_version)
+    lora_path = download_model_regristry(lora_name, version=model_version,logger=logger)
 
     if llm_bankend == 'vllm':
         # Start the inference server
@@ -112,7 +120,7 @@ def evaluate(base_model_name: str, wandb_model_name: str, data_version: str, run
             llm_evaluate(
                 llm,
                 current_dir=current_dir,
-                run=run,
+                logger=logger,
                 multi_thread=multi_thread,
                 max_workers=max_workers
             )
@@ -139,8 +147,8 @@ def evaluate(base_model_name: str, wandb_model_name: str, data_version: str, run
         
     if inner_run:
         # Finish the W&B run
-        run.finish()
-        logging.info("W&B run finished.")
+        logger.finish_run()
+        logging.info("Tracking run finished.")
 
 
 
@@ -151,6 +159,6 @@ if __name__ == "__main__":
 
     evaluate(
         base_model_name=base_model_name,
-        wandb_model_name=wandb_model_name,
+        lora_name=wandb_model_name,
         data_version='v0.1',
     )
