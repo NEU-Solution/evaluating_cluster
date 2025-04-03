@@ -59,3 +59,9 @@ class WandbLogger(BaseLogger):
         if self.run:
             self.run.finish()
             self.run = None
+
+    def get_tracking_url(self) -> Optional[str]:
+        """Get URL to the current run in WandB UI."""
+        if self.run:
+            return self.run.get_url()
+        return None

@@ -45,3 +45,7 @@ class BaseLogger(ABC):
     def login(self, **kwargs) -> None:
         """Login to the tracking service."""
         pass
+
+    def get_tracking_url(self) -> Optional[str]:
+        """Get URL to the current run in the tracking UI, if available."""
+        return None
