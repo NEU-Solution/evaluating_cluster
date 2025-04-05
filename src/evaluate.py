@@ -21,14 +21,6 @@ import logging
 import pandas as pd
 
 
-
-WANDB_API_KEY = os.getenv("WANDB_API_KEY")
-WANDB_PROJECT = os.getenv("WANDB_PROJECT")
-WANDB_ENTITY = os.getenv("WANDB_ENTITY")
-
-wandb.login(key = WANDB_API_KEY)
-
-
 def log_result(logger: BaseLogger, results: list[dict], dataset_name: str) -> float:
 
     score = 0
@@ -155,10 +147,11 @@ def evaluate(base_model_name: str, lora_name: str, data_version: str, logger = N
 
 if __name__ == "__main__":
     base_model_name = 'Qwen/Qwen2.5-1.5B-Instruct'
-    wandb_model_name = 'wandb-registry-model/initial-sft'
+    lora_name = 'wandb-registry-model/initial-sft'
 
     evaluate(
         base_model_name=base_model_name,
-        lora_name=wandb_model_name,
+        lora_name=lora_name,
         data_version='v0.1',
+        tracking_backend = 'wandb',
     )
