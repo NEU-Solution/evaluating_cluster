@@ -25,6 +25,7 @@ logger = logging.getLogger(__name__)
 from dotenv import load_dotenv
 load_dotenv()
 
+
 app = FastAPI(title="Model Evaluation API")
 
 # Global thread pool for running CPU-intensive tasks

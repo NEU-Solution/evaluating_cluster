@@ -61,8 +61,8 @@ def download_model_regristry(model_name: str, version: str = None, download_dir:
         return artifact_dir
 
     if logger.tracking_backend == 'wandb':
-        if 'wandb-registry-model' not in model_name:
-            model_name = 'wandb-registry-model/' + model_name
+        # if 'wandb-registry-model' not in model_name:
+        #     model_name = 'wandb-registry-model/' + model_name
             
         # Download the model using wandb API
         artifact = wandb.use_artifact(
