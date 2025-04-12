@@ -17,7 +17,7 @@ import logging
 
 import sys 
 sys.path.append("..")
-from llm import vLLM
+from llm import vLLM, OpenAIWrapper
 from src.logging import BaseLogger, create_logger
 
 import os 
@@ -96,7 +96,33 @@ def download_model_regristry(model_name: str, version: str = None, download_dir:
     return artifact_dir
 
 
-def start_inference_server(base_model: str, lora_path: str, port=8000):
+def test_connection(port = 8000) -> bool:
+    
+    try:
+        host = f"http://localhost:{port}/v1"
+        model_name = "evaluate"
+        api_key = 'ngu'
+
+        llm = OpenAIWrapper(model_name=model_name, host=host, api_key=api_key)
+
+        messages = [
+            {
+                "role": "user",
+                "content": "Hello, how are you?"
+            }
+        ]
+
+        response = llm(messages)
+        if not response or response == "":
+            logging.error("No response from the server.")
+            return False
+        return True
+    except Exception as e:
+        logging.error(f"Error connecting to the server: {e}")
+        return False
+
+
+def start_inference_server(base_model: str, lora_path: str, port=8000, max_vram: float = 12):
     """Start the model inference server"""
 
     # Check device
@@ -115,8 +141,44 @@ def start_inference_server(base_model: str, lora_path: str, port=8000):
     gc.collect()
     logging.info(f"Starting inference server with model at {lora_path} on port {port}")
     
+    # Get the maximum available GPU VRAM
+    if device == "cuda":
+        try:
+            # Get total GPU memory
+            total_vram = torch.cuda.get_device_properties(0).total_memory
+            # Get current allocated memory
+            allocated_vram = torch.cuda.memory_allocated(0)
+            # Get cached memory that can be freed
+            cached_vram = torch.cuda.memory_reserved(0)
+            # Calculate free memory
+            free_vram = total_vram - allocated_vram - cached_vram
+            
+            logging.info(f"Total GPU VRAM: {total_vram / 1024**3:.2f} GB")
+            logging.info(f"Free GPU VRAM: {free_vram / 1024**3:.2f} GB")
+            
+            # Adjust GPU memory utilization based on available memory
+            gpu_mem_utilization = min(0.9, (free_vram / total_vram) * 0.95)
+            
+            # Ensure the utilization does not exceed the max_vram limit
+            
+            # Ratio
+            if max_vram < 1:
+                gpu_mem_utilization = min(gpu_mem_utilization, max_vram)
+            else:
+                # Actual memory
+                gpu_mem_utilization = min(gpu_mem_utilization, max_vram / total_vram)
+
+            logging.info(f"Setting GPU memory utilization to: {gpu_mem_utilization:.2f}")
+        except Exception as e:
+            logging.warning(f"Failed to get GPU memory info: {e}")
+            gpu_mem_utilization = 0.9
+    else:
+        logging.warning("CUDA not available, running on CPU")
+        gpu_mem_utilization = 0.0
+
+
     # Example command to start an inference server (adjust based on your actual server command)
-    server_command = f"vllm serve {base_model} --lora-modules evaluate={lora_path} --max_model-len 2048 --gpu-memory-utilization 0.5 --enable-lora  --max-lora-rank 64 --served-model-name evaluate --port {port}"
+    server_command = f"vllm serve {base_model} --lora-modules evaluate={lora_path} --max_model-len 2048 --gpu-memory-utilization {gpu_mem_utilization} --enable-lora  --max-lora-rank 64 --served-model-name evaluate --port {port}"
     logging.info(server_command)
 
     # Start the server as a subprocess
@@ -130,6 +192,16 @@ def start_inference_server(base_model: str, lora_path: str, port=8000):
     
     # Wait for server to start
     time.sleep(60)  # Adjust as needed
+
+    max_tries = 8
+    while max_tries > 0:
+        if test_connection(port):
+            logging.info("Server started successfully")
+            break
+        else:
+            logging.info("Server not ready yet, retrying...")
+            time.sleep(15)
+            max_tries -= 1
     
     return server_process
 

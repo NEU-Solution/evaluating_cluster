@@ -1,5 +1,6 @@
 vllm
 wandb
+mlflow
 pandas
 tqdm
 transformers
