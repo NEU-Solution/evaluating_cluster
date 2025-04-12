@@ -97,7 +97,7 @@ def evaluate(base_model_name: str, lora_name: str, data_version: str, logger = N
 
     if llm_bankend == 'vllm':
         # Start the inference server
-        server_process = start_inference_server(base_model_name, lora_path, port=port)
+        server_process = start_inference_server(base_model_name, lora_path, port=port, max_vram = 12)
         if server_process is None:
             print("Failed to start the inference server.")
             return
