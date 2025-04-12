@@ -33,25 +33,40 @@ class WandbLogger(BaseLogger):
     
     def log_metric(self, key: str, value: Union[float, int]) -> None:
         """Log a single metric to WandB."""
+        if not self.check_run_status():
+            return
+        
         self.run.log({key: value})
         
     def log_metrics(self, metrics: Dict[str, Union[float, int]]) -> None:
         """Log multiple metrics to WandB."""
+        if not self.check_run_status():
+            return
+        
         self.run.log(metrics)
     
     def log_table(self, key: str, dataframe: pd.DataFrame) -> None:
         """Log a dataframe as a table to WandB."""
+        if not self.check_run_status():
+            return
+        
         table = wandb.Table(dataframe=dataframe)
         self.run.log({key: table})
     
     def log_artifact(self, local_path: str, name: Optional[str] = None) -> None:
         """Log an artifact file to WandB."""
+        if not self.check_run_status():
+            return
+        
         artifact = wandb.Artifact(name=name or os.path.basename(local_path), type="dataset")
         artifact.add_file(local_path)
         self.run.log_artifact(artifact)
         
     def update_summary(self, key: str, value: Any) -> None:
         """Update a summary metric in WandB."""
+        if not self.check_run_status():
+            return
+        
         self.run.summary[key] = value
     
     def finish_run(self) -> None:

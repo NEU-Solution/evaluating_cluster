@@ -2,7 +2,7 @@ import json
 import os
 import re
 
-choices = ['A', 'B', 'C', 'D', 'E', 'a', 'b', 'c', 'd', 'e']
+choices = ['A', 'B', 'C', 'D', 'E', 'F', 'a', 'b', 'c', 'd', 'e', 'f']
 
 def append_jsonl_to_file(json_obj: list|dict, file_path: str):
     with open(file_path, 'a') as f:
@@ -105,6 +105,8 @@ def extract(answer, q_type = 'MCQ'):
     if '\\boxed{' in answer:
         trunc_ans = answer.split('\\boxed{')[-1]
         extracted_ans = trunc_ans.split('}')[0].strip().replace(' ', '').replace(',', '')
+        if '\\textbf{' in extracted_ans:
+            extracted_ans = extracted_ans.split('\\textbf{')[-1]
         flag = 1
         if q_type == 'MCQ':
             if len(extracted_ans) == 1 and extracted_ans in choices:
@@ -127,6 +129,16 @@ def extract(answer, q_type = 'MCQ'):
             return extracted_ans
         else:
             return 'None'
+    elif 'Đáp án' in answer:
+
+        pattern = r'Đáp án\s*:'
+
+        answer = re.split(pattern, answer)[-1]
+        answer = answer.strip().upper().replace(' ', '').replace(',', '')[0]
+        if len(answer) == 1 and answer in choices:
+            return answer
+        else:
+            return 'None'  
     else:
         answer = answer.strip().upper().replace(' ', '').replace(',', '').replace('AND', '').replace(':', '')
         # print(f'Processed strings:{answer}\n')
@@ -357,3 +369,8 @@ def extract(answer, q_type = 'MCQ'):
                     print('Matching error!\n')
         print('answer invalid!\n')
         return 'None'
+
+
+if __name__ == "__main__":
+    text = "Đáp án: A"
+    print(extract(text))

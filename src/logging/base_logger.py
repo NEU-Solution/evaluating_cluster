@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 import pandas as pd
 from typing import Dict, Any, Optional, List, Union
+import logging
 
 class BaseLogger(ABC):
     """Abstract base class for experiment tracking loggers."""
@@ -49,3 +50,19 @@ class BaseLogger(ABC):
     def get_tracking_url(self) -> Optional[str]:
         """Get URL to the current run in the tracking UI, if available."""
         return None
+    
+    def auto_init_run(self) -> None:
+        """Automatically initialize a run if not already done."""
+        pass
+
+    def check_run_status(self) -> bool:
+        """
+        Check if the current run is active.
+        
+        Returns:
+            True if the run is active, False otherwise
+        """
+        flag = hasattr(self, 'run') and self.run is not None
+        if not flag:
+            logging.warning("No active run detected.")
+        return flag

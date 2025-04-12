@@ -2,6 +2,7 @@ import wandb
 import mlflow
 
 from transformers import AutoModelForCausalLM
+from huggingface_hub import snapshot_download
 # from llm.llm.hugging_face import HuggingFaceLLM
 import torch
 import gc
@@ -31,7 +32,7 @@ WANDB_ENTITY = os.getenv("WANDB_ENTITY")
 
 wandb.login(key = WANDB_API_KEY)
 
-def download_model_regristry(model_name: str, version: str = None, download_dir: str = 'models', logger: BaseLogger = None) -> str:
+def download_model_regristry(model_name: str, version: str = None, download_dir: str = 'models', logger: BaseLogger = None, hf_repo: str = None) -> str:
     """
     Download a model from the WandB model registry.
     """
@@ -45,14 +46,23 @@ def download_model_regristry(model_name: str, version: str = None, download_dir:
     # Initialize a W&B run
     
     # Download the model
-    artifact = wandb.use_artifact(f"{model_name}:{version}" if version else f"{model_name}:latest")
-    
+
     download_dir = os.path.join('../', download_dir)
     os.makedirs(download_dir, exist_ok=True)
 
+    if hf_repo is not None:
+        # Download from Hugging Face Hub
+        artifact_dir = snapshot_download(
+            repo_id=hf_repo,
+            revision=version,
+            cache_dir=download_dir
+        )
+        logging.info(f"Downloaded model from Hugging Face Hub to {artifact_dir}")
+        return artifact_dir
+
     if logger.tracking_backend == 'wandb':
-        if 'wandb-registry-model' not in model_name:
-            model_name = 'wandb-registry-model/' + model_name
+        # if 'wandb-registry-model' not in model_name:
+        #     model_name = 'wandb-registry-model/' + model_name
             
         # Download the model using wandb API
         artifact = wandb.use_artifact(

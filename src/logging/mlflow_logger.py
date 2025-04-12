@@ -54,10 +54,15 @@ class MLflowLogger(BaseLogger):
     
     def log_metric(self, key: str, value: Union[float, int]) -> None:
         """Log a single metric to MLflow."""
+        if not self.check_run_status():
+            return
+        
         mlflow.log_metric(key, value)
         
     def log_metrics(self, metrics: Dict[str, Union[float, int]]) -> None:
         """Log multiple metrics to MLflow."""
+        if not self.check_run_status():
+            return
         mlflow.log_metrics(metrics)
     
     def log_table(self, key: str, dataframe: pd.DataFrame) -> None:
