@@ -85,7 +85,7 @@ def download_model_regristry(model_name: str, version: str = None, download_dir:
             model_name
         )
         mlflow.artifacts.download_artifacts(
-            artifact_uri=f"models:/{model_name}/{version}",
+            artifact_uri=f"models:/{model_name}@{version}" if version else f"models:/{model_name}@latest",
             dst_path=artifact_dir
         )
     else:
