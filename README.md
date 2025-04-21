@@ -38,18 +38,24 @@ WANDB_PROJECT=mlops
 WANDB_ENTITY=neu-solution
 ```
 
-Run docker image
+## Run docker evaluation 
 ```bash
 # Build the Docker image
-docker build -t evaluate_cluster .
 
-docker build --no-cache -t evaluate_cluster .
+docker build -t evaluate_model -f Dockerfile.eval .
 
 # Run the container with tests
-docker run --gpus all --env-file .env evaluate_cluster
+docker run --gpus all --env-file .env -v ~/.cache/huggingface:/root/.cache/huggingface  evaluate_model 
 ```
 
-Run via docker compose
+## Run docker api service
+```bash
+docker build -t evaluation-api .
+
+docker run --gpus all --env-file .env -p 23477:23477 -v ~/.cache/huggingface:/root/.cache/huggingface evaluation-api
+```
+
+## Run via docker compose
 ```bash
 docker-compose up --build -d
 ```

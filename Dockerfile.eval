@@ -1,4 +1,13 @@
 FROM nvidia/cuda:12.6.3-cudnn-runtime-ubuntu22.04
+# AS vllm_base
+
+
+# 
+
+# COPY --from=vllm_base /opt/vllm /opt/vllm
+# ENV PATH="/opt/vllm/bin:${PATH}"
+# # ENV PYTHONPATH="/opt/vllm:${PYTHONPATH}"
+
 
 # Install Python and required packages
 RUN apt-get update && apt-get install -y \
@@ -7,6 +16,7 @@ RUN apt-get update && apt-get install -y \
     python3-venv \
     git \
     build-essential \
+    # nvidia-cuda-toolkit \
     && rm -rf /var/lib/apt/lists/*
 
 # Set Python aliases
@@ -15,23 +25,30 @@ RUN ln -sf /usr/bin/python3 /usr/bin/python && \
 
 WORKDIR /app
 
-# Create and activate a virtual environment
+
 RUN python3 -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
+
 
 # Copy requirements first to leverage Docker cache
 COPY requirements.txt .
 RUN pip install --no-cache-dir --ignore-installed -r requirements.txt
 
-# Install FastAPI and related dependencies
-RUN pip install fastapi uvicorn requests pydantic python-dotenv
+# Explicitly install torch with CUDA support
+# RUN pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu126
+
 
 # Clone the LLM repository
 RUN git clone https://github.com/hung20gg/llm.git
 
-# Copy application code
 COPY . .
+# COPY llm/requirements.txt .
 RUN pip install -r llm/quick_requirements.txt
+
+# # Copy the rest of the application code, including .env file
+# COPY . . 
+# COPY .env .env
+# COPY . .
 
 # Set Python path to include the current directory
 ENV PYTHONPATH=/app
@@ -41,8 +58,8 @@ ENV NVIDIA_VISIBLE_DEVICES=all
 ENV NVIDIA_DRIVER_CAPABILITIES=compute,utility
 ENV CUDA_VISIBLE_DEVICES=0
 
-# Expose the API port
-EXPOSE 23477
+# Add a comment to indicate GPU usage
+# Note: Container must be run with --gpus flag
 
-# Change to api directory and run the script
-CMD ["sh", "-c", "cd api && python evaluation_api.py"]
+# Default command to run main application
+CMD ["python", "main.py"]

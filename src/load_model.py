@@ -1,7 +1,6 @@
 import wandb
 import mlflow
 
-from transformers import AutoModelForCausalLM
 from huggingface_hub import snapshot_download
 # from llm.llm.hugging_face import HuggingFaceLLM
 import torch
@@ -26,11 +25,11 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 from dotenv import load_dotenv
 load_dotenv()
 
-WANDB_API_KEY = os.getenv("WANDB_API_KEY")
-WANDB_PROJECT = os.getenv("WANDB_PROJECT")
-WANDB_ENTITY = os.getenv("WANDB_ENTITY")
+# WANDB_API_KEY = os.getenv("WANDB_API_KEY")
+# WANDB_PROJECT = os.getenv("WANDB_PROJECT")
+# WANDB_ENTITY = os.getenv("WANDB_ENTITY")
 
-wandb.login(key = WANDB_API_KEY)
+# wandb.login(key = WANDB_API_KEY)
 
 def download_model_regristry(model_name: str, version: str = None, download_dir: str = 'models', logger: BaseLogger = None, hf_repo: str = None) -> str:
     """
@@ -136,9 +135,12 @@ def start_inference_server(base_model: str, lora_path: str, port=8000, max_vram:
     lora_path = os.path.join(current_dir, lora_path)
 
     logging.info(f"Download base model from {base_model}")
-    model = AutoModelForCausalLM.from_pretrained(base_model)
-    del model
-    gc.collect()
+    # Download the model using the Hugging Face Hub snapshot_download function
+    model_path = snapshot_download(
+        repo_id=base_model
+    )
+
+    logging.info(f"Downloaded base model to {model_path}")
     logging.info(f"Starting inference server with model at {lora_path} on port {port}")
     
     # Get the maximum available GPU VRAM
@@ -166,7 +168,7 @@ def start_inference_server(base_model: str, lora_path: str, port=8000, max_vram:
                 gpu_mem_utilization = min(gpu_mem_utilization, max_vram)
             else:
                 # Actual memory
-                gpu_mem_utilization = min(gpu_mem_utilization, max_vram / total_vram)
+                gpu_mem_utilization = min(gpu_mem_utilization, max_vram / (total_vram / 1024**3))
 
             logging.info(f"Setting GPU memory utilization to: {gpu_mem_utilization:.2f}")
         except Exception as e:
