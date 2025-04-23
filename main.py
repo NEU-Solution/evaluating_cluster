@@ -20,7 +20,7 @@ wandb.login(key = WANDB_API_KEY)
 config = SimpleNamespace(
     # Model configuration
     base_model='Qwen/Qwen2.5-1.5B-Instruct',
-    lora_model='wandb-registry-model/initial-sft',
+    lora_model='wandb-registry-model/sft_reasoning',
     data_version='latest',
     llm_bankend='vllm',  # 'vllm' or 'huggingface' (exp)
     alias='v0',

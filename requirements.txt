@@ -3,4 +3,4 @@ wandb
 mlflow
 pandas
 tqdm
-transformers
+huggingface_hub
