@@ -13,7 +13,7 @@ from src.load_model import (download_model_regristry,
                             terminate_server, 
                             # load_huggingface_model
                             )
-from src.logging import BaseLogger, create_logger
+from src.exp_logging import BaseLogger, create_logger
 
 from llm import OpenAIWrapper, LLM
 
@@ -87,10 +87,19 @@ def evaluate(base_model_name: str, lora_name: str, data_version: str, logger = N
         # Initialize a new logger with a new run
         logger = create_logger(tracking_backend)
         logger.login()
+        
+        config = {
+            "model_name": base_model_name,
+            "lora_name": lora_name,
+            "data_version": data_version,
+            "model_version": model_version,
+        }
+        
         logger.init_run(
             project=os.getenv("WANDB_PROJECT") if tracking_backend == 'wandb' else os.getenv("MLFLOW_EXPERIMENT_NAME", "Default"),
             entity=os.getenv("WANDB_ENTITY") if tracking_backend == 'wandb' else None,
-            job_type="evaluate"
+            job_type="evaluate",
+            config=config,
         )
 
     lora_path = download_model_regristry(lora_name, version=model_version,logger=logger)
@@ -147,11 +156,13 @@ def evaluate(base_model_name: str, lora_name: str, data_version: str, logger = N
 
 if __name__ == "__main__":
     base_model_name = 'Qwen/Qwen2.5-1.5B-Instruct'
-    lora_name = 'wandb-registry-model/initial-sft'
+    # lora_name = 'wandb-registry-model/initial-sft'
+    # lora_name = 'initial-sft'
+    lora_name = 'sft-reasoning'
 
     evaluate(
         base_model_name=base_model_name,
         lora_name=lora_name,
         data_version='v0.1',
-        tracking_backend = 'wandb',
+        tracking_backend = 'mlflow',
     )

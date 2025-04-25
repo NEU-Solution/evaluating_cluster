@@ -15,7 +15,7 @@ import concurrent.futures
 # Add parent directory to path so we can import modules
 sys.path.append('..')
 from src.evaluate import evaluate
-from src.logging import create_logger, BaseLogger
+from src.exp_logging import create_logger, BaseLogger
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)

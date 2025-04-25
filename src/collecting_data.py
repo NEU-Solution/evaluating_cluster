@@ -44,11 +44,11 @@ def dev_load_vmlu(**kwargs) -> None:
     logging.info(f"Loaded {len(data)} records from {file_path}. Not saving")
 
     # Save to jsonl
-    # output_file_name = '../temp/vmlu.jsonl'
-    # output_folder = os.path.join(current_dir, '../temp')
-    # os.makedirs(output_folder, exist_ok=True)
-    # output_path = os.path.join(output_folder, output_file_name)
-    # convert_and_save_mcq(data, output_path)
+    output_file_name = '../temp/vmlu.jsonl'
+    output_folder = os.path.join(current_dir, '../temp')
+    os.makedirs(output_folder, exist_ok=True)
+    output_path = os.path.join(output_folder, output_file_name)
+    convert_and_save_mcq(data, output_path)
     
 
 def dev_load_mmlu(**kwargs) -> None:

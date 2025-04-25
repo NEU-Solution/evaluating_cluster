@@ -6,7 +6,7 @@ from types import SimpleNamespace
 import os 
 import wandb
 from dotenv import load_dotenv
-from src.logging import BaseLogger, create_logger
+from src.exp_logging import BaseLogger, create_logger
 
 
 load_dotenv()
@@ -20,7 +20,7 @@ wandb.login(key = WANDB_API_KEY)
 config = SimpleNamespace(
     # Model configuration
     base_model='Qwen/Qwen2.5-1.5B-Instruct',
-    lora_model='wandb-registry-model/sft_reasoning',
+    lora_model='wandb-registry-model/initial-sft',
     data_version='latest',
     llm_bankend='vllm',  # 'vllm' or 'huggingface' (exp)
     alias='v0',

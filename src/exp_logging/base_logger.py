@@ -2,11 +2,25 @@ from abc import ABC, abstractmethod
 import pandas as pd
 from typing import Dict, Any, Optional, List, Union
 import logging
+import threading
 
 class BaseLogger(ABC):
     """Abstract base class for experiment tracking loggers."""
     
+    _instances = {}
+    _lock = threading.RLock()
+    
+    def __new__(cls, *args, **kwargs):
+        with cls._lock:
+            if cls not in cls._instances:
+                instance = super(BaseLogger, cls).__new__(cls)
+                cls._instances[cls] = instance
+            return cls._instances[cls]
+    
     @abstractmethod
+    def __init__(self):
+        pass
+
     def init_run(self, project: str, entity: str, job_type: str, config: Dict[str, Any] = None, 
                  name: Optional[str] = None) -> Any:
         """Initialize a new run."""

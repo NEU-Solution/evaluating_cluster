@@ -8,6 +8,9 @@ class WandbLogger(BaseLogger):
     """Weights & Biases implementation of BaseLogger."""
     
     def __init__(self):
+
+        super().__init__()
+
         self.run = None
         self.api_key = os.getenv("WANDB_API_KEY")
         self.project = os.getenv("WANDB_PROJECT")
@@ -20,8 +23,11 @@ class WandbLogger(BaseLogger):
         wandb.login(key=key)
         
     def init_run(self, project: str = None, entity: str = None, job_type: str = "experiment", 
-                 config: Dict[str, Any] = None, name: Optional[str] = None) -> Any:
+                 config: Dict[str, Any] = {}, name: Optional[str] = None) -> Any:
         """Initialize a new WandB run."""
+        
+        self,config = config
+        
         self.run = wandb.init(
             project=project or self.project,
             entity=entity or self.entity,
