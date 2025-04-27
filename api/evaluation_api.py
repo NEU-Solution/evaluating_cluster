@@ -13,9 +13,14 @@ import json
 import concurrent.futures
 
 # Add parent directory to path so we can import modules
-sys.path.append('..')
+current_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.abspath(os.path.join(current_dir, '..'))
+sys.path.append(project_root)
+
+
 from src.evaluate import evaluate
 from src.exp_logging import create_logger, BaseLogger
+from const import ConcurrencyStrategy, TrackingBackend, EvaluationRequest, EvaluationResponse, EvaluationStatus
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -30,41 +35,6 @@ app = FastAPI(title="Model Evaluation API")
 
 # Global thread pool for running CPU-intensive tasks
 thread_pool = concurrent.futures.ThreadPoolExecutor(max_workers=4)
-
-# Enums for API options
-class ConcurrencyStrategy(str, Enum):
-    REJECT = "reject"
-    QUEUE = "queue"
-
-class TrackingBackend(str, Enum):
-    WANDB = "wandb"
-    MLFLOW = "mlflow"
-
-# Request model
-class EvaluationRequest(BaseModel):
-    base_model_name: str
-    lora_model_name: str
-    data_version: str = "latest"
-    model_version: Optional[str] = "latest"
-    multi_thread: bool = True
-    llm_backend: str = 'vllm'
-    max_workers: int = 2
-    port: int = 8000
-    tracking_backend: TrackingBackend = TrackingBackend.WANDB
-    webhook_url: Optional[HttpUrl] = None
-
-# Response models
-class EvaluationResponse(BaseModel):
-    job_id: str
-    status: str
-    message: str
-
-class EvaluationStatus(BaseModel):
-    job_id: str
-    status: str
-    results: Optional[Dict[str, Any]] = None
-    error: Optional[str] = None
-    tracking_url: Optional[str] = None
 
 # Global state for tracking jobs
 evaluation_jobs = {}
@@ -154,14 +124,16 @@ async def run_evaluation_job(job_id: str, request: EvaluationRequest):
         # Initialize the tracking logger
         logger_instance = create_logger(tracking_backend)
         logger_instance.login()
+        current_date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         
         # Initialize tracking run
         run = logger_instance.init_run(
             project=os.getenv("WANDB_PROJECT") if tracking_backend == 'wandb' else os.getenv("MLFLOW_EXPERIMENT_NAME", "model-evaluation"),
             entity=os.getenv("WANDB_ENTITY") if tracking_backend == 'wandb' else None,
             job_type="api_evaluation",
-            name=f"api_eval_{job_id}",
-            config=request.dict()
+            name=f"api_eval_{current_date}_{job_id}",
+            config=request.dict(),
+            train_id= request.train_id
         )
         
         # Get tracking URL if available
@@ -180,12 +152,13 @@ async def run_evaluation_job(job_id: str, request: EvaluationRequest):
             request.lora_model_name,
             request.data_version,
             logger_instance,
-            request.model_version,
+            request.lora_version,
             request.multi_thread,
             request.llm_backend,
             request.max_workers,
             request.port,
-            tracking_backend
+            tracking_backend,
+            request.train_id
         )
         
         # Extract results and metrics (if available)

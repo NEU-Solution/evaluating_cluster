@@ -27,7 +27,7 @@ load_dotenv()
 
 
 
-def download_model_regristry(model_name: str, version: str = None, download_dir: str = 'models', logger: BaseLogger = None, hf_repo: str = None) -> str:
+def download_model_regristry(model_name: str, version: str = 'lastest', download_dir: str = 'models', logger: BaseLogger = None, hf_repo: str = None) -> str:
     """
     Download a model from the WandB model registry.
     """
@@ -94,10 +94,30 @@ def download_model_regristry(model_name: str, version: str = None, download_dir:
         else:
             artifact_uri = f"models:/{model_name}/{version}" if version else f"models:/{model_name}/latest"
 
+        print(f"Downloading model from MLflow: {artifact_uri}")
+        
+        
+        # Download the model using mlflow
         mlflow.artifacts.download_artifacts(
             artifact_uri=artifact_uri,
             dst_path=artifact_dir
         )
+
+
+        # Extract model name and version from the artifact URI
+        if 'models:/' in artifact_uri:
+            model_parts = artifact_uri.replace('models:/', '').split('/')
+            if len(model_parts) >= 2:
+                model_name = '/'.join(model_parts[:-1])
+                version = model_parts[-1]
+                logging.info(f"Extracted model name: {model_name}, version: {version} from Registry URI")
+                logger.set_model_version(model_name, version)
+            
+            else:
+                logging.info(f"Could not parse model name and version from URI: {artifact_uri}")
+
+
+
     else:
         raise ValueError(f"Unsupported logger")
         
@@ -217,17 +237,17 @@ def start_inference_server(base_model: str, lora_path: str, port=8000, max_vram:
     stdout_thread.start()
     stderr_thread.start()
     
-    # Wait for server to start
-    time.sleep(45)  # Adjust as needed
+    # Wait for server to start, at maximum of 2 minutes
+    time.sleep(40)  # Adjust as needed
 
-    max_tries = 8
+    max_tries = 12
     while max_tries > 0:
         if test_connection(port):
             logging.info("Server started successfully")
             break
         else:
             logging.info("Server not ready yet, retrying...")
-            time.sleep(15)
+            time.sleep(10)
             max_tries -= 1
     
     return server_process
