@@ -10,14 +10,14 @@ from pathlib import Path
 import subprocess
 import signal
 import time
-
+import threading
 
 import logging
 
 import sys 
 sys.path.append("..")
 from llm import vLLM, OpenAIWrapper
-from src.logging import BaseLogger, create_logger
+from src.exp_logging import BaseLogger, create_logger
 
 import os 
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -25,13 +25,9 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 from dotenv import load_dotenv
 load_dotenv()
 
-# WANDB_API_KEY = os.getenv("WANDB_API_KEY")
-# WANDB_PROJECT = os.getenv("WANDB_PROJECT")
-# WANDB_ENTITY = os.getenv("WANDB_ENTITY")
 
-# wandb.login(key = WANDB_API_KEY)
 
-def download_model_regristry(model_name: str, version: str = None, download_dir: str = 'models', logger: BaseLogger = None, hf_repo: str = None) -> str:
+def download_model_regristry(model_name: str, version: str = 'lastest', download_dir: str = 'models', logger: BaseLogger = None, hf_repo: str = None) -> str:
     """
     Download a model from the WandB model registry.
     """
@@ -60,13 +56,26 @@ def download_model_regristry(model_name: str, version: str = None, download_dir:
         return artifact_dir
 
     if logger.tracking_backend == 'wandb':
-        # if 'wandb-registry-model' not in model_name:
-        #     model_name = 'wandb-registry-model/' + model_name
+
+        # Handle W&B uri download
+        artifact_uri = ""
+        if 'artifact' in model_name:
+            # Handle W&B artifact download
+            artifact_uri = model_name
+        else:
+            if 'wandb-registry' in model_name:
+                # Handle W&B model registry download
+                artifact_uri = artifact_uri
+            else:
+                # Handle W&B model download
+                artifact_uri = f"wandb-registry-model/{model_name}"
+            if version is not None:
+                artifact_uri = f"{artifact_uri}:{version}"
+            else:
+                artifact_uri = f"{artifact_uri}:latest"
             
         # Download the model using wandb API
-        artifact = wandb.use_artifact(
-            f"{model_name}:{version}" if version else f"{model_name}:latest"
-        )
+        artifact = wandb.use_artifact(artifact_uri)
         artifact_dir = artifact.download(root=download_dir)
 
     elif logger.tracking_backend == 'mlflow':
@@ -79,18 +88,40 @@ def download_model_regristry(model_name: str, version: str = None, download_dir:
         
         # Download via MLflow
         artifact_dir = os.path.join(download_dir, model_name.replace("/", "_"))
-        registered_model = mlflow.register_model(
-            f"models:/{model_name}/{version}",
-            model_name
-        )
+        
+        if 'models:/' in model_name:
+            artifact_uri = model_name
+        else:
+            artifact_uri = f"models:/{model_name}/{version}" if version else f"models:/{model_name}/latest"
+
+        print(f"Downloading model from MLflow: {artifact_uri}")
+        
+        
+        # Download the model using mlflow
         mlflow.artifacts.download_artifacts(
-            artifact_uri=f"models:/{model_name}@{version}" if version else f"models:/{model_name}@latest",
+            artifact_uri=artifact_uri,
             dst_path=artifact_dir
         )
+
+
+        # Extract model name and version from the artifact URI
+        if 'models:/' in artifact_uri:
+            model_parts = artifact_uri.replace('models:/', '').split('/')
+            if len(model_parts) >= 2:
+                model_name = '/'.join(model_parts[:-1])
+                version = model_parts[-1]
+                logging.info(f"Extracted model name: {model_name}, version: {version} from Registry URI")
+                logger.set_model_version(model_name, version)
+            
+            else:
+                logging.info(f"Could not parse model name and version from URI: {artifact_uri}")
+
+
+
     else:
         raise ValueError(f"Unsupported logger")
         
-    logging.info(f"Downloaded model {model_name} version {version} to {artifact_dir}")
+    logging.info(f"Downloaded model from {artifact_uri} to {artifact_dir}")
     
     return artifact_dir
 
@@ -189,20 +220,34 @@ def start_inference_server(base_model: str, lora_path: str, port=8000, max_vram:
         shell=True,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
-        preexec_fn=os.setsid  # This allows us to terminate the process group later
+        preexec_fn=os.setsid,  # This allows us to terminate the process group later
+        bufsize=1,  # Line buffered
+        universal_newlines=True,  # Text mode
+        env=os.environ.copy()
     )
-    
-    # Wait for server to start
-    time.sleep(60)  # Adjust as needed
 
-    max_tries = 8
+    def log_output(pipe, prefix):
+        for line in iter(pipe.readline, ''):
+            logging.info(f"{prefix}: {line.strip()}")
+
+    stdout_thread = threading.Thread(target=log_output, args=(server_process.stdout, "SERVER-OUT"))
+    stderr_thread = threading.Thread(target=log_output, args=(server_process.stderr, "SERVER-ERR"))
+    stdout_thread.daemon = True
+    stderr_thread.daemon = True
+    stdout_thread.start()
+    stderr_thread.start()
+    
+    # Wait for server to start, at maximum of 2 minutes
+    time.sleep(40)  # Adjust as needed
+
+    max_tries = 12
     while max_tries > 0:
         if test_connection(port):
             logging.info("Server started successfully")
             break
         else:
             logging.info("Server not ready yet, retrying...")
-            time.sleep(15)
+            time.sleep(10)
             max_tries -= 1
     
     return server_process

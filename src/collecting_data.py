@@ -43,7 +43,7 @@ def dev_load_vmlu(**kwargs) -> None:
                 logging.error(f"Error reading line: {line}: {e}")
     logging.info(f"Loaded {len(data)} records from {file_path}. Not saving")
 
-    # Save to jsonl
+    # # Save to jsonl
     # output_file_name = '../temp/vmlu.jsonl'
     # output_folder = os.path.join(current_dir, '../temp')
     # os.makedirs(output_folder, exist_ok=True)

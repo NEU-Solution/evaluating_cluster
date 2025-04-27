@@ -13,12 +13,14 @@ from src.load_model import (download_model_regristry,
                             terminate_server, 
                             # load_huggingface_model
                             )
-from src.logging import BaseLogger, create_logger
+from src.exp_logging import BaseLogger, create_logger
 
 from llm import OpenAIWrapper, LLM
 
 import logging
 import pandas as pd
+import numpy as np
+from datetime import datetime
 
 
 def log_result(logger: BaseLogger, results: list[dict], dataset_name: str) -> float:
@@ -29,7 +31,15 @@ def log_result(logger: BaseLogger, results: list[dict], dataset_name: str) -> fl
     
     avg_score = score/len(results) * 100
 
+    checkpoint_step = logger.get_model_checkpoint_step()
+
+    # Log to the training run
+    logger.log_metric(dataset_name, avg_score, 'train_id', step = checkpoint_step)
+
+    # Log to the current (evaluation) run
     logger.log_metric(dataset_name, avg_score)
+
+    # Add logging evaluation status pending -> completed/failed
 
     df = pd.DataFrame(results)
     df.to_csv(os.path.join(current_dir, '../data', f"{dataset_name}.csv"), index=False)
@@ -59,6 +69,8 @@ def llm_evaluate(llm: LLM, current_dir: str, logger: BaseLogger = None, multi_th
 
     evaluate_results = dict()
 
+    scoring_results = []
+
     for question_path in question_paths:
         
         eval_dataset_name = os.path.basename(question_path).replace('.jsonl', '')
@@ -70,30 +82,56 @@ def llm_evaluate(llm: LLM, current_dir: str, logger: BaseLogger = None, multi_th
         # Log the results
         if logger is not None:
             score = log_result(logger, results, eval_dataset_name)
-            logger.update_summary(f"{eval_dataset_name}_final_score", score)
+            scoring_results.append(score)
 
         logging.info(f"Evaluation completed for {eval_dataset_name}.")
-
+    if logger is not None:
+        logger.update_evaluation_status('completed', {'mean_evaluation': np.mean(scoring_results)})
 
     
 
-def evaluate(base_model_name: str, lora_name: str, data_version: str, logger = None, model_version: str = None, multi_thread:bool = True, llm_bankend = 'vllm', max_workers:int = 2, port:int = 8000, tracking_backend: str = 'wandb'):
+def evaluate(base_model_name: str, 
+             lora_name: str, 
+             data_version: str, 
+             logger: BaseLogger = None, 
+             lora_version: str = None, 
+             multi_thread:bool = True, 
+             llm_bankend = 'vllm', 
+             max_workers:int = 2, 
+             port:int = 8000, 
+             tracking_backend: str = 'wandb',
+             train_id: str = None,
+             ) -> None:
 
     fake_etl()
     
+    config = {
+            "model_name": base_model_name,
+            "lora_name": lora_name,
+            "data_version": data_version,
+            "lora_version": lora_version,
+        }
+
     inner_run = False
     if logger is None:
         inner_run = True
         # Initialize a new logger with a new run
         logger = create_logger(tracking_backend)
-        logger.login()
+
+        run_name = f"evaluate_{lora_name}_{data_version}_{lora_version}_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}"
+        
         logger.init_run(
             project=os.getenv("WANDB_PROJECT") if tracking_backend == 'wandb' else os.getenv("MLFLOW_EXPERIMENT_NAME", "Default"),
             entity=os.getenv("WANDB_ENTITY") if tracking_backend == 'wandb' else None,
-            job_type="evaluate"
+            name=run_name,
+            job_type="evaluate",
+            config=config,
+            train_id=train_id,
         )
+    else:
+        logger.update_config(config)
 
-    lora_path = download_model_regristry(lora_name, version=model_version,logger=logger)
+    lora_path = download_model_regristry(lora_name, version=lora_version,logger=logger)
 
     if llm_bankend == 'vllm':
         # Start the inference server
@@ -119,6 +157,8 @@ def evaluate(base_model_name: str, lora_name: str, data_version: str, logger = N
             
         except Exception as e:
             logging.error(f"An error occurred during evaluation: {str(e)}")
+            
+            logger.update_evaluation_status('failed')
             raise
         finally:
             # Terminate the server process
@@ -127,6 +167,7 @@ def evaluate(base_model_name: str, lora_name: str, data_version: str, logger = N
 
             
     else:
+        logger.update_evaluation_status('failed')
         raise ValueError(f"Unknown or not implemented llm backend: {llm_bankend}")
         # llm = load_huggingface_model(base_model_name, lora_path)
         # llm_evaluate(
@@ -147,11 +188,15 @@ def evaluate(base_model_name: str, lora_name: str, data_version: str, logger = N
 
 if __name__ == "__main__":
     base_model_name = 'Qwen/Qwen2.5-1.5B-Instruct'
-    lora_name = 'wandb-registry-model/initial-sft'
+    # lora_name = 'wandb-registry-model/initial-sft'
+    lora_name = 'initial-sft'
+    # lora_name = 'sft-reasoning'
 
     evaluate(
         base_model_name=base_model_name,
         lora_name=lora_name,
         data_version='v0.1',
-        tracking_backend = 'wandb',
+        tracking_backend = 'mlflow',
+        lora_version = '16',
+        train_id='a6f433f304f14572bef800f534507ee2'
     )

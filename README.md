@@ -59,3 +59,7 @@ docker run --gpus all --env-file .env -p 23477:23477 -v ~/.cache/huggingface:/ro
 ```bash
 docker-compose up --build -d
 ```
+
+
+## Note:
+Does not skip if the checkpoint is evaluated
