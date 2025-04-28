@@ -191,6 +191,7 @@ class MLflowLogger(BaseLogger):
         """End the current MLflow run."""
         mlflow.end_run()
         self.run_id = None
+        self.run = None
 
     def get_tracking_url(self) -> Optional[str]:
         """Get URL to the current run in MLflow UI."""

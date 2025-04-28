@@ -4,3 +4,4 @@ mlflow
 pandas
 tqdm
 huggingface_hub
+boto3
