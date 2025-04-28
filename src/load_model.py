@@ -25,6 +25,8 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 from dotenv import load_dotenv
 load_dotenv()
 
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
 
 
 def download_model_regristry(model_name: str, version: str = 'lastest', download_dir: str = 'models', logger: BaseLogger = None, hf_repo: str = None) -> str:
@@ -42,7 +44,7 @@ def download_model_regristry(model_name: str, version: str = 'lastest', download
     
     # Download the model
 
-    download_dir = os.path.join('../', download_dir)
+    download_dir = os.path.join(current_dir, '..', download_dir)
     os.makedirs(download_dir, exist_ok=True)
 
     if hf_repo is not None:
@@ -188,9 +190,16 @@ def start_inference_server(base_model: str, lora_path: str, port=8000, max_vram:
             
             logging.info(f"Total GPU VRAM: {total_vram / 1024**3:.2f} GB")
             logging.info(f"Free GPU VRAM: {free_vram / 1024**3:.2f} GB")
+
+            total_vram_gb = total_vram / (1024**3)
+
+            low_vram_config = ""
+            if total_vram_gb < 13:
+                low_vram_config = "--kv-cache-dtype fp8 --enforce-eager"
+                logging.info("Using low VRAM configuration")
             
             # Adjust GPU memory utilization based on available memory
-            gpu_mem_utilization = min(0.9, (free_vram / total_vram) * 0.95)
+            gpu_mem_utilization = min(0.8, (free_vram / total_vram) * 0.8)
             
             # Ensure the utilization does not exceed the max_vram limit
             
@@ -204,14 +213,15 @@ def start_inference_server(base_model: str, lora_path: str, port=8000, max_vram:
             logging.info(f"Setting GPU memory utilization to: {gpu_mem_utilization:.2f}")
         except Exception as e:
             logging.warning(f"Failed to get GPU memory info: {e}")
-            gpu_mem_utilization = 0.9
+            gpu_mem_utilization = 0.8
     else:
         logging.warning("CUDA not available, running on CPU")
         gpu_mem_utilization = 0.0
 
+    gpu_mem_utilization = min(gpu_mem_utilization, 0.8)
 
     # Example command to start an inference server (adjust based on your actual server command)
-    server_command = f"vllm serve {base_model} --lora-modules evaluate={lora_path} --max_model-len 2048 --gpu-memory-utilization {gpu_mem_utilization} --enable-lora  --max-lora-rank 64 --served-model-name evaluate --port {port}"
+    server_command = f"vllm serve {base_model} --lora-modules evaluate={lora_path} --max_model-len 512 --gpu-memory-utilization {gpu_mem_utilization} --enable-lora {low_vram_config}  --max-lora-rank 64 --served-model-name evaluate --port {port}"
     logging.info(server_command)
 
     # Start the server as a subprocess
