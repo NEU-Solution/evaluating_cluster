@@ -158,7 +158,8 @@ async def run_evaluation_job(job_id: str, request: EvaluationRequest):
             request.max_workers,
             request.port,
             tracking_backend,
-            request.train_id
+            request.train_id,
+            request.num_rounds
         )
         
         # Extract results and metrics (if available)

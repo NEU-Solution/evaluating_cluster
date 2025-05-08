@@ -23,6 +23,7 @@ class EvaluationRequest(BaseModel):
     tracking_backend: TrackingBackend = TrackingBackend.WANDB
     train_id: Optional[str] = None
     webhook_url: Optional[HttpUrl] = None
+    num_rounds: int = 3
 
 # Response models
 class EvaluationResponse(BaseModel):

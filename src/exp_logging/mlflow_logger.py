@@ -110,7 +110,7 @@ class MLflowLogger(BaseLogger):
 
         run_id  = self.get_run_id(run_id)
         if run_id:
-            self.run.log_tanle(run_id = run_id, data = dataframe, artifact_file = key)
+            self.run.log_table(run_id = run_id, data = dataframe, artifact_file = key)
 
         # # Save dataframe to CSV and log it
         # temp_path = f"/tmp/{key}.csv"
@@ -268,7 +268,14 @@ class MLflowLogger(BaseLogger):
             dataset_name = dataset_name[0]
             evaluation_result = evaluation_result[0]
 
-            print(f"Evaluation result for {dataset_name}: {evaluation_result}")
+            self.run.set_model_version_tag(
+                name = model_name_to_use,
+                version = self.version,
+                key = "mean_score",
+                value = evaluation_result
+            )
+
+            logging.info(f"Evaluation result for {dataset_name}: {evaluation_result}")
 
             # Evaluation run
             self.log_metric(key = dataset_name, value = evaluation_result)

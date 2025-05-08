@@ -20,12 +20,12 @@ curl -X 'POST' \
   -H 'Content-Type: application/json' \
   -d '{
   "base_model_name": "Qwen/Qwen2.5-1.5B-Instruct",
-  "lora_model_name": "initial-sft",
+  "lora_model_name": "sft-v3",
   "data_version": "latest",
-  "lora_version": "12",
+  "lora_version": "9",
   "multi_thread": true,
   "llm_backend": "vllm",
-  "max_workers": 2,
+  "max_workers": 3,
   "port": 8000,
   "tracking_backend": "mlflow"
 }'
