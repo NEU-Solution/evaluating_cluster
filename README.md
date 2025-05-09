@@ -42,7 +42,11 @@ WANDB_ENTITY=neu-solution
 ```bash
 # Build the Docker image
 
+# evaluation function
 docker build -t evaluate_model -f Dockerfile.eval .
+
+# evaluation server
+docker build -t evaluate_model -f Dockerfile .
 
 # Run the container with tests
 docker run --gpus all --env-file .env -v ~/.cache/huggingface:/root/.cache/huggingface  evaluate_model 
@@ -60,6 +64,3 @@ docker run --gpus all --env-file .env -p 23477:23477 -v ~/.cache/huggingface:/ro
 docker-compose up --build -d
 ```
 
-
-## Note:
-Does not skip if the checkpoint is evaluated
