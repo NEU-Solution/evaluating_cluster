@@ -1,9 +1,7 @@
 # Evaluating Cluster
 
-This will be dockerized to push it into wandb, and wandb will invoke it as queue for evaluation
-
-- [Youtube](https://www.youtube.com/watch?v=d_TN8fIDSB8&list=PLD80i8An1OEGECFPgY-HPCNjXgGu-qGO6&index=17)
-- [Github](https://github.com/wandb/edu/tree/main/model-management)
+## Architecture Diagrams
+![Architecture Diagram](./assets/diagrams.png)
 
 
 Create code to evaluate
