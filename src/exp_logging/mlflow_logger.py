@@ -102,17 +102,26 @@ class MLflowLogger(BaseLogger):
     
     def log_table(self, key: str, dataframe: pd.DataFrame, run_id: str = None) -> None:
         """Log a dataframe as a table to MLflow."""
+        if not self.check_run_status():
+            return
         
-        # Save dataframe to CSV and log it
-        temp_path = f"/tmp/{key}.csv"
-        dataframe.to_csv(temp_path, index=False)
-        self.log_artifact(temp_path, f"tables/{key}", run_id=run_id)
+        if not key.endswith(".json"):
+            key = f"{key}.json"
+
+        run_id  = self.get_run_id(run_id)
+        if run_id:
+            self.run.log_table(run_id = run_id, data = dataframe, artifact_file = key)
+
+        # # Save dataframe to CSV and log it
+        # temp_path = f"/tmp/{key}.csv"
+        # dataframe.to_csv(temp_path, index=False)
+        # self.log_artifact(temp_path, f"tables/{key}", run_id=run_id)
         
-        # Clean up
-        try:
-            os.remove(temp_path)
-        except:
-            pass
+        # # Clean up
+        # try:
+        #     os.remove(temp_path)
+        # except:
+        #     pass
     
     def log_artifact(self, local_path: str, name: Optional[str] = None, type_ = "file", run_id: str = None) -> str:
         """Log an artifact file to MLflow and return the artifact path.
@@ -259,7 +268,14 @@ class MLflowLogger(BaseLogger):
             dataset_name = dataset_name[0]
             evaluation_result = evaluation_result[0]
 
-            print(f"Evaluation result for {dataset_name}: {evaluation_result}")
+            self.run.set_model_version_tag(
+                name = model_name_to_use,
+                version = self.version,
+                key = "mean_score",
+                value = evaluation_result
+            )
+
+            logging.info(f"Evaluation result for {dataset_name}: {evaluation_result}")
 
             # Evaluation run
             self.log_metric(key = dataset_name, value = evaluation_result)

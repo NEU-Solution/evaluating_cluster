@@ -221,7 +221,7 @@ def start_inference_server(base_model: str, lora_path: str, port=8000, max_vram:
     gpu_mem_utilization = min(gpu_mem_utilization, 0.8)
 
     # Example command to start an inference server (adjust based on your actual server command)
-    server_command = f"vllm serve {base_model} --lora-modules evaluate={lora_path} --max_model-len 512 --gpu-memory-utilization {gpu_mem_utilization} --enable-lora {low_vram_config}  --max-lora-rank 64 --served-model-name evaluate --port {port}"
+    server_command = f"vllm serve {base_model} --lora-modules evaluate={lora_path} --max_model-len 2048 --gpu-memory-utilization {gpu_mem_utilization} --enable-lora {low_vram_config}  --max-lora-rank 64 --served-model-name evaluate --port {port}"
     logging.info(server_command)
 
     # Start the server as a subprocess

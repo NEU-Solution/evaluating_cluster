@@ -26,7 +26,7 @@ def single_scoring_mcq(llm: LLM, response: dict, output_path: str) -> dict:
     system_prompt = """
 Bạn được cung cấp một câu hỏi trắc nghiệm và các lựa chọn trả lời.
 Hãy phân tích từng bước một cách cẩn thận trước khi chọn ra câu trả lời đúng nhất.
-Đáp án của bạn phải là một trong các lựa chọn A, B, C, D và được để trong $\\boxed{}$ và viết hoa (ví dụ: $\\boxed{A}$).
+Đáp án của bạn phải là một trong các lựa chọn A, B, C, D và được để trong \\boxed{} và viết hoa (ví dụ: \\boxed{A}).
 """
 
     prompt = f"""
@@ -77,7 +77,7 @@ def single_scoring_preference(llm: LLM, response: dict, output_path: str) -> dic
     pass
 
 
-def scoring(llm: LLM, questions: list[dict], output_path: str, max_workers: bool = 4, multi_thread: bool = False, task: str = 'mcq') -> list[dict]:
+def _scoring(llm: LLM, questions: list[dict], output_path: str, max_workers: bool = 4, multi_thread: bool = False, task: str = 'mcq', round_num: int = 1) -> list[dict]:
     
     total_questions = len(questions)
     results = []
@@ -122,6 +122,7 @@ def scoring(llm: LLM, questions: list[dict], output_path: str, max_workers: bool
     for result in results:
         # try:
             score += result['score']
+            result['round'] = round_num
         # except:
         #     pass
 
@@ -131,7 +132,7 @@ def scoring(llm: LLM, questions: list[dict], output_path: str, max_workers: bool
     return results
 
 
-def evaluate_generation(llm: LLM, question_path : str, multi_thread : bool = False, max_workers:  int = 4) -> list[dict]:
+def evaluate_generation(llm: LLM, question_path : str, multi_thread : bool = False, max_workers:  int = 4, num_rounds: int = 3) -> list[dict]:
     
     question = []
     with open(question_path, 'r') as f:
@@ -148,6 +149,12 @@ def evaluate_generation(llm: LLM, question_path : str, multi_thread : bool = Fal
 
     logging.info(f"Number of questions: {len(question)}")
 
-    return scoring(llm, question, output_path, max_workers, multi_thread)
+    results = []
 
+    for i in range(num_rounds):
+        logging.info(f"Round {i+1} of {num_rounds}")
+        round_results = _scoring(llm, question, output_path, max_workers, multi_thread, task='mcq', round_num=i+1)
+        results.extend(round_results)
+
+    return results
 

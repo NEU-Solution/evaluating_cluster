@@ -51,7 +51,13 @@ def log_result(logger: BaseLogger, results: list[dict], dataset_name: str) -> fl
 
 
 
-def llm_evaluate(llm: LLM, current_dir: str, logger: BaseLogger = None, multi_thread:bool = True, max_workers:int = 2) -> list[dict]:
+def llm_evaluate(llm: LLM, 
+                 current_dir: str, 
+                 logger: BaseLogger = None, 
+                 multi_thread:bool = True, 
+                 max_workers:int = 2,
+                 num_rounds:int = 3
+                 ) -> list[dict]:
     """
     Evaluate the model using the provided questions and answers.
     """
@@ -76,7 +82,7 @@ def llm_evaluate(llm: LLM, current_dir: str, logger: BaseLogger = None, multi_th
         eval_dataset_name = os.path.basename(question_path).replace('.jsonl', '')
         logging.info(f"Evaluating {eval_dataset_name}...")
 
-        results = evaluate_generation(llm, question_path, multi_thread=multi_thread, max_workers=max_workers)
+        results = evaluate_generation(llm, question_path, multi_thread=multi_thread, max_workers=max_workers, num_rounds=num_rounds)
         evaluate_results[eval_dataset_name] = results
 
         # Log the results
@@ -101,6 +107,7 @@ def evaluate(base_model_name: str,
              port:int = 8000, 
              tracking_backend: str = 'wandb',
              train_id: str = None,
+             num_rounds: int = 3,
              ) -> None:
 
     fake_etl()
@@ -130,6 +137,9 @@ def evaluate(base_model_name: str,
         )
     else:
         logger.update_config(config)
+        
+    # Start runing
+    logger.update_evaluation_status('running')
 
     lora_path = download_model_regristry(lora_name, version=lora_version,logger=logger)
 
@@ -152,8 +162,11 @@ def evaluate(base_model_name: str,
                 current_dir=current_dir,
                 logger=logger,
                 multi_thread=multi_thread,
-                max_workers=max_workers
+                max_workers=max_workers,
+                num_rounds=num_rounds
             )
+
+            # logger.update_evaluation_status('completed')
             
         except Exception as e:
             logging.error(f"An error occurred during evaluation: {str(e)}")
