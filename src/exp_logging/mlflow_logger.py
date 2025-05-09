@@ -300,21 +300,21 @@ class MLflowLogger(BaseLogger):
             if model_versions:
                 selected_version = []
                 for mv in model_versions:
-                    if mv.tags.get('evaluate') == 'completed':
+                    # if mv.tags.get('evaluate') == 'completed':
                         
-                        mv_run_id = mv.tags.get('evaluation_id', None)
+                    mv_run_id = mv.tags.get('evaluation_id', None)
 
-                        if mv_run_id:
-                            mv_evaluation_result = self.run.get_run(mv_run_id).data.metrics.get(dataset_name, None)
+                    if mv_run_id:
+                        mv_evaluation_result = self.run.get_run(mv_run_id).data.metrics.get(dataset_name, None)
 
-                            if mv_evaluation_result:
-                            
-                                selected_version.append({
-                                    'model_name': mv.name,
-                                    'version': mv.version,
-                                    'run_id': mv.run_id,
-                                    'evaluation_result': mv_evaluation_result
-                                })
+                        if mv_evaluation_result:
+                        
+                            selected_version.append({
+                                'model_name': mv.name,
+                                'version': mv.version,
+                                'run_id': mv.run_id,
+                                'evaluation_result': mv_evaluation_result
+                            })
 
                 if selected_version:
                     # Rank to get the best and second best
