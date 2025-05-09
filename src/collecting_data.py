@@ -86,12 +86,12 @@ def dev_load_m3exam(**kwargs) -> None:
     logging.info(f"Loaded {len(data)} records from {file_path}")
 
     # Save to jsonl
-    output_file_name = '../temp/m3exam_vi.jsonl'
-    output_folder = os.path.join(current_dir, '../temp')
-    os.makedirs(output_folder, exist_ok=True)
-    output_path = os.path.join(output_folder, output_file_name)
+    # output_file_name = '../temp/m3exam_vi.jsonl'
+    # output_folder = os.path.join(current_dir, '../temp')
+    # os.makedirs(output_folder, exist_ok=True)
+    # output_path = os.path.join(output_folder, output_file_name)
 
-    convert_and_save_mcq(data, output_path)
+    # convert_and_save_mcq(data, output_path)
 
 
 def fake_etl(**kwargs) -> None:
@@ -100,7 +100,7 @@ def fake_etl(**kwargs) -> None:
     """
     dev_load_vmlu()
     dev_load_mmlu()
-    dev_load_m3exam()
+    # dev_load_m3exam()
 
 def etl():
     pass

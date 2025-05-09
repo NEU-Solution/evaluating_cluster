@@ -20,14 +20,14 @@ curl -X 'POST' \
   -H 'Content-Type: application/json' \
   -d '{
   "base_model_name": "Qwen/Qwen2.5-1.5B-Instruct",
-  "lora_model_name": "sft-v3",
+  "lora_model_name": "models:/sft-v4/13",
   "data_version": "latest",
-  "lora_version": "9",
   "multi_thread": true,
   "llm_backend": "vllm",
   "max_workers": 3,
   "port": 8000,
-  "tracking_backend": "mlflow"
+  "tracking_backend": "mlflow",
+  "train_id": "72fa4aab72354264bda6636dbcbcff46"
 }'
 ```
 
