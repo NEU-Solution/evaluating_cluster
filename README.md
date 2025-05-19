@@ -66,8 +66,7 @@ docker-compose up --build -d
 
 This section lists major frameworks/libraries used to bootstrap the project:
 
-![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)  ![bucket][S3] ![db][RDS] ![llm][claude] ![dbms][pg] ![ui][Next.js] [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)](#) [![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white)](#) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#) 
-
+![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![vllm][vllm] ![bucket][S3] ![db][RDS] ![dbms][pg] ![ui][Next.js] [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)](#) [![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white)](#) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#) 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -110,5 +109,6 @@ This section lists major frameworks/libraries used to bootstrap the project:
 [Claude]: https://img.shields.io/badge/AWS%20Bedrock%20Claude3-%23191919?logo=anthropic&logoColor=%23191919&color=white
 [pg]: https://img.shields.io/badge/Postgres%20SQL-%234169E1?logo=postgresql&logoColor=%234169E1&color=white
 [architecture]: image/architecture.png
+[vllm]: https://blog.vllm.ai/assets/logos/vllm-logo-only-light.png
 
 
