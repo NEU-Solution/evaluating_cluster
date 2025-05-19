@@ -66,8 +66,7 @@ docker-compose up --build -d
 
 This section lists major frameworks/libraries used to bootstrap the project:
 
-![bucket][S3] ![db][RDS] ![llm][claude] ![dbms][pg] ![ui][Next.js] [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)](#)
-
+![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)  ![bucket][S3] ![db][RDS] ![llm][claude] ![dbms][pg] ![ui][Next.js] [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)](#) [![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white)](#) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#) 
 
 
 
