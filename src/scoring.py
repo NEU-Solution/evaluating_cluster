@@ -26,7 +26,7 @@ def single_scoring_mcq(llm: LLM, response: dict, output_path: str) -> dict:
     system_prompt = """
 Bạn được cung cấp một câu hỏi trắc nghiệm và các lựa chọn trả lời.
 Hãy phân tích từng bước một cách cẩn thận trước khi chọn ra câu trả lời đúng nhất.
-Đáp án của bạn phải là một trong các lựa chọn A, B, C, D và được để trong \\boxed{} và viết hoa (ví dụ: \\boxed{A}).
+Đáp án của bạn phải là một trong các lựa chọn A, B, C, D và được để trong \\boxed{} và viết hoa (ví dụ: \\boxed{A}). /think
 """
 
     prompt = f"""
